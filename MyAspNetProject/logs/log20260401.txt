@@ -1,0 +1,271 @@
+2026-04-01 21:44:23.569 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-01 21:44:23.605 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 21:44:23.605 +05:00 [INF] Hosting environment: Development
+2026-04-01 21:44:23.605 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-01 21:44:49.321 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-01 21:44:49.379 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 58.7442ms
+2026-04-01 21:44:49.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-01 21:44:49.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-01 21:44:49.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-01 21:44:49.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-01 21:44:49.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-01 21:44:49.391 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.8773ms
+2026-04-01 21:44:49.394 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.337ms
+2026-04-01 21:44:49.394 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.0926ms
+2026-04-01 21:44:49.396 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 6.2811ms
+2026-04-01 21:44:49.398 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.2862ms
+2026-04-01 21:44:49.468 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-01 21:44:49.471 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 21:44:49.568 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 21:44:49.568 +05:00 [INF] 0HNKG1NULRI1C:00000002. Method GET took 98 ms
+2026-04-01 21:44:49.569 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 100.8868ms
+2026-04-01 21:45:01.934 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-01 21:45:01.934 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-01 21:45:01.954 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 21:45:01.959 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 21:45:01.963 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4805ms.
+2026-04-01 21:45:01.968 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-01 21:45:01.974 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 17.494ms
+2026-04-01 21:45:01.974 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-01 21:45:01.974 +05:00 [INF] 0HNKG1NULRI1C:00000003. Method GET took 39 ms
+2026-04-01 21:45:01.974 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 40.5217ms
+2026-04-01 21:45:13.859 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/6 - null null
+2026-04-01 21:45:13.860 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-04-01 21:45:13.869 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.Domain.Student] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 21:45:13.876 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 21:45:13.878 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 9.0927ms
+2026-04-01 21:45:13.879 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-04-01 21:45:13.879 +05:00 [ERR] Something went wrong. Object was not found
+2026-04-01 21:45:13.879 +05:00 [ERR] Unchecked error
+2026-04-01 21:45:13.881 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+MyAspNetProject.Exceptions.NotFoundException: Exception of type 'MyAspNetProject.Exceptions.NotFoundException' was thrown.
+   at MyAspNetProject.Services.StudentGetService.GetById(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/StudentServices.cs:line 20
+   at MyAspNetProject.Controllers.StudentController.GetById(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 18
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-01 21:45:13.896 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/6 - 500 null text/plain; charset=utf-8 37.7797ms
+2026-04-01 21:45:24.110 +05:00 [INF] Application is shutting down...
+2026-04-01 22:14:32.919 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-01 22:14:32.952 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 22:14:32.953 +05:00 [INF] Hosting environment: Development
+2026-04-01 22:14:32.953 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-01 22:14:41.822 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-01 22:14:41.872 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 51.1609ms
+2026-04-01 22:14:41.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-01 22:14:41.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-01 22:14:41.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-01 22:14:41.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-01 22:14:41.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-01 22:14:41.884 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.7648ms
+2026-04-01 22:14:41.887 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.7486ms
+2026-04-01 22:14:41.887 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.7455ms
+2026-04-01 22:14:41.888 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.1214ms
+2026-04-01 22:14:41.890 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.4016ms
+2026-04-01 22:14:41.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-01 22:14:41.971 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-01 22:14:41.972 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.296ms
+2026-04-01 22:14:41.973 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 22:14:42.065 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 22:14:42.065 +05:00 [INF] 0HNKG28KSH7AJ:00000002. Method GET took 93 ms
+2026-04-01 22:14:42.066 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 96.7861ms
+2026-04-01 22:15:06.839 +05:00 [INF] Application is shutting down...
+2026-04-01 23:01:52.210 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-01 23:01:52.254 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 23:01:52.254 +05:00 [INF] Hosting environment: Development
+2026-04-01 23:01:52.254 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-01 23:01:58.594 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-01 23:01:58.650 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 56.1777ms
+2026-04-01 23:01:58.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-01 23:01:58.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-01 23:01:58.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-01 23:01:58.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-01 23:01:58.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-01 23:01:58.659 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.9577ms
+2026-04-01 23:01:58.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.3894ms
+2026-04-01 23:01:58.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.4949ms
+2026-04-01 23:01:58.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.4905ms
+2026-04-01 23:01:58.666 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.9532ms
+2026-04-01 23:01:58.699 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-01 23:01:58.702 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 23:01:58.706 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-01 23:01:58.707 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3701ms
+2026-04-01 23:01:58.797 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 23:01:58.797 +05:00 [INF] 0HNKG332A264M:00000002. Method GET took 96 ms
+2026-04-01 23:01:58.798 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 99.4222ms
+2026-04-01 23:02:14.894 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-01 23:02:14.898 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:02:14.925 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-01 23:02:14.955 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-01 23:02:14.970 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 41.649ms
+2026-04-01 23:02:14.970 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:02:14.970 +05:00 [INF] 0HNKG332A264M:00000003. Method POST took 71 ms
+2026-04-01 23:02:14.970 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 75.9017ms
+2026-04-01 23:02:39.343 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-01 23:02:39.344 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:02:39.345 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-01 23:02:39.354 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 23:02:39.361 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.8526ms.
+2026-04-01 23:02:39.366 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-01 23:02:39.368 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 22.7148ms
+2026-04-01 23:02:39.368 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:02:39.368 +05:00 [INF] 0HNKG332A264M:00000004. Method POST took 23 ms
+2026-04-01 23:02:39.368 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 24.8503ms
+2026-04-01 23:03:21.328 +05:00 [INF] Application is shutting down...
+2026-04-01 23:07:49.992 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-01 23:07:50.025 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 23:07:50.025 +05:00 [INF] Hosting environment: Development
+2026-04-01 23:07:50.025 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-01 23:07:51.824 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-01 23:07:51.881 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.4397ms
+2026-04-01 23:07:51.887 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-01 23:07:51.887 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-01 23:07:51.888 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-01 23:07:51.888 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-01 23:07:51.889 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-01 23:07:51.890 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.7585ms
+2026-04-01 23:07:51.893 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.6605ms
+2026-04-01 23:07:51.893 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.161ms
+2026-04-01 23:07:51.893 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.1936ms
+2026-04-01 23:07:51.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 10.1841ms
+2026-04-01 23:07:51.930 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-01 23:07:51.933 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 23:07:51.936 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-01 23:07:51.936 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3458ms
+2026-04-01 23:07:52.027 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 23:07:52.027 +05:00 [INF] 0HNKG36BIOB4H:00000002. Method GET took 94 ms
+2026-04-01 23:07:52.028 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 97.6413ms
+2026-04-01 23:08:01.331 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 31
+2026-04-01 23:08:01.334 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:08:01.360 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-01 23:08:01.388 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-01 23:08:01.402 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 39.3936ms
+2026-04-01 23:08:01.402 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:08:01.402 +05:00 [INF] 0HNKG36BIOB4H:00000003. Method POST took 68 ms
+2026-04-01 23:08:01.402 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 71.3802ms
+2026-04-01 23:08:22.625 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-01 23:08:22.626 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:08:22.626 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-01 23:08:22.635 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 23:08:22.642 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.9045ms.
+2026-04-01 23:08:22.646 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-01 23:08:22.648 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 21.5203ms
+2026-04-01 23:08:22.648 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:08:22.648 +05:00 [INF] 0HNKG36BIOB4H:00000004. Method POST took 22 ms
+2026-04-01 23:08:22.648 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 23.2369ms
+2026-04-01 23:10:31.138 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 247
+2026-04-01 23:10:31.139 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:10:31.142 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 23:10:31.151 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-01 23:10:31.152 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 9.9674ms
+2026-04-01 23:10:31.152 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:10:31.152 +05:00 [INF] 0HNKG36BIOB4H:00000005. Method POST took 13 ms
+2026-04-01 23:10:31.152 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 14.1524ms
+2026-04-01 23:10:58.422 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/Create - null null
+2026-04-01 23:10:58.425 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-04-01 23:10:58.426 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-04-01 23:10:58.426 +05:00 [INF] 0HNKG36BIOB4H:00000006. Method GET took 0 ms
+2026-04-01 23:10:58.426 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/Create - 405 0 null 3.6333ms
+2026-04-01 23:11:42.974 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 265
+2026-04-01 23:11:42.974 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:11:42.974 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 23:11:42.976 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-01 23:11:42.977 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.9763ms
+2026-04-01 23:11:42.978 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:11:42.978 +05:00 [INF] 0HNKG36BIOB4H:00000007. Method POST took 3 ms
+2026-04-01 23:11:42.979 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 4.9692ms
+2026-04-01 23:14:16.821 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 265
+2026-04-01 23:14:16.822 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:14:16.823 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 23:14:16.827 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-01 23:14:16.828 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 4.7819ms
+2026-04-01 23:14:16.828 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:14:16.829 +05:00 [INF] 0HNKG36BIOB4L:00000001. Method POST took 6 ms
+2026-04-01 23:14:16.829 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 7.626ms
+2026-04-01 23:14:23.070 +05:00 [INF] Application is shutting down...
+2026-04-01 23:14:24.694 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-01 23:14:24.728 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 23:14:24.728 +05:00 [INF] Hosting environment: Development
+2026-04-01 23:14:24.728 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-01 23:14:25.989 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-01 23:14:26.051 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 63.2393ms
+2026-04-01 23:14:26.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-01 23:14:26.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-01 23:14:26.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-01 23:14:26.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-01 23:14:26.064 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-01 23:14:26.065 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.5538ms
+2026-04-01 23:14:26.068 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.5522ms
+2026-04-01 23:14:26.068 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.5727ms
+2026-04-01 23:14:26.068 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.7179ms
+2026-04-01 23:14:26.071 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.5645ms
+2026-04-01 23:14:26.099 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-01 23:14:26.101 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-01 23:14:26.101 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.387ms
+2026-04-01 23:14:26.103 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 23:14:26.196 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-01 23:14:26.196 +05:00 [INF] 0HNKG3A11MA7R:00000002. Method GET took 94 ms
+2026-04-01 23:14:26.197 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 97.5924ms
+2026-04-01 23:14:41.945 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 36
+2026-04-01 23:14:41.947 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:14:41.976 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-01 23:14:42.001 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-01 23:14:42.015 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 37.1619ms
+2026-04-01 23:14:42.015 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:14:42.016 +05:00 [INF] 0HNKG3A11MA7R:00000003. Method POST took 68 ms
+2026-04-01 23:14:42.016 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 70.8089ms
+2026-04-01 23:14:56.276 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-01 23:14:56.277 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:14:56.277 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-01 23:14:56.286 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 23:14:56.294 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.9553ms.
+2026-04-01 23:14:56.299 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-01 23:14:56.301 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 23.4671ms
+2026-04-01 23:14:56.301 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-01 23:14:56.301 +05:00 [INF] 0HNKG3A11MA7R:00000004. Method POST took 24 ms
+2026-04-01 23:14:56.302 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 25.1261ms
+2026-04-01 23:15:39.027 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 209
+2026-04-01 23:15:39.028 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:15:39.030 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 23:15:39.038 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 23:15:39.039 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2302ms.
+2026-04-01 23:15:39.039 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-01 23:15:39.040 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 9.4304ms
+2026-04-01 23:15:39.040 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-01 23:15:39.040 +05:00 [INF] 0HNKG3A11MA7R:00000005. Method POST took 12 ms
+2026-04-01 23:15:39.040 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 12.817ms
+2026-04-01 23:15:47.354 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-01 23:15:47.355 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-01 23:15:47.358 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 23:15:47.359 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 23:15:47.360 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6471ms.
+2026-04-01 23:15:47.360 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-01 23:15:47.370 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 12.2749ms
+2026-04-01 23:15:47.370 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-01 23:15:47.370 +05:00 [INF] 0HNKG3A11MA7R:00000006. Method GET took 15 ms
+2026-04-01 23:15:47.371 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 16.7842ms
+2026-04-01 23:16:34.944 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-04-01 23:16:34.945 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-04-01 23:16:34.948 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.Domain.Student] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-01 23:16:34.950 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-04-01 23:16:34.952 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.0565ms.
+2026-04-01 23:16:34.952 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.Domain.Student'.
+2026-04-01 23:16:34.953 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 4.5492ms
+2026-04-01 23:16:34.953 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-04-01 23:16:34.953 +05:00 [INF] 0HNKG3A11MA7R:00000007. Method GET took 7 ms
+2026-04-01 23:16:34.953 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 null application/json; charset=utf-8 8.6522ms
+2026-04-01 23:16:43.451 +05:00 [INF] Application is shutting down...

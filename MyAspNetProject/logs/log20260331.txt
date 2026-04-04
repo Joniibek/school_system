@@ -1,0 +1,101 @@
+2026-03-31 19:45:08.923 +05:00 [INF] Now listening on: http://localhost:5167
+2026-03-31 19:45:08.957 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 19:45:08.957 +05:00 [INF] Hosting environment: Development
+2026-03-31 19:45:08.957 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-03-31 19:45:48.461 +05:00 [INF] Application is shutting down...
+2026-03-31 19:45:49.777 +05:00 [INF] Now listening on: http://localhost:5167
+2026-03-31 19:45:49.811 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 19:45:49.812 +05:00 [INF] Hosting environment: Development
+2026-03-31 19:45:49.812 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-03-31 19:46:03.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-03-31 19:46:03.985 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 53.8051ms
+2026-03-31 19:46:03.994 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-03-31 19:46:03.994 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-03-31 19:46:03.995 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-03-31 19:46:03.995 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-03-31 19:46:03.995 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-31 19:46:03.996 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.1911ms
+2026-03-31 19:46:03.999 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.3457ms
+2026-03-31 19:46:03.999 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.2479ms
+2026-03-31 19:46:04.000 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.8625ms
+2026-03-31 19:46:04.003 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.8547ms
+2026-03-31 19:46:04.024 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-03-31 19:46:04.025 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-03-31 19:46:04.026 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4735ms
+2026-03-31 19:46:04.027 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-03-31 19:46:04.115 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-03-31 19:46:04.115 +05:00 [INF] 0HNKF6GTU8C46:00000002. Method GET took 88 ms
+2026-03-31 19:46:04.116 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 91.7402ms
+2026-03-31 19:46:33.440 +05:00 [INF] Application is shutting down...
+2026-03-31 19:46:35.475 +05:00 [INF] Now listening on: http://localhost:5167
+2026-03-31 19:46:35.509 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 19:46:35.509 +05:00 [INF] Hosting environment: Development
+2026-03-31 19:46:35.509 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-03-31 19:46:36.081 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-03-31 19:46:36.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 61.7052ms
+2026-03-31 19:46:36.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-03-31 19:46:36.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-03-31 19:46:36.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-03-31 19:46:36.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-31 19:46:36.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-03-31 19:46:36.151 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.8832ms
+2026-03-31 19:46:36.154 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.8432ms
+2026-03-31 19:46:36.154 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.595ms
+2026-03-31 19:46:36.154 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.0315ms
+2026-03-31 19:46:36.157 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.4882ms
+2026-03-31 19:46:36.179 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-03-31 19:46:36.182 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-03-31 19:46:36.182 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2601ms
+2026-03-31 19:46:36.182 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-03-31 19:46:36.267 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-03-31 19:46:36.268 +05:00 [INF] 0HNKF6H7GPD14:00000002. Method GET took 86 ms
+2026-03-31 19:46:36.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 89.4234ms
+2026-03-31 19:46:42.323 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/4 - null null
+2026-03-31 19:46:42.325 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-03-31 19:46:42.354 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature MyAspNetProject.Models.Domain.Student GetById(Int32, MyAspNetProject.Repositories.IStudentRepository) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-03-31 19:46:42.367 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-03-31 19:46:42.376 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 18.5747ms
+2026-03-31 19:46:42.376 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-03-31 19:46:42.376 +05:00 [ERR] Something went wrong. Object was not found
+2026-03-31 19:46:42.376 +05:00 [ERR] Unchecked error
+2026-03-31 19:46:42.377 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+MyAspNetProject.Exceptions.NotFoundException: Exception of type 'MyAspNetProject.Exceptions.NotFoundException' was thrown.
+   at MyAspNetProject.Services.StudentGetService.GetById(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/StudentServices.cs:line 16
+   at MyAspNetProject.Controllers.StudentController.GetById(Int32 id, IStudentRepository repository) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 18
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-31 19:46:42.388 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/4 - 500 null text/plain; charset=utf-8 65.0972ms
+2026-03-31 19:47:02.497 +05:00 [INF] Application is shutting down...
+2026-03-31 19:49:12.414 +05:00 [INF] Now listening on: http://localhost:5167
+2026-03-31 19:49:12.449 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 19:49:12.449 +05:00 [INF] Hosting environment: Development
+2026-03-31 19:49:12.449 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-03-31 19:49:16.617 +05:00 [INF] Application is shutting down...
+2026-03-31 19:49:17.487 +05:00 [INF] Now listening on: http://localhost:5167
+2026-03-31 19:49:17.521 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 19:49:17.521 +05:00 [INF] Hosting environment: Development
+2026-03-31 19:49:17.521 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-03-31 19:49:19.284 +05:00 [INF] Application is shutting down...
+2026-03-31 19:49:24.152 +05:00 [INF] Now listening on: http://localhost:5167
+2026-03-31 19:49:24.191 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-31 19:49:24.191 +05:00 [INF] Hosting environment: Development
+2026-03-31 19:49:24.191 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-03-31 19:49:28.578 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/4 - null null
+2026-03-31 19:49:28.608 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-03-31 19:49:28.622 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature MyAspNetProject.Models.Domain.Student GetById(Int32, MyAspNetProject.Repositories.IStudentRepository) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-03-31 19:49:28.633 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
