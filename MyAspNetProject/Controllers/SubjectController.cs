@@ -13,7 +13,7 @@ public class SubjectController: ControllerBase
     [HttpPost]
     public ActionResult<string> Create([FromBody] Subject subject)
     {
-        throw new NotFoundException();
+        throw new NotFoundException("Subject", subject.Id);
         // var id = _subjects.LastOrDefault()?.Id ?? 0;
         // subject.Id = id + 1;
         // _subjects.Add(subject);

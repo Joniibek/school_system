@@ -6,5 +6,5 @@ namespace MyAspNetProject.Models.DTO.Request;
 
 public class StudentCreateDto: BaseUserCreateDto
 {
-    [Required] public int KlassId { get; set; }
+    public int KlassId { get; set; }
 }

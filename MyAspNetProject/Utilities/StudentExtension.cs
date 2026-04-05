@@ -15,7 +15,7 @@ public static class StudentExtension
         };
     }
 
-    public static Student ToEntity(this StudentCreateDto dto)
+    public static Student ToEntity(this StudentCreateDto dto, Klass klass)
     {
         return new Student
         {
@@ -23,7 +23,7 @@ public static class StudentExtension
             LastName = dto.LastName,
             Surname = dto.Surname,
             Password = dto.Password,
-            KlassId = dto.KlassId,
+            Klass = klass,
             CreatedAt = DateTime.Now,
             // Birthday = dto.Birthday,
             Email = dto.Email,
@@ -31,6 +31,18 @@ public static class StudentExtension
             ImageUrl = dto.ImageUrl,
             Role = UserRoleEnum.Student,
             PhoneNumber = dto.PhoneNumber,  
+        };
+    }
+
+    public static StudentListDto ToListDto(this Student student)
+    {
+        return new StudentListDto
+        {
+            Id = student.Id,
+            FirstName = student.FirstName,
+            LastName = student.LastName,
+            SurName = student.Surname,
+            Klass = student.Klass.ToListDto(),
         };
     }
 }

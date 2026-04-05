@@ -20,9 +20,11 @@ public class ExceptionHandlerMiddleware(RequestDelegate next, ILogger<ExceptionH
             if (e is NotFoundException)
             {
                 logger.LogError("Something went wrong. Object was not found");
-                
+                context.Response.StatusCode = 404;
+                await context.Response.WriteAsJsonAsync("Object was not found");
+                throw;
             }
-            logger.LogError("Unchecked error");
+            logger.LogError("Unhandled error");
             throw;
         }
     }

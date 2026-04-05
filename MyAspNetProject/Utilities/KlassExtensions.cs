@@ -15,4 +15,13 @@ public static class KlassExtensions
             Group = klassCreateDto.Group,
         };
     }
+
+    public static KlassListDto ToListDto(this Klass klass)
+    {
+        return new KlassListDto
+        {
+            Year = klass.Year,
+            Group = klass.Group,
+        };
+    }
 }

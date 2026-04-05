@@ -1,0 +1,406 @@
+2026-04-05 15:13:54.374 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-05 15:13:54.408 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-05 15:13:54.409 +05:00 [INF] Hosting environment: Development
+2026-04-05 15:13:54.409 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-05 15:14:01.083 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/Student/Delete/1 - null null
+2026-04-05 15:14:01.107 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-05 15:14:01.122 +05:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Delete(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 15:14:01.137 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 15:14:01.141 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) in 17.4489ms
+2026-04-05 15:14:01.147 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-05 15:14:01.148 +05:00 [ERR] Something went wrong. Object was not found
+2026-04-05 15:14:01.151 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+MyAspNetProject.Exceptions.NotFoundException: Object of Student with id - 1 was not found
+   at MyAspNetProject.Services.StudentGetService.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/StudentServices.cs:line 50
+   at MyAspNetProject.Controllers.StudentController.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 42
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-05 15:14:01.156 +05:00 [WRN] The response has already started, the error page middleware will not be executed.
+2026-04-05 15:14:01.157 +05:00 [ERR] Connection id "0HNKIVG7CEDPD", Request id "0HNKIVG7CEDPD:00000001": An unhandled exception was thrown by the application.
+MyAspNetProject.Exceptions.NotFoundException: Object of Student with id - 1 was not found
+   at MyAspNetProject.Services.StudentGetService.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/StudentServices.cs:line 50
+   at MyAspNetProject.Controllers.StudentController.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 42
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-04-05 15:14:01.159 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/Student/Delete/1 - 404 null application/json; charset=utf-8 77.0086ms
+2026-04-05 15:15:41.943 +05:00 [INF] Application is shutting down...
+2026-04-05 15:17:01.054 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-05 15:17:01.091 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-05 15:17:01.092 +05:00 [INF] Hosting environment: Development
+2026-04-05 15:17:01.092 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-05 15:17:04.699 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/Student/Delete/1 - null null
+2026-04-05 15:17:04.725 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-05 15:17:04.738 +05:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Delete(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 15:17:04.760 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 15:17:57.278 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) in 52536.7547ms
+2026-04-05 15:17:57.288 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-05 15:17:57.300 +05:00 [ERR] Something went wrong. Object was not found
+2026-04-05 15:17:57.314 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+MyAspNetProject.Exceptions.NotFoundException: Object of Student with id - 1 was not found
+   at MyAspNetProject.Services.StudentGetService.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/StudentServices.cs:line 50
+   at MyAspNetProject.Controllers.StudentController.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 42
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-05 15:17:57.315 +05:00 [WRN] The response has already started, the error page middleware will not be executed.
+2026-04-05 15:17:57.316 +05:00 [ERR] Connection id "0HNKIVHU3KHKN", Request id "0HNKIVHU3KHKN:00000001": An unhandled exception was thrown by the application.
+MyAspNetProject.Exceptions.NotFoundException: Object of Student with id - 1 was not found
+   at MyAspNetProject.Services.StudentGetService.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/StudentServices.cs:line 50
+   at MyAspNetProject.Controllers.StudentController.Delete(Int32 id) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 42
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2026-04-05 15:17:57.318 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/Student/Delete/1 - 404 null application/json; charset=utf-8 52619.5127ms
+2026-04-05 15:26:09.635 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-05 15:26:09.670 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-05 15:26:09.671 +05:00 [INF] Hosting environment: Development
+2026-04-05 15:26:09.671 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-05 15:26:10.932 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 15:26:10.946 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 15:26:10.957 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 15:26:10.996 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 15:26:10.997 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-05 15:26:11.006 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.6179ms.
+2026-04-05 15:26:11.016 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-05 15:26:11.019 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 60.8005ms
+2026-04-05 15:26:11.020 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 15:26:11.020 +05:00 [INF] 0HNKIVN0SVAF9:00000001. Method POST took 74 ms
+2026-04-05 15:26:11.020 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 88.6057ms
+2026-04-05 15:26:12.726 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 15:26:12.729 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 15:26:12.730 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 15:26:12.737 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 15:26:12.737 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-05 15:26:12.745 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 14.631ms
+2026-04-05 15:26:12.746 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 15:26:12.747 +05:00 [ERR] Unhandled error
+2026-04-05 15:26:12.749 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.ConstraintException: Klass with year 2 and group п already exists
+   at MyAspNetProject.Services.KlassService.Create(KlassCreateDto klassCreateDto) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/KlassService.cs:line 23
+   at MyAspNetProject.Controllers.KlassController.Create(KlassCreateDto klassCreateDto) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 16
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 28
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-05 15:26:12.763 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 37.7578ms
+2026-04-05 15:26:26.338 +05:00 [INF] Application is shutting down...
+2026-04-05 17:43:12.076 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-05 17:43:12.110 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-05 17:43:12.110 +05:00 [INF] Hosting environment: Development
+2026-04-05 17:43:12.110 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-05 17:43:34.935 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 17:43:34.958 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:43:34.972 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 17:43:35.013 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:43:35.014 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-05 17:43:35.023 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.4037ms.
+2026-04-05 17:43:35.032 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-05 17:43:35.036 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 62.1882ms
+2026-04-05 17:43:35.036 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:43:35.036 +05:00 [INF] 0HNKJ23PPRLCH:00000001. Method POST took 79 ms
+2026-04-05 17:43:35.037 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 103.9554ms
+2026-04-05 17:43:39.727 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 17:43:39.728 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:43:39.728 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 17:43:39.915 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:43:39.915 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-05 17:43:39.916 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 3.3709ms
+2026-04-05 17:43:39.917 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:43:39.917 +05:00 [ERR] Unhandled error
+2026-04-05 17:43:39.918 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.ConstraintException: Klass with year 2 and group п already exists
+   at MyAspNetProject.Services.KlassService.Create(KlassCreateDto klassCreateDto) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/KlassService.cs:line 23
+   at MyAspNetProject.Controllers.KlassController.Create(KlassCreateDto klassCreateDto) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 16
+   at lambda_method1(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 13
+   at MyAspNetProject.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Middlewares/ExceptionHandlerMiddleware.cs:line 28
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-05 17:43:39.924 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 198.4029ms
+2026-04-05 17:45:03.086 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 194
+2026-04-05 17:45:03.088 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-05 17:45:03.091 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:45:03.141 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:45:03.142 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-05 17:45:03.144 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.2153ms.
+2026-04-05 17:45:03.144 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-05 17:45:03.145 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 53.4754ms
+2026-04-05 17:45:03.145 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-05 17:45:03.145 +05:00 [INF] 0HNKJ23PPRLCH:00000003. Method POST took 57 ms
+2026-04-05 17:45:03.145 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 59.3927ms
+2026-04-05 17:45:13.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-05 17:45:13.322 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 67.4162ms
+2026-04-05 17:45:13.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-05 17:45:13.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-05 17:45:13.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-05 17:45:13.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-05 17:45:13.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-05 17:45:13.333 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.5568ms
+2026-04-05 17:45:13.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.9964ms
+2026-04-05 17:45:13.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.0355ms
+2026-04-05 17:45:13.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.2925ms
+2026-04-05 17:45:13.340 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.9703ms
+2026-04-05 17:45:13.381 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-05 17:45:13.382 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-05 17:45:13.383 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-05 17:45:13.383 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2968ms
+2026-04-05 17:45:13.473 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-05 17:45:13.473 +05:00 [INF] 0HNKJ23PPRLCI:00000002. Method GET took 91 ms
+2026-04-05 17:45:13.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 92.7224ms
+2026-04-05 17:45:18.566 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-05 17:45:18.568 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-05 17:45:18.570 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:45:18.571 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:45:18.572 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.7376ms.
+2026-04-05 17:45:18.572 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:45:18.585 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 15.2349ms
+2026-04-05 17:45:18.586 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-05 17:45:18.586 +05:00 [INF] 0HNKJ23PPRLCI:00000003. Method GET took 17 ms
+2026-04-05 17:45:18.586 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 19.6902ms
+2026-04-05 17:46:25.949 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/by-year/2 - null null
+2026-04-05 17:46:25.950 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:46:25.954 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:46:25.959 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-05 17:46:25.978 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 24.3584ms
+2026-04-05 17:46:25.979 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:46:25.979 +05:00 [INF] 0HNKJ23PPRLCI:00000004. Method GET took 29 ms
+2026-04-05 17:46:25.979 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/by-year/2 - 400 null application/problem+json; charset=utf-8 30.51ms
+2026-04-05 17:46:39.941 +05:00 [INF] Application is shutting down...
+2026-04-05 17:46:42.075 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-05 17:46:42.111 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-05 17:46:42.112 +05:00 [INF] Hosting environment: Development
+2026-04-05 17:46:42.112 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-05 17:46:43.180 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-05 17:46:43.238 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 58.9176ms
+2026-04-05 17:46:43.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-05 17:46:43.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-05 17:46:43.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-05 17:46:43.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-05 17:46:43.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-05 17:46:43.251 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.8405ms
+2026-04-05 17:46:43.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.7448ms
+2026-04-05 17:46:43.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.7474ms
+2026-04-05 17:46:43.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.988ms
+2026-04-05 17:46:43.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.8282ms
+2026-04-05 17:46:43.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-05 17:46:43.286 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-05 17:46:43.286 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3032ms
+2026-04-05 17:46:43.287 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-05 17:46:43.385 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-05 17:46:43.385 +05:00 [INF] 0HNKJ25HSVH2N:00000002. Method GET took 99 ms
+2026-04-05 17:46:43.386 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 101.8867ms
+2026-04-05 17:47:01.312 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 17:47:01.314 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:47:01.342 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 17:47:01.399 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-05 17:47:01.409 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 65.9512ms
+2026-04-05 17:47:01.410 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:47:01.410 +05:00 [INF] 0HNKJ25HSVH2N:00000003. Method POST took 95 ms
+2026-04-05 17:47:01.410 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 98.0528ms
+2026-04-05 17:47:08.046 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 17:47:08.046 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:47:08.047 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 17:47:08.057 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:47:08.058 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-05 17:47:08.065 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.5828ms.
+2026-04-05 17:47:08.067 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-05 17:47:08.068 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 21.6138ms
+2026-04-05 17:47:08.069 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:47:08.069 +05:00 [INF] 0HNKJ25HSVH2N:00000004. Method POST took 22 ms
+2026-04-05 17:47:08.069 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 23.0555ms
+2026-04-05 17:49:24.532 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-05 17:49:24.533 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:49:24.534 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-05 17:49:24.541 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:49:24.541 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-05 17:49:24.542 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6605ms.
+2026-04-05 17:49:24.542 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-05 17:49:24.542 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 8.5706ms
+2026-04-05 17:49:24.543 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-05 17:49:24.543 +05:00 [INF] 0HNKJ25HSVH2Q:00000001. Method POST took 9 ms
+2026-04-05 17:49:24.543 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 10.9918ms
+2026-04-05 17:49:50.373 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 195
+2026-04-05 17:49:50.374 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-05 17:49:50.378 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:49:50.415 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:49:50.415 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-05 17:49:50.417 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3875ms.
+2026-04-05 17:49:50.418 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-05 17:49:50.418 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 39.9431ms
+2026-04-05 17:49:50.418 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-05 17:49:50.418 +05:00 [INF] 0HNKJ25HSVH2Q:00000002. Method POST took 44 ms
+2026-04-05 17:49:50.419 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 45.532ms
+2026-04-05 17:51:02.600 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/7 - null null
+2026-04-05 17:51:02.602 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:02.604 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:02.606 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:02.607 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2307ms.
+2026-04-05 17:51:02.607 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:02.609 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 4.7256ms
+2026-04-05 17:51:02.609 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:02.609 +05:00 [INF] 0HNKJ25HSVH2Q:00000003. Method GET took 7 ms
+2026-04-05 17:51:02.609 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/7 - 200 null application/json; charset=utf-8 9.8372ms
+2026-04-05 17:51:06.797 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/8 - null null
+2026-04-05 17:51:06.797 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:06.797 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:06.801 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:06.803 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.6716ms.
+2026-04-05 17:51:06.803 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:06.807 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 9.3214ms
+2026-04-05 17:51:06.807 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:06.807 +05:00 [INF] 0HNKJ25HSVH2Q:00000004. Method GET took 9 ms
+2026-04-05 17:51:06.807 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/8 - 200 null application/json; charset=utf-8 10.6533ms
+2026-04-05 17:51:12.112 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/2 - null null
+2026-04-05 17:51:12.112 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:12.113 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:12.113 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:12.113 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.024ms.
+2026-04-05 17:51:12.114 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:12.114 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.042ms
+2026-04-05 17:51:12.114 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:12.114 +05:00 [INF] 0HNKJ25HSVH2Q:00000005. Method GET took 1 ms
+2026-04-05 17:51:12.114 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/2 - 200 null application/json; charset=utf-8 1.9181ms
+2026-04-05 17:51:15.259 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/1 - null null
+2026-04-05 17:51:15.260 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:15.260 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:15.261 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:15.261 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0319ms.
+2026-04-05 17:51:15.262 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:15.262 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 2.0265ms
+2026-04-05 17:51:15.262 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:15.263 +05:00 [INF] 0HNKJ25HSVH2Q:00000006. Method GET took 2 ms
+2026-04-05 17:51:15.263 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/1 - 200 null application/json; charset=utf-8 3.8082ms
+2026-04-05 17:51:18.280 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/4 - null null
+2026-04-05 17:51:18.281 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:18.281 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:18.282 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:18.282 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0352ms.
+2026-04-05 17:51:18.283 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:18.283 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.8676ms
+2026-04-05 17:51:18.283 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:18.283 +05:00 [INF] 0HNKJ25HSVH2Q:00000007. Method GET took 2 ms
+2026-04-05 17:51:18.283 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/4 - 200 null application/json; charset=utf-8 3.522ms
+2026-04-05 17:51:21.044 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/7 - null null
+2026-04-05 17:51:21.045 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:21.045 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:21.046 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:21.046 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0234ms.
+2026-04-05 17:51:21.046 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:21.046 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.1255ms
+2026-04-05 17:51:21.046 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:21.046 +05:00 [INF] 0HNKJ25HSVH2Q:00000008. Method GET took 1 ms
+2026-04-05 17:51:21.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/7 - 200 null application/json; charset=utf-8 2.0234ms
+2026-04-05 17:51:23.242 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/8 - null null
+2026-04-05 17:51:23.242 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:23.243 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:23.243 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:23.243 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0251ms.
+2026-04-05 17:51:23.243 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:23.244 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.011ms
+2026-04-05 17:51:23.244 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:23.244 +05:00 [INF] 0HNKJ25HSVH2Q:00000009. Method GET took 1 ms
+2026-04-05 17:51:23.244 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/8 - 200 null application/json; charset=utf-8 2.1017ms
+2026-04-05 17:51:25.596 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/9 - null null
+2026-04-05 17:51:25.596 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:25.596 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-05 17:51:25.597 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-05 17:51:25.597 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0203ms.
+2026-04-05 17:51:25.597 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-05 17:51:25.597 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 0.8282ms
+2026-04-05 17:51:25.597 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-05 17:51:25.597 +05:00 [INF] 0HNKJ25HSVH2Q:0000000A. Method GET took 1 ms
+2026-04-05 17:51:25.598 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/9 - 200 null application/json; charset=utf-8 1.859ms
+2026-04-05 17:51:33.145 +05:00 [INF] Application is shutting down...

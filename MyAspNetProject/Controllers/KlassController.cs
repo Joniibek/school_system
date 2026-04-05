@@ -7,7 +7,7 @@ namespace MyAspNetProject.Controllers;
 
 [ApiController]
 [Route("[controller]/[action]")]
-public class KlassController(IKlassService service, ILogger logger): ControllerBase
+public class KlassController(IKlassService service, ILogger<KlassController> logger): ControllerBase
 {
     [HttpPost]
     public ActionResult<KlassCreateResponseDto> Create([FromBody] KlassCreateDto klassCreateDto)

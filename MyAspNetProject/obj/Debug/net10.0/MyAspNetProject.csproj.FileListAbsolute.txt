@@ -45,3 +45,7 @@
 /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Serilog.Sinks.Console.dll
 /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Serilog.Sinks.Debug.dll
 /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Serilog.Sinks.File.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/FluentValidation.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/FluentValidation.AspNetCore.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/obj/Debug/net10.0/MyAspNetProject.sourcelink.json

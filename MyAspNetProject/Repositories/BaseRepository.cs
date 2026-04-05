@@ -9,17 +9,18 @@ public interface IBaseRepository<T>
     T? GetById(int id);
     void Delete(T entity);
     T? Update(T source,T target);
+    bool ExistsById(int id);
 }
 
 
 public abstract class BaseRepository<T> : IBaseRepository<T> where T : BaseModel
 {
-    private static readonly List<T> Entities = new();
-    private int _nextID = 1;
+    protected static readonly List<T> Entities = new();
+    private static int _nextId = 1;
 
-    public T Create(T entity)
+    public virtual T Create(T entity)
     {
-        entity.Id = _nextID++;
+        entity.Id = _nextId++;
         Entities.Add(entity);
         return entity;
     }
@@ -42,5 +43,10 @@ public abstract class BaseRepository<T> : IBaseRepository<T> where T : BaseModel
     public T? Update(T source, T target)
     {
         throw new NotImplementedException();
+    }
+
+    public bool ExistsById(int id)
+    {
+        return Entities.Exists(x => x.Id == id);
     }
 }
