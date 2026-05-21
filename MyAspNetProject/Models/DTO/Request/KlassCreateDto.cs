@@ -8,17 +8,3 @@ public class KlassCreateDto
     public int Year  { get; set; }
     public required string Group { get; set; }
 }
-
-public class KlassListDto: BaseModelCreateResponseDto
-{
-    public int Year { get; set; }
-
-    public required string Group
-    {
-        get;
-        set
-        {
-            value.ToUpper();
-        }
-    }
-}

@@ -1,0 +1,175 @@
+2026-05-06 21:46:22.612 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-06 21:46:22.646 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 21:46:22.646 +05:00 [INF] Hosting environment: Development
+2026-05-06 21:46:22.646 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-06 21:47:06.668 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-06 21:47:06.728 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 61.7889ms
+2026-05-06 21:47:06.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-06 21:47:06.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-06 21:47:06.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-06 21:47:06.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-06 21:47:06.740 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-06 21:47:06.742 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.2112ms
+2026-05-06 21:47:06.793 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 53.4408ms
+2026-05-06 21:47:06.793 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 53.4817ms
+2026-05-06 21:47:06.793 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 52.967ms
+2026-05-06 21:47:06.802 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 62.6628ms
+2026-05-06 21:47:06.869 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-06 21:47:06.872 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-06 21:47:06.969 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-06 21:47:06.970 +05:00 [INF] 0HNLBHSDR1NS3:00000003. Method GET took 98 ms
+2026-05-06 21:47:06.970 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 100.682ms
+2026-05-06 21:47:12.745 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-05-06 21:47:12.746 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 21:47:12.777 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 21:47:13.601 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:47:13.751 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 148.0656ms.
+2026-05-06 21:47:13.754 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 21:47:13.757 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 978.1925ms
+2026-05-06 21:47:13.757 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 21:47:13.757 +05:00 [INF] 0HNLBHSDR1NS3:00000004. Method GET took 1011 ms
+2026-05-06 21:47:13.761 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 1016.1225ms
+2026-05-06 21:47:22.275 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-06 21:47:22.276 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-06 21:47:22.281 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-06 21:47:22.325 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:47:22.436 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 154.9009ms
+2026-05-06 21:47:22.436 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-06 21:47:22.436 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 161.0688ms
+2026-05-06 21:47:32.273 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-06 21:47:32.274 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-06 21:47:32.277 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-06 21:47:32.341 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:47:32.354 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 77.3733ms
+2026-05-06 21:47:32.354 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-06 21:47:32.354 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 81.4337ms
+2026-05-06 21:51:02.954 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 240
+2026-05-06 21:51:02.955 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-06 21:51:02.958 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-06 21:51:03.039 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-06 21:51:03.047 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 88.3097ms
+2026-05-06 21:51:03.047 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-06 21:51:03.047 +05:00 [INF] 0HNLBHSDR1NS8:00000001. Method POST took 92 ms
+2026-05-06 21:51:03.047 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 93.6086ms
+2026-05-06 21:51:11.254 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 238
+2026-05-06 21:51:11.255 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-06 21:51:11.255 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-06 21:51:11.265 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:51:11.421 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 165.4759ms
+2026-05-06 21:51:11.421 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-06 21:51:11.421 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 166.5882ms
+2026-05-06 21:51:33.724 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-05-06 21:51:33.725 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-06 21:51:33.727 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 21:51:33.740 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:51:33.794 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 54.4963ms.
+2026-05-06 21:51:33.795 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-05-06 21:51:33.795 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 67.5808ms
+2026-05-06 21:51:33.795 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-06 21:51:33.795 +05:00 [INF] 0HNLBHSDR1NS8:00000003. Method POST took 69 ms
+2026-05-06 21:51:33.795 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 71.7797ms
+2026-05-06 21:51:45.326 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-05-06 21:51:45.327 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 21:51:45.327 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 21:51:45.333 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:51:45.335 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1285ms.
+2026-05-06 21:51:45.335 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 21:51:45.336 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 7.9985ms
+2026-05-06 21:51:45.336 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 21:51:45.336 +05:00 [INF] 0HNLBHSDR1NS8:00000004. Method GET took 9 ms
+2026-05-06 21:51:45.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 10.168ms
+2026-05-06 21:51:52.075 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-05-06 21:51:52.076 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-06 21:51:52.077 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 21:51:52.085 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:51:52.087 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 1.7729ms.
+2026-05-06 21:51:52.088 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-06 21:51:52.089 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 12.1116ms
+2026-05-06 21:51:52.089 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-06 21:51:52.089 +05:00 [INF] 0HNLBHSDR1NS8:00000005. Method POST took 13 ms
+2026-05-06 21:51:52.090 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 14.1629ms
+2026-05-06 21:51:58.378 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-05-06 21:51:58.378 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-06 21:51:58.378 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 21:51:58.386 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:51:58.393 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.7407ms.
+2026-05-06 21:51:58.393 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-05-06 21:51:58.393 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 14.8408ms
+2026-05-06 21:51:58.393 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-06 21:51:58.394 +05:00 [INF] 0HNLBHSDR1NS8:00000006. Method POST took 15 ms
+2026-05-06 21:51:58.394 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 15.9819ms
+2026-05-06 21:52:05.444 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?year=10 - null null
+2026-05-06 21:52:05.444 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 21:52:05.444 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 21:52:05.454 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 21:52:05.461 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.5871ms.
+2026-05-06 21:52:05.461 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 21:52:05.461 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 16.792ms
+2026-05-06 21:52:05.461 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 21:52:05.461 +05:00 [INF] 0HNLBHSDR1NS8:00000007. Method GET took 17 ms
+2026-05-06 21:52:05.462 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?year=10 - 200 null application/json; charset=utf-8 18.0812ms
+2026-05-06 21:52:40.819 +05:00 [INF] Application is shutting down...
+2026-05-06 22:06:41.329 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-06 22:06:41.365 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-06 22:06:41.365 +05:00 [INF] Hosting environment: Development
+2026-05-06 22:06:41.365 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-06 22:06:43.379 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-06 22:06:43.429 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 51.1679ms
+2026-05-06 22:06:43.437 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-06 22:06:43.437 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-06 22:06:43.437 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-06 22:06:43.437 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-06 22:06:43.438 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-06 22:06:43.439 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.5319ms
+2026-05-06 22:06:43.442 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.0502ms
+2026-05-06 22:06:43.442 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.762ms
+2026-05-06 22:06:43.443 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.5358ms
+2026-05-06 22:06:43.446 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.6378ms
+2026-05-06 22:06:43.527 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-06 22:06:43.529 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-06 22:06:43.534 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-06 22:06:43.535 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3585ms
+2026-05-06 22:06:43.613 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-06 22:06:43.613 +05:00 [INF] 0HNLBI7CH2V67:00000002. Method GET took 84 ms
+2026-05-06 22:06:43.614 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 87.3335ms
+2026-05-06 22:06:52.438 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/Klass/Delete/1 - null null
+2026-05-06 22:06:52.439 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject)'
+2026-05-06 22:06:52.471 +05:00 [INF] Route matched with {action = "Delete", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 22:06:53.128 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 22:06:53.294 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 163.8874ms.
+2026-05-06 22:06:53.297 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-05-06 22:06:53.298 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject) in 824.7508ms
+2026-05-06 22:06:53.298 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject)'
+2026-05-06 22:06:53.298 +05:00 [INF] 0HNLBI7CH2V67:00000003. Method DELETE took 859 ms
+2026-05-06 22:06:53.302 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/Klass/Delete/1 - 204 null null 864.1233ms
+2026-05-06 22:07:12.589 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-05-06 22:07:12.591 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 22:07:12.595 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 22:07:12.619 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 22:07:12.679 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 59.7541ms.
+2026-05-06 22:07:12.681 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 22:07:12.683 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 88.2467ms
+2026-05-06 22:07:12.683 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 22:07:12.684 +05:00 [INF] 0HNLBI7CH2V67:00000004. Method GET took 92 ms
+2026-05-06 22:07:12.684 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 94.7067ms
+2026-05-06 22:07:59.744 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/Klass/Delete/4 - null null
+2026-05-06 22:07:59.745 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject)'
+2026-05-06 22:07:59.745 +05:00 [INF] Route matched with {action = "Delete", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 22:07:59.815 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 22:07:59.820 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 4.9757ms.
+2026-05-06 22:07:59.820 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-05-06 22:07:59.820 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject) in 74.8057ms
+2026-05-06 22:07:59.820 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Delete (MyAspNetProject)'
+2026-05-06 22:07:59.820 +05:00 [INF] 0HNLBI7CH2V67:00000005. Method DELETE took 75 ms
+2026-05-06 22:07:59.820 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/Klass/Delete/4 - 204 null null 76.1054ms
+2026-05-06 22:08:03.910 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-05-06 22:08:03.911 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 22:08:03.912 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-06 22:08:03.925 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-06 22:08:03.928 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.5558ms.
+2026-05-06 22:08:03.929 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-06 22:08:03.930 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 17.3503ms
+2026-05-06 22:08:03.930 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-06 22:08:03.930 +05:00 [INF] 0HNLBI7CH2V67:00000006. Method GET took 19 ms
+2026-05-06 22:08:03.930 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 20.3819ms
+2026-05-06 22:08:22.250 +05:00 [INF] Application is shutting down...

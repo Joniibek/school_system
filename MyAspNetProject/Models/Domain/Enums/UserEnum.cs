@@ -12,7 +12,6 @@ public enum UserRoleEnum
 {
     Student,
     Teacher,
-    HeadTeacher,
     Director,
     CEO,
 }

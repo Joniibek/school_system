@@ -7,42 +7,61 @@ namespace MyAspNetProject.Utilities;
 
 public static class StudentExtension
 {
-    public static StudentCreateResponseDto ToResponseDto(this Student student)
+    public static StudentCreateResponseDto ToResponseDto(this StudentEntity studentEntity)
     {
         return new StudentCreateResponseDto
         {
-            Id = student.Id
+            Id = studentEntity.Id
         };
     }
 
-    public static Student ToEntity(this StudentCreateDto dto, Klass klass)
+    public static StudentEntity ToEntity(this StudentCreateDto dto)
     {
-        return new Student
+        return new StudentEntity
         {
             FirstName = dto.FirstName,
             LastName = dto.LastName,
             Surname = dto.Surname,
             Password = dto.Password,
-            Klass = klass,
+            KlassId = dto.KlassId,
             CreatedAt = DateTime.Now,
-            // Birthday = dto.Birthday,
+            Birthday = dto.Birthday,
             Email = dto.Email,
             Gender = dto.Gender,
             ImageUrl = dto.ImageUrl,
             Role = UserRoleEnum.Student,
-            PhoneNumber = dto.PhoneNumber,  
+            PhoneNumber = dto.PhoneNumber,
+            KlassEntity = null,
         };
     }
 
-    public static StudentListDto ToListDto(this Student student)
+    public static StudentListDto ToListDto(this StudentEntity studentEntity)
     {
         return new StudentListDto
         {
-            Id = student.Id,
-            FirstName = student.FirstName,
-            LastName = student.LastName,
-            SurName = student.Surname,
-            Klass = student.Klass.ToListDto(),
+            Id = studentEntity.Id,
+            FirstName = studentEntity.FirstName,
+            LastName = studentEntity.LastName,
+            SurName = studentEntity.Surname,
+            Klass = studentEntity.KlassEntity.ToListDto(),
         };
+    }
+
+    public static StudentDetailedListDto ToDetailedDto(this StudentEntity studentEntity)
+    {
+        return new StudentDetailedListDto
+        {
+            Id = studentEntity.Id,
+            FirstName = studentEntity.FirstName,
+            LastName = studentEntity.LastName,
+            SurName = studentEntity.Surname,
+            Klass = studentEntity.KlassEntity.ToListDto(),
+            ImageUrl = studentEntity.ImageUrl,
+            Birthday = studentEntity.Birthday,
+            Email = studentEntity.Email,
+            PhoneNumber = studentEntity.PhoneNumber,
+            Performance = studentEntity.Performance,
+        };
+
     }
 }

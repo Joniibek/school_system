@@ -1,0 +1,409 @@
+2026-05-04 20:14:16.386 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:14:16.422 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:14:16.422 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:14:16.422 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:14:54.819 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-04 20:14:54.880 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 61.4776ms
+2026-05-04 20:14:54.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-04 20:14:54.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-04 20:14:54.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-04 20:14:54.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-04 20:14:54.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-04 20:14:54.899 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.0765ms
+2026-05-04 20:14:54.902 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.4152ms
+2026-05-04 20:14:54.902 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.7643ms
+2026-05-04 20:14:54.903 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 6.2ms
+2026-05-04 20:14:54.912 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 15.5482ms
+2026-05-04 20:14:54.977 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-04 20:14:54.979 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-04 20:14:55.063 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-04 20:14:55.063 +05:00 [INF] 0HNL9TVIPVQ4P:00000003. Method GET took 85 ms
+2026-05-04 20:14:55.064 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 86.955ms
+2026-05-04 20:15:06.413 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-04 20:15:06.414 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-04 20:15:06.430 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:15:07.096 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:15:07.326 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 894.0066ms
+2026-05-04 20:15:07.326 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-04 20:15:07.330 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 916.827ms
+2026-05-04 20:17:09.120 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 221
+2026-05-04 20:17:09.122 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:17:09.126 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:17:09.184 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-04 20:17:09.194 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 67.1345ms
+2026-05-04 20:17:09.194 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:17:09.194 +05:00 [INF] 0HNL9TVIPVQ4P:00000005. Method POST took 72 ms
+2026-05-04 20:17:09.195 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 74.882ms
+2026-05-04 20:19:31.670 +05:00 [INF] Application is shutting down...
+2026-05-04 20:20:13.816 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:20:13.853 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:20:13.853 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:20:13.853 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:20:34.396 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 221
+2026-05-04 20:20:34.429 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:20:34.444 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:20:35.289 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-04 20:20:35.305 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 859.6121ms
+2026-05-04 20:20:35.310 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:20:35.311 +05:00 [INF] 0HNL9U2O0CFST:00000001. Method POST took 882 ms
+2026-05-04 20:20:35.315 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 920.9339ms
+2026-05-04 20:20:46.221 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-05-04 20:20:46.223 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:20:46.224 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:20:46.307 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:20:53.197 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 6887.2ms.
+2026-05-04 20:20:53.198 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-05-04 20:20:53.198 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 6973.3766ms
+2026-05-04 20:20:53.198 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:20:53.198 +05:00 [INF] 0HNL9U2O0CFST:00000002. Method POST took 6974 ms
+2026-05-04 20:20:53.198 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 404 null text/plain; charset=utf-8 6978.3607ms
+2026-05-04 20:21:11.772 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-05-04 20:21:11.774 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:21:11.774 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:21:11.807 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:21:17.405 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 5629.9588ms
+2026-05-04 20:21:17.406 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:21:17.415 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 5642.7389ms
+2026-05-04 20:22:07.524 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:22:07.557 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:22:07.557 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:22:07.558 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:22:55.452 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-04 20:22:55.478 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-04 20:22:55.493 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:22:56.150 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:22:56.386 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 892.0232ms
+2026-05-04 20:22:56.392 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-04 20:22:56.396 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 945.9476ms
+2026-05-04 20:25:26.579 +05:00 [INF] Application is shutting down...
+2026-05-04 20:28:27.369 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:28:27.402 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:28:27.403 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:28:27.403 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:28:30.290 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-04 20:28:30.346 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.7533ms
+2026-05-04 20:28:30.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-04 20:28:30.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-04 20:28:30.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-04 20:28:30.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-04 20:28:30.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-04 20:28:30.363 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.7163ms
+2026-05-04 20:28:30.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.8534ms
+2026-05-04 20:28:30.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.8449ms
+2026-05-04 20:28:30.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.9271ms
+2026-05-04 20:28:30.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.0232ms
+2026-05-04 20:28:30.442 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-04 20:28:30.444 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-04 20:28:30.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3212ms
+2026-05-04 20:28:30.445 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-04 20:28:30.538 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-04 20:28:30.539 +05:00 [INF] 0HNL9U75QRT1L:00000002. Method GET took 94 ms
+2026-05-04 20:28:30.540 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 97.5914ms
+2026-05-04 20:28:34.724 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:28:34.726 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:28:34.759 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:28:35.393 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:28:35.535 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 774.796ms
+2026-05-04 20:28:35.536 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:28:35.539 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 814.81ms
+2026-05-04 20:29:34.808 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:29:34.810 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:29:34.810 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:29:34.847 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:29:34.849 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 39.1396ms
+2026-05-04 20:29:34.849 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:29:34.850 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 41.5627ms
+2026-05-04 20:29:37.981 +05:00 [INF] Application is shutting down...
+2026-05-04 20:29:39.585 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:29:39.618 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:29:39.619 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:29:39.619 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:29:41.497 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:29:41.523 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:29:41.535 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:29:42.166 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:29:42.168 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1092ms.
+2026-05-04 20:29:42.176 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-04 20:29:42.179 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 641.417ms
+2026-05-04 20:29:42.179 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:29:42.179 +05:00 [INF] 0HNL9U7R1VLSL:00000001. Method GET took 657 ms
+2026-05-04 20:29:42.183 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null text/plain; charset=utf-8 687.8805ms
+2026-05-04 20:30:45.222 +05:00 [INF] Application is shutting down...
+2026-05-04 20:30:47.291 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:30:47.324 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:30:47.325 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:30:47.325 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:30:48.585 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:30:48.612 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:30:48.625 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:30:49.262 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:30:49.414 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 787.2962ms
+2026-05-04 20:30:49.420 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:30:49.426 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 841.6575ms
+2026-05-04 20:30:52.081 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:30:52.084 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:30:52.085 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:30:52.106 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:30:52.108 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 23.1877ms
+2026-05-04 20:30:52.108 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:30:52.109 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 27.7312ms
+2026-05-04 20:30:59.524 +05:00 [INF] Application is shutting down...
+2026-05-04 20:31:16.597 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:31:16.631 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:31:16.631 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:31:16.631 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:31:45.463 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:31:45.490 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:31:45.501 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:31:46.164 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:31:46.317 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 814.3169ms
+2026-05-04 20:31:46.323 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:31:46.329 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 867.6879ms
+2026-05-04 20:32:23.638 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:32:23.645 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:32:23.646 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:32:23.687 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:32:23.691 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 44.0106ms
+2026-05-04 20:32:23.691 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:32:23.692 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 54.8663ms
+2026-05-04 20:32:24.526 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:32:24.527 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:32:24.528 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:32:24.594 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:32:24.595 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 67.5189ms
+2026-05-04 20:32:24.596 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:32:24.596 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 70.1185ms
+2026-05-04 20:32:27.029 +05:00 [INF] Application is shutting down...
+2026-05-04 20:32:27.875 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:32:27.909 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:32:27.909 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:32:27.909 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:32:29.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:32:29.308 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:32:29.319 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:32:29.953 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:32:30.108 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 787.5978ms
+2026-05-04 20:32:30.114 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:32:30.118 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 836.2527ms
+2026-05-04 20:32:33.479 +05:00 [INF] Application is shutting down...
+2026-05-04 20:34:47.380 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:34:47.409 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:34:47.410 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:34:47.410 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:35:08.298 +05:00 [INF] Application is shutting down...
+2026-05-04 20:35:14.367 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:35:14.403 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:35:14.403 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:35:14.403 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:35:18.552 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:35:18.582 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:35:18.592 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:35:19.389 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:35:29.816 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 11222.0389ms
+2026-05-04 20:35:29.822 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:35:29.842 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 11290.9074ms
+2026-05-04 20:35:36.074 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:35:36.076 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:35:36.077 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:35:36.117 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:35:55.314 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 19236.598ms
+2026-05-04 20:35:55.314 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:35:55.324 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 19249.9654ms
+2026-05-04 20:38:15.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:38:15.285 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:38:15.285 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:38:15.312 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:38:15.333 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 48.0747ms
+2026-05-04 20:38:15.333 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:38:15.350 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 66.2484ms
+2026-05-04 20:38:21.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:38:21.179 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:38:21.180 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:38:21.187 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:39:41.380 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:39:41.416 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:39:41.416 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:39:41.416 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:39:43.254 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:39:43.293 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:39:43.304 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:39:44.083 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:39:47.931 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 4624.8645ms
+2026-05-04 20:39:47.937 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:39:47.954 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4701.61ms
+2026-05-04 20:40:30.449 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:40:30.452 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:40:30.452 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:40:30.472 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:40:43.073 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 12620.4601ms
+2026-05-04 20:40:43.073 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:40:43.082 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 12632.8532ms
+2026-05-04 20:45:28.332 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-04 20:45:28.366 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 20:45:28.366 +05:00 [INF] Hosting environment: Development
+2026-05-04 20:45:28.366 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-04 20:45:38.552 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-04 20:45:38.610 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 59.3305ms
+2026-05-04 20:45:38.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-04 20:45:38.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-04 20:45:38.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-04 20:45:38.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-04 20:45:38.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-04 20:45:38.623 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.9895ms
+2026-05-04 20:45:38.627 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.4573ms
+2026-05-04 20:45:38.627 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.4682ms
+2026-05-04 20:45:38.627 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.5205ms
+2026-05-04 20:45:38.630 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.3702ms
+2026-05-04 20:45:38.666 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-04 20:45:38.669 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-04 20:45:38.767 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-04 20:45:38.767 +05:00 [INF] 0HNL9UGO96LIP:00000002. Method GET took 98 ms
+2026-05-04 20:45:38.768 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 101.9907ms
+2026-05-04 20:45:46.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:45:46.461 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:45:46.471 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:45:47.148 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:45:47.308 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 835.6945ms
+2026-05-04 20:45:47.308 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:45:47.312 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 851.5792ms
+2026-05-04 20:46:01.395 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:01.396 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:01.397 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:01.437 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:01.439 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 42.0069ms
+2026-05-04 20:46:01.439 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:01.440 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 45.009ms
+2026-05-04 20:46:01.847 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:01.847 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:01.847 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:01.894 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:01.895 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 47.5168ms
+2026-05-04 20:46:01.895 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:01.895 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 48.4853ms
+2026-05-04 20:46:02.010 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.010 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.010 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.013 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.014 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.3119ms
+2026-05-04 20:46:02.014 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.014 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 3.9685ms
+2026-05-04 20:46:02.204 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.204 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.205 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.210 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.212 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 6.8473ms
+2026-05-04 20:46:02.212 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.212 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 8.0448ms
+2026-05-04 20:46:02.339 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.339 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.340 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.344 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.346 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 5.7062ms
+2026-05-04 20:46:02.346 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.346 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 7.4198ms
+2026-05-04 20:46:02.492 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.492 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.493 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.496 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.498 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 4.8218ms
+2026-05-04 20:46:02.498 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.498 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 5.8712ms
+2026-05-04 20:46:02.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.621 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.621 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.624 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.625 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.4638ms
+2026-05-04 20:46:02.625 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.625 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.5859ms
+2026-05-04 20:46:02.756 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.756 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.756 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.759 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.760 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.4852ms
+2026-05-04 20:46:02.760 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.760 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.0941ms
+2026-05-04 20:46:02.911 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:02.912 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.912 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:02.914 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:02.916 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.3791ms
+2026-05-04 20:46:02.916 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:02.916 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.5119ms
+2026-05-04 20:46:03.058 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:03.059 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.059 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:03.062 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:03.063 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 4.1024ms
+2026-05-04 20:46:03.063 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.063 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.8511ms
+2026-05-04 20:46:03.219 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:03.219 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.219 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:03.223 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:03.223 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.6954ms
+2026-05-04 20:46:03.223 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.223 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.6495ms
+2026-05-04 20:46:03.366 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:03.366 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.366 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:03.370 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:03.371 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 4.219ms
+2026-05-04 20:46:03.371 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.371 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 5.0873ms
+2026-05-04 20:46:03.494 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:03.494 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.494 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:03.497 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:03.498 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.4224ms
+2026-05-04 20:46:03.498 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.498 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.3491ms
+2026-05-04 20:46:03.648 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:03.648 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.648 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:03.651 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:03.652 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 4.2018ms
+2026-05-04 20:46:03.653 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.653 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.992ms
+2026-05-04 20:46:03.791 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-05-04 20:46:03.792 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.792 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:03.794 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:46:03.795 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 3.3232ms
+2026-05-04 20:46:03.795 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-05-04 20:46:03.796 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 0 null 4.1578ms
+2026-05-04 20:46:54.364 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 196
+2026-05-04 20:46:54.365 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:46:54.374 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:46:54.463 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-04 20:46:54.471 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 96.4805ms
+2026-05-04 20:46:54.471 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:46:54.471 +05:00 [INF] 0HNL9UGO96LIP:00000013. Method POST took 105 ms
+2026-05-04 20:46:54.471 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 106.5605ms
+2026-05-04 20:47:04.775 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 195
+2026-05-04 20:47:04.775 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:47:04.776 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:47:04.787 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:47:04.893 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 103.8768ms.
+2026-05-04 20:47:04.894 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-05-04 20:47:04.894 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 118.1998ms
+2026-05-04 20:47:04.894 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:47:04.894 +05:00 [INF] 0HNL9UGO96LIP:00000014. Method POST took 118 ms
+2026-05-04 20:47:04.894 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 404 null text/plain; charset=utf-8 119.456ms
+2026-05-04 20:47:21.403 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 194
+2026-05-04 20:47:21.403 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:47:21.404 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:47:21.412 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:47:21.418 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 6.5292ms.
+2026-05-04 20:47:21.419 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-05-04 20:47:21.419 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 15.4193ms
+2026-05-04 20:47:21.419 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:47:21.420 +05:00 [INF] 0HNL9UGO96LIP:00000015. Method POST took 16 ms
+2026-05-04 20:47:21.420 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 404 null text/plain; charset=utf-8 16.8981ms
+2026-05-04 20:47:44.592 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 194
+2026-05-04 20:47:44.592 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:47:44.592 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-04 20:47:44.724 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-04 20:47:44.832 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 110.8477ms
+2026-05-04 20:47:44.832 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-04 20:47:44.832 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 240.3565ms
+2026-05-04 20:49:00.192 +05:00 [INF] Application is shutting down...

@@ -1,0 +1,279 @@
+2026-05-13 22:52:45.314 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-13 22:52:45.350 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-13 22:52:45.350 +05:00 [INF] Hosting environment: Development
+2026-05-13 22:52:45.350 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-13 22:52:58.941 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-13 22:52:58.999 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 59.2307ms
+2026-05-13 22:52:59.010 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-13 22:52:59.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-13 22:52:59.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-13 22:52:59.011 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-13 22:52:59.012 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-13 22:52:59.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.0983ms
+2026-05-13 22:52:59.023 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 11.5317ms
+2026-05-13 22:52:59.023 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 12.9754ms
+2026-05-13 22:52:59.023 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 12.6309ms
+2026-05-13 22:52:59.027 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 15.6386ms
+2026-05-13 22:52:59.096 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-13 22:52:59.099 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-13 22:52:59.104 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-13 22:52:59.104 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4ms
+2026-05-13 22:52:59.184 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-13 22:52:59.185 +05:00 [INF] 0HNLH31S5603E:00000002. Method GET took 86 ms
+2026-05-13 22:52:59.186 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 89.7714ms
+2026-05-13 22:53:05.865 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-05-13 22:53:05.866 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 22:53:05.900 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] List(Int32, Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 22:53:06.564 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 22:53:06.719 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 153.1942ms.
+2026-05-13 22:53:06.722 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MyAspNetProject.Services.StudentService+<List>d__4, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 22:53:06.725 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 822.7655ms
+2026-05-13 22:53:06.725 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 22:53:06.728 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 0 application/json; charset=utf-8 863.0685ms
+2026-05-13 22:53:43.240 +05:00 [INF] Application is shutting down...
+2026-05-13 22:54:47.002 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-13 22:54:47.039 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-13 22:54:47.039 +05:00 [INF] Hosting environment: Development
+2026-05-13 22:54:47.039 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-13 22:54:50.721 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-05-13 22:54:50.746 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 22:54:50.762 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(Int32, Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 22:54:51.418 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 22:54:51.597 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 832.243ms
+2026-05-13 22:54:51.602 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 22:54:51.613 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 0 null 893.811ms
+2026-05-13 22:55:08.544 +05:00 [INF] Application is shutting down...
+2026-05-13 23:18:43.149 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-13 23:18:43.183 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-13 23:18:43.184 +05:00 [INF] Hosting environment: Development
+2026-05-13 23:18:43.184 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-13 23:19:32.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-13 23:19:32.502 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 64.5126ms
+2026-05-13 23:19:32.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-13 23:19:32.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-13 23:19:32.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-13 23:19:32.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-13 23:19:32.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-13 23:19:32.516 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.0787ms
+2026-05-13 23:19:32.519 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.5918ms
+2026-05-13 23:19:32.519 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.6107ms
+2026-05-13 23:19:32.519 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 6.0117ms
+2026-05-13 23:19:32.523 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.405ms
+2026-05-13 23:19:32.609 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-13 23:19:32.611 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-13 23:19:32.611 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3122ms
+2026-05-13 23:19:32.613 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-13 23:19:32.700 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-13 23:19:32.700 +05:00 [INF] 0HNLH3GN1QPC9:00000002. Method GET took 89 ms
+2026-05-13 23:19:32.701 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 92.1723ms
+2026-05-13 23:19:40.399 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-05-13 23:19:40.401 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:19:40.438 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:19:41.062 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:19:41.317 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 252.4731ms.
+2026-05-13 23:19:41.320 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:19:41.325 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 884.8013ms
+2026-05-13 23:19:41.325 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:19:41.325 +05:00 [INF] 0HNLH3GN1QPC9:00000003. Method GET took 924 ms
+2026-05-13 23:19:41.331 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 null application/json; charset=utf-8 931.5777ms
+2026-05-13 23:19:52.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=2 - null null
+2026-05-13 23:19:52.909 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:19:52.910 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:19:52.949 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:19:52.977 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 27.7025ms.
+2026-05-13 23:19:52.977 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:19:52.978 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 67.2261ms
+2026-05-13 23:19:52.978 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:19:52.978 +05:00 [INF] 0HNLH3GN1QPC9:00000004. Method GET took 69 ms
+2026-05-13 23:19:52.978 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=2 - 200 null application/json; charset=utf-8 70.8931ms
+2026-05-13 23:20:06.205 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - null null
+2026-05-13 23:20:06.205 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:06.206 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:20:06.279 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:20:06.284 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.747ms.
+2026-05-13 23:20:06.284 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:20:06.284 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 78.0925ms
+2026-05-13 23:20:06.284 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:06.284 +05:00 [INF] 0HNLH3GN1QPC9:00000005. Method GET took 78 ms
+2026-05-13 23:20:06.284 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - 200 null application/json; charset=utf-8 79.6507ms
+2026-05-13 23:20:38.093 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - null null
+2026-05-13 23:20:38.093 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:38.093 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:20:38.100 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:20:38.102 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.799ms.
+2026-05-13 23:20:38.102 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:20:38.102 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 8.7194ms
+2026-05-13 23:20:38.102 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:38.103 +05:00 [INF] 0HNLH3GN1QPC9:00000006. Method GET took 9 ms
+2026-05-13 23:20:38.103 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - 200 null application/json; charset=utf-8 9.972ms
+2026-05-13 23:20:42.249 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-05-13 23:20:42.250 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:42.250 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:20:42.255 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:20:42.258 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1957ms.
+2026-05-13 23:20:42.258 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:20:42.258 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 8.2925ms
+2026-05-13 23:20:42.258 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:42.259 +05:00 [INF] 0HNLH3GN1QPC9:00000007. Method GET took 9 ms
+2026-05-13 23:20:42.259 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 null application/json; charset=utf-8 9.8001ms
+2026-05-13 23:20:52.867 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Year=1 - null null
+2026-05-13 23:20:52.868 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:52.868 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:20:52.873 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:20:52.889 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.13ms.
+2026-05-13 23:20:52.890 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:20:52.890 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 21.9445ms
+2026-05-13 23:20:52.890 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:52.890 +05:00 [INF] 0HNLH3GN1QPC9:00000008. Method GET took 22 ms
+2026-05-13 23:20:52.891 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Year=1 - 200 null application/json; charset=utf-8 23.1559ms
+2026-05-13 23:20:57.001 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Year=2 - null null
+2026-05-13 23:20:57.001 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:57.002 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:20:57.011 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:20:57.013 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7761ms.
+2026-05-13 23:20:57.013 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:20:57.013 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 11.5576ms
+2026-05-13 23:20:57.013 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:57.014 +05:00 [INF] 0HNLH3GN1QPC9:00000009. Method GET took 12 ms
+2026-05-13 23:20:57.014 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Year=2 - 200 null application/json; charset=utf-8 12.6208ms
+2026-05-13 23:20:59.979 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Year=1 - null null
+2026-05-13 23:20:59.979 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:59.980 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:20:59.984 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:20:59.986 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.8463ms.
+2026-05-13 23:20:59.987 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:20:59.987 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 7.0844ms
+2026-05-13 23:20:59.987 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:20:59.987 +05:00 [INF] 0HNLH3GN1QPC9:0000000A. Method GET took 7 ms
+2026-05-13 23:20:59.987 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Year=1 - 200 null application/json; charset=utf-8 8.369ms
+2026-05-13 23:21:04.788 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - null null
+2026-05-13 23:21:04.788 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:04.788 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:04.792 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:04.795 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4929ms.
+2026-05-13 23:21:04.795 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:04.796 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 7.2896ms
+2026-05-13 23:21:04.796 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:04.796 +05:00 [INF] 0HNLH3GN1QPC9:0000000B. Method GET took 7 ms
+2026-05-13 23:21:04.796 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - 200 null application/json; charset=utf-8 8.4901ms
+2026-05-13 23:21:08.610 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=2 - null null
+2026-05-13 23:21:08.610 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:08.611 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:08.615 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:08.617 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7017ms.
+2026-05-13 23:21:08.618 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:08.618 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 7.1407ms
+2026-05-13 23:21:08.618 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:08.618 +05:00 [INF] 0HNLH3GN1QPC9:0000000C. Method GET took 7 ms
+2026-05-13 23:21:08.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=2 - 200 null application/json; charset=utf-8 8.2502ms
+2026-05-13 23:21:12.922 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=3 - null null
+2026-05-13 23:21:12.923 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:12.923 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:12.929 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:12.931 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.5817ms.
+2026-05-13 23:21:12.931 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:12.931 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 8.2487ms
+2026-05-13 23:21:12.932 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:12.932 +05:00 [INF] 0HNLH3GN1QPC9:0000000D. Method GET took 8 ms
+2026-05-13 23:21:12.932 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=3 - 200 null application/json; charset=utf-8 9.9907ms
+2026-05-13 23:21:13.270 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=3 - null null
+2026-05-13 23:21:13.270 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:13.270 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:13.274 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:13.277 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4623ms.
+2026-05-13 23:21:13.277 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:13.277 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 6.8112ms
+2026-05-13 23:21:13.277 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:13.278 +05:00 [INF] 0HNLH3GN1QPC9:0000000E. Method GET took 7 ms
+2026-05-13 23:21:13.278 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=3 - 200 null application/json; charset=utf-8 8.041ms
+2026-05-13 23:21:22.376 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - null null
+2026-05-13 23:21:22.377 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:22.377 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:22.382 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:22.383 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7632ms.
+2026-05-13 23:21:22.384 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:22.384 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 6.7693ms
+2026-05-13 23:21:22.384 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:22.384 +05:00 [INF] 0HNLH3GN1QPC9:0000000F. Method GET took 7 ms
+2026-05-13 23:21:22.385 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?KlassId=1 - 200 null application/json; charset=utf-8 8.3404ms
+2026-05-13 23:21:25.749 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-05-13 23:21:25.749 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:25.750 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:25.754 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:25.756 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7168ms.
+2026-05-13 23:21:25.756 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:25.757 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 7.0013ms
+2026-05-13 23:21:25.757 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:25.757 +05:00 [INF] 0HNLH3GN1QPC9:00000010. Method GET took 7 ms
+2026-05-13 23:21:25.758 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 null application/json; charset=utf-8 8.6601ms
+2026-05-13 23:21:36.822 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Offset=3 - null null
+2026-05-13 23:21:36.822 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:36.823 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:36.828 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:36.829 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.4265ms.
+2026-05-13 23:21:36.830 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:36.830 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 7.1537ms
+2026-05-13 23:21:36.830 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:36.830 +05:00 [INF] 0HNLH3GN1QPC9:00000011. Method GET took 7 ms
+2026-05-13 23:21:36.830 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Offset=3 - 200 null application/json; charset=utf-8 8.533ms
+2026-05-13 23:21:40.089 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Offset=1 - null null
+2026-05-13 23:21:40.090 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:40.090 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:40.095 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:40.099 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.595ms.
+2026-05-13 23:21:40.099 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:40.099 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 8.8965ms
+2026-05-13 23:21:40.099 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:40.100 +05:00 [INF] 0HNLH3GN1QPC9:00000012. Method GET took 9 ms
+2026-05-13 23:21:40.100 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Offset=1 - 200 null application/json; charset=utf-8 10.9293ms
+2026-05-13 23:21:43.148 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Offset=2 - null null
+2026-05-13 23:21:43.148 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:43.148 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:43.155 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:43.157 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.8965ms.
+2026-05-13 23:21:43.157 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:43.157 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 8.8155ms
+2026-05-13 23:21:43.157 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:43.157 +05:00 [INF] 0HNLH3GN1QPC9:00000013. Method GET took 9 ms
+2026-05-13 23:21:43.158 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Offset=2 - 200 null application/json; charset=utf-8 10.0047ms
+2026-05-13 23:21:46.834 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Limit=1 - null null
+2026-05-13 23:21:46.834 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:46.834 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:21:46.844 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:21:46.846 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7432ms.
+2026-05-13 23:21:46.846 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-13 23:21:46.846 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 11.5877ms
+2026-05-13 23:21:46.846 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-05-13 23:21:46.846 +05:00 [INF] 0HNLH3GN1QPC9:00000014. Method GET took 12 ms
+2026-05-13 23:21:46.846 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Limit=1 - 200 null application/json; charset=utf-8 12.9408ms
+2026-05-13 23:21:49.782 +05:00 [INF] Application is shutting down...
+2026-05-13 23:22:10.191 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-13 23:22:10.224 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-13 23:22:10.224 +05:00 [INF] Hosting environment: Development
+2026-05-13 23:22:10.224 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-13 23:22:17.089 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-13 23:22:17.117 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-13 23:22:17.135 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto]] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:22:17.763 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:22:18.032 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 266.0538ms.
+2026-05-13 23:22:18.042 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentListDto'.
+2026-05-13 23:22:18.054 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 916.3269ms
+2026-05-13 23:22:18.054 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-13 23:22:18.055 +05:00 [INF] 0HNLH3I842RH5:00000001. Method GET took 938 ms
+2026-05-13 23:22:18.064 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 null application/json; charset=utf-8 977.0501ms
+2026-05-13 23:22:41.933 +05:00 [INF] Application is shutting down...
+2026-05-13 23:37:05.648 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-13 23:37:05.683 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-13 23:37:05.683 +05:00 [INF] Hosting environment: Development
+2026-05-13 23:37:05.683 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-13 23:37:10.428 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-13 23:37:10.445 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-13 23:37:10.459 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentDetailedListDto]] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-13 23:37:11.122 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-13 23:37:11.459 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 334.7666ms.
+2026-05-13 23:37:11.470 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentDetailedListDto'.
+2026-05-13 23:37:11.496 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 1035.1046ms
+2026-05-13 23:37:11.497 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-13 23:37:11.497 +05:00 [INF] 0HNLH3QIBPF4L:00000001. Method GET took 1053 ms
+2026-05-13 23:37:11.507 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 null application/json; charset=utf-8 1078.8584ms
+2026-05-13 23:37:32.455 +05:00 [INF] Application is shutting down...

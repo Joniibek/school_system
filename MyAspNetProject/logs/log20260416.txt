@@ -1,0 +1,179 @@
+2026-04-16 19:17:13.955 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:17:13.990 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:17:13.991 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:17:13.991 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:17:16.261 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-16 19:17:16.311 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 50.3659ms
+2026-04-16 19:17:16.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-16 19:17:16.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-16 19:17:16.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-16 19:17:16.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-16 19:17:16.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-16 19:17:16.322 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.1317ms
+2026-04-16 19:17:16.325 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.7352ms
+2026-04-16 19:17:16.325 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.9264ms
+2026-04-16 19:17:16.331 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 12.313ms
+2026-04-16 19:17:16.331 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 11.6342ms
+2026-04-16 19:17:16.401 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-16 19:17:16.403 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-16 19:17:16.407 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-16 19:17:16.408 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3806ms
+2026-04-16 19:17:16.496 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-16 19:17:16.497 +05:00 [INF] 0HNKROBEBO105:00000003. Method GET took 94 ms
+2026-04-16 19:17:16.497 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 96.2414ms
+2026-04-16 19:20:05.565 +05:00 [INF] Application is shutting down...
+2026-04-16 19:31:24.649 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:31:24.684 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:31:24.684 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:31:24.684 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:31:39.774 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:31:39.800 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:31:39.816 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:31:39.863 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-16 19:31:39.879 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 60.3458ms
+2026-04-16 19:31:39.884 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:31:39.884 +05:00 [INF] 0HNKROJFMN4FB:00000001. Method POST took 85 ms
+2026-04-16 19:31:39.885 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 111.9405ms
+2026-04-16 19:31:49.529 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:31:49.533 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:31:49.534 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:31:49.547 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:31:49.749 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 214.967ms
+2026-04-16 19:31:49.749 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:31:49.749 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 220.8182ms
+2026-04-16 19:32:32.026 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:32:32.028 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:32:32.028 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:32:32.033 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:32:32.035 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 6.7987ms
+2026-04-16 19:32:32.035 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:32:32.036 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 10.2439ms
+2026-04-16 19:32:36.631 +05:00 [INF] Application is shutting down...
+2026-04-16 19:32:39.027 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:32:39.063 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:32:39.063 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:32:39.063 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:32:40.912 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:32:40.933 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:32:40.946 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:32:40.984 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:32:41.151 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 204.0895ms
+2026-04-16 19:32:41.157 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:32:41.158 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 247.4549ms
+2026-04-16 19:35:28.267 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:35:28.270 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:35:28.271 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:35:28.276 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:35:28.280 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 8.4374ms
+2026-04-16 19:35:28.280 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:35:28.280 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 14.2937ms
+2026-04-16 19:35:32.269 +05:00 [INF] Application is shutting down...
+2026-04-16 19:35:34.651 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:35:34.687 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:35:34.687 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:35:34.687 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:35:40.857 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:35:40.878 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:35:40.891 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:35:40.929 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:35:41.101 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 208.4329ms
+2026-04-16 19:35:41.107 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:35:41.108 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 253.1757ms
+2026-04-16 19:36:38.467 +05:00 [INF] Application is shutting down...
+2026-04-16 19:36:40.759 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:36:40.795 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:36:40.795 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:36:40.795 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:36:43.301 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:36:43.327 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:36:43.342 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:36:43.383 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:36:43.540 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 196.0957ms
+2026-04-16 19:36:43.546 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:36:43.546 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 246.6275ms
+2026-04-16 19:39:09.388 +05:00 [INF] Application is shutting down...
+2026-04-16 19:40:15.393 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:40:15.431 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:40:15.431 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:40:15.431 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:40:19.657 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:40:19.691 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:40:19.705 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:40:19.755 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:41:27.316 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 67609.1209ms
+2026-04-16 19:41:27.324 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:41:27.338 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 67681.8985ms
+2026-04-16 19:42:53.656 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:42:53.691 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:42:53.691 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:42:53.691 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:43:43.161 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:43:43.199 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:43:43.199 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:43:43.200 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:43:51.079 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:43:51.115 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:43:51.131 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:43:51.185 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:43:51.474 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 341.372ms
+2026-04-16 19:43:51.480 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:43:51.496 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 418.7621ms
+2026-04-16 19:49:07.463 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:49:07.498 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:49:07.499 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:49:07.499 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:49:44.534 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:49:44.562 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:49:44.576 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:49:44.626 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:49:44.915 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 337.8762ms
+2026-04-16 19:49:44.921 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:49:44.936 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 402.8441ms
+2026-04-16 19:49:53.689 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:49:53.724 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:49:53.724 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:49:53.724 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:49:56.423 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:49:56.455 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:49:56.470 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:49:56.524 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:49:56.779 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 307.3365ms
+2026-04-16 19:49:56.785 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:49:56.800 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 378.9918ms
+2026-04-16 19:50:16.967 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:50:16.969 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:50:16.969 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:50:16.977 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:51:41.166 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 84196.1575ms
+2026-04-16 19:51:41.168 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:51:41.191 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 84223.632ms
+2026-04-16 19:54:17.326 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:54:17.335 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:54:17.337 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:54:17.342 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:55:35.508 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:55:35.544 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:55:35.544 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:55:35.544 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:55:36.409 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:55:36.431 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:55:36.443 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:55:36.490 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:55:39.698 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 3253.4994ms
+2026-04-16 19:55:39.705 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:55:39.719 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 3310.6599ms
+2026-04-16 19:56:11.196 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:56:11.198 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:56:11.199 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:56:11.226 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:56:42.633 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-16 19:56:42.668 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 19:56:42.668 +05:00 [INF] Hosting environment: Development
+2026-04-16 19:56:42.668 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-16 19:56:44.235 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-16 19:56:44.270 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:56:44.287 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-16 19:56:44.336 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-16 19:56:47.976 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 3687.1523ms
+2026-04-16 19:56:47.983 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-16 19:56:47.996 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 3762.6976ms

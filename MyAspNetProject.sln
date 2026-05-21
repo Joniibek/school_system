@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAspNetProject", "MyAspNetProject\MyAspNetProject.csproj", "{19117BAA-1748-4DD3-9A15-576D0A16CE11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{578F091A-9AC6-45B0-944E-A5E3EF9B56F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking", "HotelBooking\HotelBooking.csproj", "{7C1E3479-7E7B-480A-9834-3032A94A5B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{19117BAA-1748-4DD3-9A15-576D0A16CE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19117BAA-1748-4DD3-9A15-576D0A16CE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19117BAA-1748-4DD3-9A15-576D0A16CE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578F091A-9AC6-45B0-944E-A5E3EF9B56F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578F091A-9AC6-45B0-944E-A5E3EF9B56F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578F091A-9AC6-45B0-944E-A5E3EF9B56F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578F091A-9AC6-45B0-944E-A5E3EF9B56F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1E3479-7E7B-480A-9834-3032A94A5B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1E3479-7E7B-480A-9834-3032A94A5B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1E3479-7E7B-480A-9834-3032A94A5B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1E3479-7E7B-480A-9834-3032A94A5B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

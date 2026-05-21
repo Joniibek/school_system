@@ -1,0 +1,1055 @@
+2026-04-26 16:46:36.844 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 16:46:36.880 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 16:46:36.880 +05:00 [INF] Hosting environment: Development
+2026-04-26 16:46:36.880 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 16:48:49.188 +05:00 [INF] Application is shutting down...
+2026-04-26 16:48:50.824 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 16:48:50.861 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 16:48:50.861 +05:00 [INF] Hosting environment: Development
+2026-04-26 16:48:50.861 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 16:53:09.734 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-26 16:53:09.793 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 59.8929ms
+2026-04-26 16:53:09.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-26 16:53:09.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-26 16:53:09.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-26 16:53:09.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-26 16:53:09.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-26 16:53:09.805 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.8029ms
+2026-04-26 16:53:09.809 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.3704ms
+2026-04-26 16:53:09.810 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 6.9069ms
+2026-04-26 16:53:09.810 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 7.2431ms
+2026-04-26 16:53:09.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 10.5949ms
+2026-04-26 16:53:09.896 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-26 16:53:09.899 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-26 16:53:09.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-26 16:53:09.904 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4313ms
+2026-04-26 16:53:09.997 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-26 16:53:09.997 +05:00 [INF] 0HNL3H9HI26LB:00000002. Method GET took 99 ms
+2026-04-26 16:53:09.998 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 102.0852ms
+2026-04-26 16:53:24.234 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 16:53:24.236 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 16:53:24.275 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 16:53:25.159 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 16:53:25.169 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 892.4104ms
+2026-04-26 16:53:25.169 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 16:53:25.169 +05:00 [INF] 0HNL3H9HI26LB:00000003. Method POST took 933 ms
+2026-04-26 16:53:25.172 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 938.3389ms
+2026-04-26 16:53:33.751 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 16:53:33.752 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 16:53:33.752 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 16:53:33.803 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 16:53:33.872 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 65.8507ms.
+2026-04-26 16:53:33.873 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-26 16:53:33.874 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 121.47ms
+2026-04-26 16:53:33.874 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 16:53:33.874 +05:00 [INF] 0HNL3H9HI26LB:00000004. Method POST took 122 ms
+2026-04-26 16:53:33.874 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 123.7033ms
+2026-04-26 17:01:12.575 +05:00 [INF] Application is shutting down...
+2026-04-26 17:01:16.928 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:01:16.966 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:01:16.966 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:01:16.966 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:01:24.682 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 17:01:24.706 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:01:24.720 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:01:25.416 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:01:25.551 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 828.9903ms
+2026-04-26 17:01:25.557 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:01:25.562 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 881.2078ms
+2026-04-26 17:02:32.586 +05:00 [INF] Application is shutting down...
+2026-04-26 17:04:03.100 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:04:03.138 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:04:03.138 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:04:03.138 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:04:13.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-26 17:04:13.682 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.3354ms
+2026-04-26 17:04:13.695 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-26 17:04:13.695 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-26 17:04:13.695 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-26 17:04:13.695 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-26 17:04:13.695 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-26 17:04:13.696 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.0016ms
+2026-04-26 17:04:13.700 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.3849ms
+2026-04-26 17:04:13.700 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.455ms
+2026-04-26 17:04:13.700 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.2695ms
+2026-04-26 17:04:13.704 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.5252ms
+2026-04-26 17:04:13.738 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-26 17:04:13.739 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-04-26 17:04:13.740 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3987ms
+2026-04-26 17:04:13.741 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-26 17:04:13.834 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-26 17:04:13.834 +05:00 [INF] 0HNL3HFNDCE4Q:00000002. Method GET took 93 ms
+2026-04-26 17:04:13.835 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 96.9443ms
+2026-04-26 17:04:23.055 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 17:04:23.059 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:04:23.083 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:04:23.741 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:04:23.870 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 784.6757ms
+2026-04-26 17:04:23.870 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:04:23.873 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 818.3906ms
+2026-04-26 17:05:17.180 +05:00 [INF] Application is shutting down...
+2026-04-26 17:08:28.282 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:08:28.319 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:08:28.319 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:08:28.319 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:08:39.639 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 17:08:39.668 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:08:39.683 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:08:40.372 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:08:40.506 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 820.3861ms
+2026-04-26 17:08:40.511 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:08:40.516 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 878.6195ms
+2026-04-26 17:09:26.356 +05:00 [INF] Application is shutting down...
+2026-04-26 17:09:32.304 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:09:32.341 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:09:32.341 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:09:32.341 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:09:40.311 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 17:09:40.347 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:09:40.362 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:09:41.221 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:11:42.966 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 122601.8645ms
+2026-04-26 17:11:42.976 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:11:42.997 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 122688.7725ms
+2026-04-26 17:12:34.773 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:12:34.810 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:12:34.810 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:12:34.811 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:12:40.509 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 17:12:40.539 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:12:40.554 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:12:41.364 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:12:41.611 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1055.0997ms
+2026-04-26 17:12:41.618 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:12:41.639 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 1131.1617ms
+2026-04-26 17:16:11.568 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:16:11.606 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:16:11.606 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:16:11.606 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:16:15.865 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 17:16:15.899 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:16:15.913 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:16:16.719 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:16:16.900 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 178.4075ms.
+2026-04-26 17:16:16.910 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-26 17:16:16.914 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1000.148ms
+2026-04-26 17:16:16.915 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:16:16.915 +05:00 [INF] 0HNL3HMEL72UB:00000001. Method POST took 1017 ms
+2026-04-26 17:16:16.921 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 1056.9082ms
+2026-04-26 17:23:06.384 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 17:23:06.419 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 17:23:06.419 +05:00 [INF] Hosting environment: Development
+2026-04-26 17:23:06.419 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 17:23:09.363 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 17:23:09.384 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:23:09.398 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 17:23:10.101 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 17:23:10.297 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 194.1812ms.
+2026-04-26 17:23:10.306 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 17:23:10.321 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 921.2472ms
+2026-04-26 17:23:10.321 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 17:23:10.321 +05:00 [INF] 0HNL3HQ9SL0CP:00000001. Method POST took 937 ms
+2026-04-26 17:23:10.325 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 963.1284ms
+2026-04-26 17:23:23.376 +05:00 [INF] Application is shutting down...
+2026-04-26 22:54:03.399 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 22:54:03.433 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 22:54:03.433 +05:00 [INF] Hosting environment: Development
+2026-04-26 22:54:03.433 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 22:54:15.082 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-26 22:54:15.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 59.2979ms
+2026-04-26 22:54:15.155 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-26 22:54:15.155 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-26 22:54:15.155 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-26 22:54:15.155 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-26 22:54:15.155 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-26 22:54:15.157 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.1787ms
+2026-04-26 22:54:15.161 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 6.269ms
+2026-04-26 22:54:15.161 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.294ms
+2026-04-26 22:54:15.161 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 6.417ms
+2026-04-26 22:54:15.164 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.6173ms
+2026-04-26 22:54:15.235 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-26 22:54:15.238 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-26 22:54:15.313 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-26 22:54:15.313 +05:00 [INF] 0HNL3NJAATNAK:00000002. Method GET took 76 ms
+2026-04-26 22:54:15.314 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 79.492ms
+2026-04-26 22:54:21.129 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:54:21.129 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:21.142 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:54:21.793 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:54:21.802 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 658.9783ms
+2026-04-26 22:54:21.802 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:21.803 +05:00 [INF] 0HNL3NJAATNAK:00000003. Method GET took 673 ms
+2026-04-26 22:54:21.806 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 400 null application/problem+json; charset=utf-8 677.5329ms
+2026-04-26 22:54:41.719 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:54:41.720 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:41.721 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:54:41.738 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:54:41.738 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 17.4537ms
+2026-04-26 22:54:41.738 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:41.738 +05:00 [INF] 0HNL3NJAATNAK:00000004. Method GET took 18 ms
+2026-04-26 22:54:41.738 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 400 null application/problem+json; charset=utf-8 19.4065ms
+2026-04-26 22:54:42.277 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:54:42.278 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:42.278 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:54:42.319 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:54:42.319 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 40.9094ms
+2026-04-26 22:54:42.319 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:42.319 +05:00 [INF] 0HNL3NJAATNAK:00000005. Method GET took 41 ms
+2026-04-26 22:54:42.319 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 400 null application/problem+json; charset=utf-8 42.1817ms
+2026-04-26 22:54:42.967 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:54:42.967 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:42.967 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:54:42.977 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:54:42.977 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 9.8057ms
+2026-04-26 22:54:42.978 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:54:42.978 +05:00 [INF] 0HNL3NJAATNAK:00000006. Method GET took 10 ms
+2026-04-26 22:54:42.978 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 400 null application/problem+json; charset=utf-8 11.3111ms
+2026-04-26 22:55:03.197 +05:00 [INF] Application is shutting down...
+2026-04-26 22:56:13.672 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 22:56:13.707 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 22:56:13.707 +05:00 [INF] Hosting environment: Development
+2026-04-26 22:56:13.707 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 22:56:29.830 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:56:29.855 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:29.870 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:56:30.473 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:56:30.670 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 194.7037ms.
+2026-04-26 22:56:30.677 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:56:30.685 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 813.9148ms
+2026-04-26 22:56:30.685 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:30.686 +05:00 [INF] 0HNL3NKIFUHT7:00000001. Method GET took 832 ms
+2026-04-26 22:56:30.690 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 862.0769ms
+2026-04-26 22:56:38.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:56:38.899 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:38.899 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:56:38.917 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:56:38.920 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.1428ms.
+2026-04-26 22:56:38.921 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:56:38.921 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 21.8529ms
+2026-04-26 22:56:38.921 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:38.921 +05:00 [INF] 0HNL3NKIFUHT7:00000002. Method GET took 22 ms
+2026-04-26 22:56:38.921 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 24.5554ms
+2026-04-26 22:56:39.457 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:56:39.458 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:39.459 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:56:39.513 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:56:39.514 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3654ms.
+2026-04-26 22:56:39.515 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:56:39.515 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 56.0057ms
+2026-04-26 22:56:39.515 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:39.515 +05:00 [INF] 0HNL3NKIFUHT7:00000003. Method GET took 56 ms
+2026-04-26 22:56:39.515 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 58.3525ms
+2026-04-26 22:56:39.962 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:56:39.962 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:39.963 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:56:39.967 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:56:39.969 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2606ms.
+2026-04-26 22:56:39.969 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:56:39.969 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.495ms
+2026-04-26 22:56:39.969 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:56:39.969 +05:00 [INF] 0HNL3NKIFUHT7:00000004. Method GET took 7 ms
+2026-04-26 22:56:39.969 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 7.8263ms
+2026-04-26 22:57:16.782 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:57:16.784 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:57:16.789 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:57:16.836 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:57:16.953 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 117.433ms.
+2026-04-26 22:57:16.954 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:57:16.954 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 164.7778ms
+2026-04-26 22:57:16.954 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:57:16.954 +05:00 [INF] 0HNL3NKIFUHT7:00000005. Method POST took 170 ms
+2026-04-26 22:57:16.954 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 171.7485ms
+2026-04-26 22:58:02.470 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:02.473 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:02.475 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:02.487 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:58:02.491 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 3.6399ms.
+2026-04-26 22:58:02.492 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:58:02.513 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 38.3395ms
+2026-04-26 22:58:02.514 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:02.514 +05:00 [INF] 0HNL3NKIFUHT7:00000006. Method POST took 40 ms
+2026-04-26 22:58:02.514 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 45.0591ms
+2026-04-26 22:58:13.904 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:13.905 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:13.905 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:13.916 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:58:13.929 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.7517ms.
+2026-04-26 22:58:13.930 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:58:13.930 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 24.3973ms
+2026-04-26 22:58:13.930 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:13.930 +05:00 [INF] 0HNL3NKIFUHT7:00000007. Method POST took 25 ms
+2026-04-26 22:58:13.931 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 26.7545ms
+2026-04-26 22:58:23.998 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:23.999 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:23.999 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:24.005 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:58:24.009 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.6091ms.
+2026-04-26 22:58:24.009 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:58:24.009 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 9.5322ms
+2026-04-26 22:58:24.009 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:24.009 +05:00 [INF] 0HNL3NKIFUHT7:00000008. Method POST took 10 ms
+2026-04-26 22:58:24.010 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 11.0641ms
+2026-04-26 22:58:28.150 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:28.151 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:28.151 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:28.157 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:58:28.167 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.1014ms.
+2026-04-26 22:58:28.167 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:58:28.168 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 16.5154ms
+2026-04-26 22:58:28.169 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:28.169 +05:00 [INF] 0HNL3NKIFUHT7:00000009. Method POST took 18 ms
+2026-04-26 22:58:28.170 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 19.8497ms
+2026-04-26 22:58:30.848 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:30.848 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:30.848 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:30.852 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:58:30.853 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 1.1095ms.
+2026-04-26 22:58:30.854 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:58:30.854 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 5.5137ms
+2026-04-26 22:58:30.854 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:30.854 +05:00 [INF] 0HNL3NKIFUHT7:0000000A. Method POST took 6 ms
+2026-04-26 22:58:30.854 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 6.6704ms
+2026-04-26 22:58:39.295 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 22:58:39.296 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:39.296 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:39.301 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:58:39.305 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.1182ms.
+2026-04-26 22:58:39.305 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:58:39.306 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 9.1088ms
+2026-04-26 22:58:39.306 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:39.306 +05:00 [INF] 0HNL3NKIFUHT7:0000000B. Method POST took 9 ms
+2026-04-26 22:58:39.306 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 10.5098ms
+2026-04-26 22:58:45.202 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:45.203 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:45.203 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:45.225 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:58:45.225 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 21.6572ms
+2026-04-26 22:58:45.225 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:45.225 +05:00 [INF] 0HNL3NKIFUHT7:0000000C. Method POST took 22 ms
+2026-04-26 22:58:45.226 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 23.6112ms
+2026-04-26 22:58:55.111 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-26 22:58:55.111 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:55.111 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:58:55.118 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-26 22:58:55.118 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 6.7168ms
+2026-04-26 22:58:55.118 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:58:55.118 +05:00 [INF] 0HNL3NKIFUHT7:0000000D. Method POST took 7 ms
+2026-04-26 22:58:55.119 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 7.9307ms
+2026-04-26 22:59:01.075 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 22:59:01.076 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:59:01.076 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:01.083 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:01.088 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3648ms.
+2026-04-26 22:59:01.088 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:59:01.088 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 11.5886ms
+2026-04-26 22:59:01.088 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:59:01.088 +05:00 [INF] 0HNL3NKIFUHT7:0000000E. Method POST took 12 ms
+2026-04-26 22:59:01.089 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 13.6618ms
+2026-04-26 22:59:05.604 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-26 22:59:05.605 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:59:05.605 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:05.610 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:05.614 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.668ms.
+2026-04-26 22:59:05.615 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-26 22:59:05.615 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 9.242ms
+2026-04-26 22:59:05.615 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-26 22:59:05.615 +05:00 [INF] 0HNL3NKIFUHT7:0000000F. Method POST took 10 ms
+2026-04-26 22:59:05.615 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 10.799ms
+2026-04-26 22:59:10.903 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:10.904 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:10.904 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:10.907 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:10.909 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.993ms.
+2026-04-26 22:59:10.909 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:10.909 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.1221ms
+2026-04-26 22:59:10.909 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:10.909 +05:00 [INF] 0HNL3NKIFUHT7:00000010. Method GET took 5 ms
+2026-04-26 22:59:10.910 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 6.4424ms
+2026-04-26 22:59:12.212 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:12.212 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:12.212 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:12.216 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:12.217 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9713ms.
+2026-04-26 22:59:12.218 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:12.218 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.478ms
+2026-04-26 22:59:12.218 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:12.218 +05:00 [INF] 0HNL3NKIFUHT7:00000011. Method GET took 5 ms
+2026-04-26 22:59:12.218 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 6.6588ms
+2026-04-26 22:59:12.615 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:12.616 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:12.616 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:12.621 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:12.622 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4394ms.
+2026-04-26 22:59:12.622 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:12.623 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.622ms
+2026-04-26 22:59:12.623 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:12.623 +05:00 [INF] 0HNL3NKIFUHT7:00000012. Method GET took 7 ms
+2026-04-26 22:59:12.623 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 7.5004ms
+2026-04-26 22:59:12.835 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:12.835 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:12.835 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:12.838 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:12.839 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6138ms.
+2026-04-26 22:59:12.839 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:12.839 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 3.6226ms
+2026-04-26 22:59:12.839 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:12.839 +05:00 [INF] 0HNL3NKIFUHT7:00000013. Method GET took 3 ms
+2026-04-26 22:59:12.839 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 4.3189ms
+2026-04-26 22:59:13.008 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:13.008 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:13.008 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:13.011 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:13.011 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5657ms.
+2026-04-26 22:59:13.012 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:13.012 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 3.4121ms
+2026-04-26 22:59:13.012 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:13.012 +05:00 [INF] 0HNL3NKIFUHT7:00000014. Method GET took 4 ms
+2026-04-26 22:59:13.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 4.3923ms
+2026-04-26 22:59:13.196 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:13.196 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:13.196 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:13.200 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:13.201 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.8254ms.
+2026-04-26 22:59:13.201 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:13.201 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.0807ms
+2026-04-26 22:59:13.201 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:13.202 +05:00 [INF] 0HNL3NKIFUHT7:00000015. Method GET took 5 ms
+2026-04-26 22:59:13.202 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 5.8726ms
+2026-04-26 22:59:13.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 22:59:13.361 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:13.361 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 22:59:13.364 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 22:59:13.365 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7358ms.
+2026-04-26 22:59:13.365 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 22:59:13.365 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 4.1779ms
+2026-04-26 22:59:13.365 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 22:59:13.366 +05:00 [INF] 0HNL3NKIFUHT7:00000016. Method GET took 4 ms
+2026-04-26 22:59:13.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 5.1281ms
+2026-04-26 23:02:14.443 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:02:14.444 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:14.444 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:02:14.456 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:02:14.457 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7337ms.
+2026-04-26 23:02:14.457 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:02:14.457 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 12.9287ms
+2026-04-26 23:02:14.457 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:14.457 +05:00 [INF] 0HNL3NKIFUHT8:00000001. Method GET took 13 ms
+2026-04-26 23:02:14.457 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 13.6727ms
+2026-04-26 23:02:14.926 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:02:14.927 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:14.927 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:02:14.931 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:02:14.932 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.8206ms.
+2026-04-26 23:02:14.932 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:02:14.932 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.2925ms
+2026-04-26 23:02:14.933 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:14.933 +05:00 [INF] 0HNL3NKIFUHT8:00000002. Method GET took 5 ms
+2026-04-26 23:02:14.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 6.294ms
+2026-04-26 23:02:15.103 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:02:15.104 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:15.104 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:02:15.109 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:02:15.111 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4216ms.
+2026-04-26 23:02:15.111 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:02:15.111 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 7.0415ms
+2026-04-26 23:02:15.112 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:15.112 +05:00 [INF] 0HNL3NKIFUHT8:00000003. Method GET took 7 ms
+2026-04-26 23:02:15.112 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 8.7539ms
+2026-04-26 23:02:15.267 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:02:15.268 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:15.268 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:02:15.271 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:02:15.272 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4645ms.
+2026-04-26 23:02:15.273 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:02:15.273 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 4.8722ms
+2026-04-26 23:02:15.273 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:15.273 +05:00 [INF] 0HNL3NKIFUHT8:00000004. Method GET took 5 ms
+2026-04-26 23:02:15.273 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 5.9749ms
+2026-04-26 23:02:15.441 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:02:15.442 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:15.442 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:02:15.449 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:02:15.450 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7529ms.
+2026-04-26 23:02:15.450 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:02:15.451 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 7.9131ms
+2026-04-26 23:02:15.451 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:15.451 +05:00 [INF] 0HNL3NKIFUHT8:00000005. Method GET took 8 ms
+2026-04-26 23:02:15.451 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 9.9234ms
+2026-04-26 23:02:17.432 +05:00 [INF] Application is shutting down...
+2026-04-26 23:02:29.356 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:02:29.391 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:02:29.391 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:02:29.391 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:02:35.787 +05:00 [INF] Application is shutting down...
+2026-04-26 23:02:43.740 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:02:43.777 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:02:43.777 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:02:43.777 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:02:46.199 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:02:46.223 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:02:46.236 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:02:47.051 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:03:07.345 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:03:07.384 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:03:07.384 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:03:07.384 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:03:11.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:03:11.280 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:03:11.294 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:03:12.054 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:07:28.658 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:07:28.693 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:07:28.693 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:07:28.693 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:07:31.617 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:07:31.643 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:07:31.659 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:07:32.295 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:07:32.492 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 194.1377ms.
+2026-04-26 23:07:32.500 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:07:32.508 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 847.4962ms
+2026-04-26 23:07:32.508 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:07:32.509 +05:00 [INF] 0HNL3NQNN72LP:00000001. Method GET took 867 ms
+2026-04-26 23:07:32.513 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 897.4419ms
+2026-04-26 23:07:41.361 +05:00 [INF] Application is shutting down...
+2026-04-26 23:07:44.238 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:07:44.276 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:07:44.276 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:07:44.276 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:07:47.059 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:07:47.099 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:07:47.113 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(Int32, System.String) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:07:47.855 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:13:24.973 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:13:25.007 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:13:25.007 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:13:25.007 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:13:28.294 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:13:28.321 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:28.336 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:13:28.985 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:13:29.139 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 151.1054ms.
+2026-04-26 23:13:29.147 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:13:29.155 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 817.1046ms
+2026-04-26 23:13:29.155 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:29.155 +05:00 [INF] 0HNL3NU20NLSL:00000001. Method GET took 835 ms
+2026-04-26 23:13:29.158 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 866.2289ms
+2026-04-26 23:13:38.650 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=%D0%91 - null null
+2026-04-26 23:13:38.653 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:38.654 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:13:38.700 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:13:38.772 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 71.5162ms.
+2026-04-26 23:13:38.773 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:13:38.773 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 118.4837ms
+2026-04-26 23:13:38.773 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:38.773 +05:00 [INF] 0HNL3NU20NLSL:00000002. Method GET took 120 ms
+2026-04-26 23:13:38.773 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=%D0%91 - 200 null application/json; charset=utf-8 124.1367ms
+2026-04-26 23:13:43.790 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - null null
+2026-04-26 23:13:43.792 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:43.793 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:13:43.854 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:13:43.861 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.6687ms.
+2026-04-26 23:13:43.862 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:13:43.862 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 68.8841ms
+2026-04-26 23:13:43.862 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:43.862 +05:00 [INF] 0HNL3NU20NLSL:00000003. Method GET took 69 ms
+2026-04-26 23:13:43.862 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - 200 null application/json; charset=utf-8 71.9107ms
+2026-04-26 23:13:56.155 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=1&group=%D0%91 - null null
+2026-04-26 23:13:56.156 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:56.156 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:13:56.165 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:13:56.174 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.14ms.
+2026-04-26 23:13:56.174 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:13:56.175 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 17.8051ms
+2026-04-26 23:13:56.175 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:13:56.175 +05:00 [INF] 0HNL3NU20NLSL:00000004. Method GET took 18 ms
+2026-04-26 23:13:56.175 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=1&group=%D0%91 - 200 null application/json; charset=utf-8 20.2164ms
+2026-04-26 23:14:02.852 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=%D0%91 - null null
+2026-04-26 23:14:02.853 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:02.853 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:02.859 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:02.861 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4504ms.
+2026-04-26 23:14:02.862 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:02.862 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 8.5677ms
+2026-04-26 23:14:02.862 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:02.862 +05:00 [INF] 0HNL3NU20NLSL:00000005. Method GET took 9 ms
+2026-04-26 23:14:02.862 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=%D0%91 - 200 null application/json; charset=utf-8 10.566ms
+2026-04-26 23:14:08.152 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%91 - null null
+2026-04-26 23:14:08.152 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:08.153 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:08.159 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:08.160 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2972ms.
+2026-04-26 23:14:08.161 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:08.161 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 7.9527ms
+2026-04-26 23:14:08.161 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:08.161 +05:00 [INF] 0HNL3NU20NLSL:00000006. Method GET took 8 ms
+2026-04-26 23:14:08.161 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%91 - 200 null application/json; charset=utf-8 9.98ms
+2026-04-26 23:14:14.291 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%90 - null null
+2026-04-26 23:14:14.292 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:14.292 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:14.297 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:14.298 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4739ms.
+2026-04-26 23:14:14.299 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:14.299 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.2122ms
+2026-04-26 23:14:14.299 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:14.299 +05:00 [INF] 0HNL3NU20NLSL:00000007. Method GET took 7 ms
+2026-04-26 23:14:14.299 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%90 - 200 null application/json; charset=utf-8 7.9381ms
+2026-04-26 23:14:14.793 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%90 - null null
+2026-04-26 23:14:14.794 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:14.797 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:14.802 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:14.803 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0038ms.
+2026-04-26 23:14:14.803 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:14.803 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.7148ms
+2026-04-26 23:14:14.803 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:14.804 +05:00 [INF] 0HNL3NU20NLSL:00000008. Method GET took 9 ms
+2026-04-26 23:14:14.805 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%90 - 200 null application/json; charset=utf-8 11.1945ms
+2026-04-26 23:14:17.354 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:14:17.354 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:17.354 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:17.358 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:17.360 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.373ms.
+2026-04-26 23:14:17.360 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:17.360 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.0957ms
+2026-04-26 23:14:17.360 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:17.361 +05:00 [INF] 0HNL3NU20NLSL:00000009. Method GET took 6 ms
+2026-04-26 23:14:17.361 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 7.1834ms
+2026-04-26 23:14:22.311 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:14:22.312 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:22.312 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:22.326 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:22.328 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.7184ms.
+2026-04-26 23:14:22.329 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:22.329 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 16.7779ms
+2026-04-26 23:14:22.329 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:22.329 +05:00 [INF] 0HNL3NU20NLSL:0000000A. Method GET took 17 ms
+2026-04-26 23:14:22.330 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 19.0059ms
+2026-04-26 23:14:32.103 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=8&group=%D0%90 - null null
+2026-04-26 23:14:32.104 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:32.104 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:32.108 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:32.109 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3492ms.
+2026-04-26 23:14:32.110 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:32.110 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.8682ms
+2026-04-26 23:14:32.110 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:32.110 +05:00 [INF] 0HNL3NU20NLSL:0000000B. Method GET took 6 ms
+2026-04-26 23:14:32.110 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=8&group=%D0%90 - 200 null application/json; charset=utf-8 7.1388ms
+2026-04-26 23:14:34.793 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=8 - null null
+2026-04-26 23:14:34.794 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:34.794 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:34.800 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:34.808 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.2807ms.
+2026-04-26 23:14:34.808 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:34.808 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 13.553ms
+2026-04-26 23:14:34.808 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:34.808 +05:00 [INF] 0HNL3NU20NLSL:0000000C. Method GET took 14 ms
+2026-04-26 23:14:34.809 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=8 - 200 null application/json; charset=utf-8 15.5458ms
+2026-04-26 23:14:40.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=8&group=%D0%91 - null null
+2026-04-26 23:14:40.908 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:40.908 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:40.913 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:40.915 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.9043ms.
+2026-04-26 23:14:40.915 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:40.916 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 7.3329ms
+2026-04-26 23:14:40.916 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:40.916 +05:00 [INF] 0HNL3NU20NLSL:0000000D. Method GET took 8 ms
+2026-04-26 23:14:40.916 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=8&group=%D0%91 - 200 null application/json; charset=utf-8 8.7224ms
+2026-04-26 23:14:43.774 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%91 - null null
+2026-04-26 23:14:43.776 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:43.777 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:43.782 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:43.784 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.7247ms.
+2026-04-26 23:14:43.785 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:43.785 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 8.1813ms
+2026-04-26 23:14:43.786 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:43.786 +05:00 [INF] 0HNL3NU20NLSL:0000000E. Method GET took 10 ms
+2026-04-26 23:14:43.786 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%91 - 200 null application/json; charset=utf-8 11.525ms
+2026-04-26 23:14:47.511 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - null null
+2026-04-26 23:14:47.512 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:47.512 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:47.517 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:47.520 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.0779ms.
+2026-04-26 23:14:47.520 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:47.520 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 7.927ms
+2026-04-26 23:14:47.522 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:47.522 +05:00 [INF] 0HNL3NU20NLSL:0000000F. Method GET took 9 ms
+2026-04-26 23:14:47.522 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - 200 null application/json; charset=utf-8 10.6259ms
+2026-04-26 23:14:51.705 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9 - null null
+2026-04-26 23:14:51.706 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:51.706 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:14:51.711 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:14:51.720 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.5715ms.
+2026-04-26 23:14:51.720 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:14:51.720 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 14.4079ms
+2026-04-26 23:14:51.721 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:14:51.721 +05:00 [INF] 0HNL3NU20NLSL:00000010. Method GET took 15 ms
+2026-04-26 23:14:51.721 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9 - 200 null application/json; charset=utf-8 15.6457ms
+2026-04-26 23:14:55.168 +05:00 [INF] Application is shutting down...
+2026-04-26 23:23:40.326 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:23:40.359 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:23:40.359 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:23:40.360 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:23:44.422 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9 - null null
+2026-04-26 23:23:44.450 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:44.466 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:23:45.127 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:23:45.285 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 156.0801ms.
+2026-04-26 23:23:45.294 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:23:45.301 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 833.9755ms
+2026-04-26 23:23:45.302 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:45.302 +05:00 [INF] 0HNL3O3PKJGBV:00000001. Method GET took 853 ms
+2026-04-26 23:23:45.305 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9 - 200 null application/json; charset=utf-8 884.4761ms
+2026-04-26 23:23:49.870 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9 - null null
+2026-04-26 23:23:49.873 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:49.874 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:23:49.909 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:23:49.912 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.2355ms.
+2026-04-26 23:23:49.912 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:23:49.913 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 38.4392ms
+2026-04-26 23:23:49.913 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:49.913 +05:00 [INF] 0HNL3O3PKJGBV:00000002. Method GET took 39 ms
+2026-04-26 23:23:49.913 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9 - 200 null application/json; charset=utf-8 44.0798ms
+2026-04-26 23:23:55.498 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=A - null null
+2026-04-26 23:23:55.501 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:55.502 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:23:55.574 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:23:55.576 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3052ms.
+2026-04-26 23:23:55.576 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:23:55.576 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 74.5979ms
+2026-04-26 23:23:55.576 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:55.577 +05:00 [INF] 0HNL3O3PKJGBV:00000003. Method GET took 75 ms
+2026-04-26 23:23:55.577 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=A - 200 null application/json; charset=utf-8 78.2441ms
+2026-04-26 23:23:57.475 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - null null
+2026-04-26 23:23:57.475 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:57.475 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:23:57.480 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:23:57.481 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0189ms.
+2026-04-26 23:23:57.482 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:23:57.482 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.414ms
+2026-04-26 23:23:57.482 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:23:57.482 +05:00 [INF] 0HNL3O3PKJGBV:00000004. Method GET took 7 ms
+2026-04-26 23:23:57.483 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - 200 null application/json; charset=utf-8 7.9886ms
+2026-04-26 23:24:02.358 +05:00 [INF] Application is shutting down...
+2026-04-26 23:24:46.181 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:24:46.215 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:24:46.215 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:24:46.215 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:24:49.367 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - null null
+2026-04-26 23:24:49.392 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:24:49.406 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:24:50.022 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:24:50.172 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 147.8243ms.
+2026-04-26 23:24:50.180 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:24:50.188 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 780.3005ms
+2026-04-26 23:24:50.188 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:24:50.188 +05:00 [INF] 0HNL3O4CVV5UH:00000001. Method GET took 797 ms
+2026-04-26 23:24:50.192 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - 200 null application/json; charset=utf-8 826.9065ms
+2026-04-26 23:24:54.013 +05:00 [INF] Application is shutting down...
+2026-04-26 23:24:56.954 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:24:56.991 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:24:56.992 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:24:56.992 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:25:01.338 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - null null
+2026-04-26 23:25:01.375 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:25:01.389 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:25:02.102 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:26:26.509 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:26:26.543 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:26:26.543 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:26:26.543 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:26:27.933 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - null null
+2026-04-26 23:26:27.959 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:26:27.974 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:26:28.603 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:26:28.759 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 153.7453ms.
+2026-04-26 23:26:28.767 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:26:28.775 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 799.5607ms
+2026-04-26 23:26:28.775 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:26:28.775 +05:00 [INF] 0HNL3O5ABVG4F:00000001. Method GET took 817 ms
+2026-04-26 23:26:28.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=A - 200 null application/json; charset=utf-8 847.658ms
+2026-04-26 23:26:47.243 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=2&group=A - null null
+2026-04-26 23:26:47.246 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:26:47.247 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:26:47.282 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:26:47.285 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.0415ms.
+2026-04-26 23:26:47.285 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:26:47.285 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 38.2402ms
+2026-04-26 23:26:47.286 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:26:47.286 +05:00 [INF] 0HNL3O5ABVG4F:00000002. Method GET took 39 ms
+2026-04-26 23:26:47.286 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=2&group=A - 200 null application/json; charset=utf-8 44.1153ms
+2026-04-26 23:26:51.692 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=3&group=A - null null
+2026-04-26 23:26:51.694 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:26:51.694 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:26:51.765 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:26:51.767 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4546ms.
+2026-04-26 23:26:51.767 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:26:51.767 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 72.9625ms
+2026-04-26 23:26:51.768 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:26:51.768 +05:00 [INF] 0HNL3O5ABVG4F:00000003. Method GET took 73 ms
+2026-04-26 23:26:51.768 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=3&group=A - 200 null application/json; charset=utf-8 76.1685ms
+2026-04-26 23:26:58.012 +05:00 [INF] Application is shutting down...
+2026-04-26 23:32:34.234 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:32:34.269 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:32:34.269 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:32:34.269 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:32:35.757 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=3&group=A - null null
+2026-04-26 23:32:35.781 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:35.795 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:32:36.442 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:32:36.649 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 205.0092ms.
+2026-04-26 23:32:36.657 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:32:36.665 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 867.8995ms
+2026-04-26 23:32:36.665 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:36.665 +05:00 [INF] 0HNL3O8NVQPMP:00000001. Method GET took 885 ms
+2026-04-26 23:32:36.669 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=3&group=A - 200 null application/json; charset=utf-8 914.2346ms
+2026-04-26 23:32:42.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=A - null null
+2026-04-26 23:32:42.494 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:42.495 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:32:42.529 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:32:42.534 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.7378ms.
+2026-04-26 23:32:42.535 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:32:42.535 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 40.227ms
+2026-04-26 23:32:42.535 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:42.535 +05:00 [INF] 0HNL3O8NVQPMP:00000002. Method GET took 41 ms
+2026-04-26 23:32:42.536 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=A - 200 null application/json; charset=utf-8 47.3844ms
+2026-04-26 23:32:43.003 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=A - null null
+2026-04-26 23:32:43.004 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:43.004 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:32:43.052 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:32:43.053 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0172ms.
+2026-04-26 23:32:43.053 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:32:43.053 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 48.6967ms
+2026-04-26 23:32:43.053 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:43.053 +05:00 [INF] 0HNL3O8NVQPMP:00000003. Method GET took 49 ms
+2026-04-26 23:32:43.053 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=A - 200 null application/json; charset=utf-8 50.8039ms
+2026-04-26 23:32:44.576 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=A - null null
+2026-04-26 23:32:44.577 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:44.577 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:32:44.581 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:32:44.583 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1542ms.
+2026-04-26 23:32:44.583 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:32:44.583 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.1452ms
+2026-04-26 23:32:44.583 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:44.583 +05:00 [INF] 0HNL3O8NVQPMP:00000004. Method GET took 6 ms
+2026-04-26 23:32:44.584 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=A - 200 null application/json; charset=utf-8 7.8894ms
+2026-04-26 23:32:47.835 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10 - null null
+2026-04-26 23:32:47.837 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:47.837 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:32:47.842 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:32:47.918 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 75.7821ms.
+2026-04-26 23:32:47.918 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:32:47.919 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 81.7805ms
+2026-04-26 23:32:47.919 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:47.919 +05:00 [INF] 0HNL3O8NVQPMP:00000005. Method GET took 82 ms
+2026-04-26 23:32:47.919 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10 - 200 null application/json; charset=utf-8 84.0992ms
+2026-04-26 23:32:54.027 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:32:54.027 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:54.028 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:32:54.033 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:32:54.035 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6925ms.
+2026-04-26 23:32:54.035 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:32:54.036 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 7.5672ms
+2026-04-26 23:32:54.036 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:32:54.036 +05:00 [INF] 0HNL3O8NVQPMP:00000006. Method GET took 8 ms
+2026-04-26 23:32:54.036 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 9.692ms
+2026-04-26 23:33:09.107 +05:00 [INF] Application is shutting down...
+2026-04-26 23:35:50.648 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:35:50.686 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:35:50.686 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:35:50.686 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:35:53.441 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:35:53.468 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:35:53.483 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:35:54.152 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:35:54.365 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 210.7372ms.
+2026-04-26 23:35:54.373 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:35:54.381 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 896.8247ms
+2026-04-26 23:35:54.381 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:35:54.381 +05:00 [INF] 0HNL3OAIT2B3P:00000001. Method GET took 915 ms
+2026-04-26 23:35:54.385 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 945.5471ms
+2026-04-26 23:35:58.153 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%90 - null null
+2026-04-26 23:35:58.157 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:35:58.158 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:35:58.196 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:35:58.201 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.9714ms.
+2026-04-26 23:35:58.202 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:35:58.203 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 44.2046ms
+2026-04-26 23:35:58.203 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:35:58.203 +05:00 [INF] 0HNL3OAIT2B3P:00000002. Method GET took 45 ms
+2026-04-26 23:35:58.203 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=9&group=%D0%90 - 200 null application/json; charset=utf-8 51.574ms
+2026-04-26 23:36:01.269 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=1&group=%D0%90 - null null
+2026-04-26 23:36:01.273 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:01.274 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:36:01.344 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:36:01.346 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.804ms.
+2026-04-26 23:36:01.346 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:36:01.346 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 72.3587ms
+2026-04-26 23:36:01.346 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:01.346 +05:00 [INF] 0HNL3OAIT2B3P:00000003. Method GET took 73 ms
+2026-04-26 23:36:01.347 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=1&group=%D0%90 - 200 null application/json; charset=utf-8 77.7375ms
+2026-04-26 23:36:02.851 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=1 - null null
+2026-04-26 23:36:02.852 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:02.852 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:36:02.859 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:36:02.873 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.7384ms.
+2026-04-26 23:36:02.874 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:36:02.875 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 22.2605ms
+2026-04-26 23:36:02.875 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:02.876 +05:00 [INF] 0HNL3OAIT2B3P:00000004. Method GET took 23 ms
+2026-04-26 23:36:02.876 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=1 - 200 null application/json; charset=utf-8 25.4888ms
+2026-04-26 23:36:06.539 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10 - null null
+2026-04-26 23:36:06.540 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:06.540 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:36:06.544 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:36:06.546 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3147ms.
+2026-04-26 23:36:06.546 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:36:06.547 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.193ms
+2026-04-26 23:36:06.547 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:06.547 +05:00 [INF] 0HNL3OAIT2B3P:00000005. Method GET took 6 ms
+2026-04-26 23:36:06.547 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10 - 200 null application/json; charset=utf-8 8.1798ms
+2026-04-26 23:36:09.718 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:36:09.719 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:09.720 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:36:09.726 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:36:09.732 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.865ms.
+2026-04-26 23:36:09.732 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:36:09.733 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 12.8374ms
+2026-04-26 23:36:09.733 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:09.733 +05:00 [INF] 0HNL3OAIT2B3P:00000006. Method GET took 13 ms
+2026-04-26 23:36:09.733 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 14.6121ms
+2026-04-26 23:36:14.761 +05:00 [INF] Application is shutting down...
+2026-04-26 23:36:42.595 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:36:42.633 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:36:42.633 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:36:42.633 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:36:48.855 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - null null
+2026-04-26 23:36:48.881 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:48.896 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:36:49.549 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:36:49.755 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 203.2904ms.
+2026-04-26 23:36:49.763 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:36:49.771 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 872.8854ms
+2026-04-26 23:36:49.771 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:36:49.771 +05:00 [INF] 0HNL3OB3DHS8J:00000001. Method GET took 892 ms
+2026-04-26 23:36:49.775 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - 200 null application/json; charset=utf-8 921.4655ms
+2026-04-26 23:37:19.071 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10 - null null
+2026-04-26 23:37:19.077 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:19.077 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:37:19.117 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:37:19.131 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.2814ms.
+2026-04-26 23:37:19.131 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:37:19.132 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 53.9243ms
+2026-04-26 23:37:19.132 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:19.132 +05:00 [INF] 0HNL3OB3DHS8J:00000002. Method GET took 55 ms
+2026-04-26 23:37:19.133 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10 - 200 null application/json; charset=utf-8 62.714ms
+2026-04-26 23:37:23.123 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:37:23.125 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:23.125 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:37:23.206 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:37:23.209 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.7457ms.
+2026-04-26 23:37:23.209 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:37:23.209 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 38.1781ms
+2026-04-26 23:37:23.209 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:23.209 +05:00 [INF] 0HNL3OB3DHS8J:00000003. Method GET took 84 ms
+2026-04-26 23:37:23.209 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 85.7187ms
+2026-04-26 23:37:39.884 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:37:39.884 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:39.885 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:37:39.889 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:37:39.890 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0505ms.
+2026-04-26 23:37:39.890 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:37:39.890 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 5.6594ms
+2026-04-26 23:37:39.890 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:39.890 +05:00 [INF] 0HNL3OB3DHS8J:00000004. Method GET took 6 ms
+2026-04-26 23:37:39.891 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 7.0562ms
+2026-04-26 23:37:40.455 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:37:40.456 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:40.456 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:37:40.461 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:37:40.462 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0543ms.
+2026-04-26 23:37:40.462 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:37:40.463 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.8473ms
+2026-04-26 23:37:40.463 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:40.463 +05:00 [INF] 0HNL3OB3DHS8J:00000005. Method GET took 7 ms
+2026-04-26 23:37:40.463 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 8.0217ms
+2026-04-26 23:37:42.539 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:37:42.540 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:42.540 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:37:42.545 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:37:42.546 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2598ms.
+2026-04-26 23:37:42.547 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:37:42.547 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 6.7412ms
+2026-04-26 23:37:42.547 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:42.547 +05:00 [INF] 0HNL3OB3DHS8J:00000006. Method GET took 7 ms
+2026-04-26 23:37:42.547 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 8.321ms
+2026-04-26 23:37:47.704 +05:00 [INF] Application is shutting down...
+2026-04-26 23:37:50.333 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:37:50.369 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:37:50.369 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:37:50.369 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:37:51.660 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:37:51.677 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:51.688 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:37:52.315 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:37:52.526 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 208.6053ms.
+2026-04-26 23:37:52.534 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:37:52.542 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 852.8929ms
+2026-04-26 23:37:52.542 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:37:52.542 +05:00 [INF] 0HNL3OBM4JK49:00000001. Method GET took 866 ms
+2026-04-26 23:37:52.546 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 887.0542ms
+2026-04-26 23:38:55.259 +05:00 [INF] Application is shutting down...
+2026-04-26 23:38:57.620 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-26 23:38:57.653 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-26 23:38:57.654 +05:00 [INF] Hosting environment: Development
+2026-04-26 23:38:57.654 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-26 23:38:59.441 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - null null
+2026-04-26 23:38:59.468 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:38:59.484 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:39:00.112 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:39:00.322 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 207.3812ms.
+2026-04-26 23:39:00.330 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:39:00.339 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 853.4451ms
+2026-04-26 23:39:00.339 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:00.339 +05:00 [INF] 0HNL3OCAASUJL:00000001. Method GET took 872 ms
+2026-04-26 23:39:00.343 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%90 - 200 null application/json; charset=utf-8 903.99ms
+2026-04-26 23:39:11.689 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%B1 - null null
+2026-04-26 23:39:11.693 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:11.693 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:39:11.729 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:39:11.734 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.3131ms.
+2026-04-26 23:39:11.735 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:39:11.735 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 41.464ms
+2026-04-26 23:39:11.735 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:11.735 +05:00 [INF] 0HNL3OCAASUJL:00000002. Method GET took 42 ms
+2026-04-26 23:39:11.736 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%B1 - 200 null application/json; charset=utf-8 47.2663ms
+2026-04-26 23:39:14.195 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - null null
+2026-04-26 23:39:14.199 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:14.199 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:39:14.269 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:39:14.271 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.7972ms.
+2026-04-26 23:39:14.272 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:39:14.272 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 72.2709ms
+2026-04-26 23:39:14.272 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:14.272 +05:00 [INF] 0HNL3OCAASUJL:00000003. Method GET took 73 ms
+2026-04-26 23:39:14.272 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?year=10&group=%D0%91 - 200 null application/json; charset=utf-8 77.6953ms
+2026-04-26 23:39:17.726 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=%D0%91 - null null
+2026-04-26 23:39:17.728 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:17.728 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:39:17.732 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:39:17.741 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.2356ms.
+2026-04-26 23:39:17.741 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:39:17.742 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 13.5106ms
+2026-04-26 23:39:17.742 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:17.742 +05:00 [INF] 0HNL3OCAASUJL:00000004. Method GET took 14 ms
+2026-04-26 23:39:17.743 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll?group=%D0%91 - 200 null application/json; charset=utf-8 16.3243ms
+2026-04-26 23:39:21.395 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-04-26 23:39:21.396 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:21.396 +05:00 [INF] Route matched with {action = "GetAll", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] GetAll(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-26 23:39:21.403 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-26 23:39:21.410 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.0711ms.
+2026-04-26 23:39:21.411 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-26 23:39:21.412 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject) in 15.1976ms
+2026-04-26 23:39:21.412 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.GetAll (MyAspNetProject)'
+2026-04-26 23:39:21.412 +05:00 [INF] 0HNL3OCAASUJL:00000005. Method GET took 16 ms
+2026-04-26 23:39:21.412 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 200 null application/json; charset=utf-8 17.3684ms
+2026-04-26 23:39:33.864 +05:00 [INF] Application is shutting down...

@@ -1,0 +1,1244 @@
+2026-05-02 18:15:14.748 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 18:15:14.782 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 18:15:14.782 +05:00 [INF] Hosting environment: Development
+2026-05-02 18:15:14.783 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 18:15:49.243 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 18:15:49.293 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 50.1603ms
+2026-05-02 18:15:49.305 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 18:15:49.305 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 18:15:49.305 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 18:15:49.305 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 18:15:49.306 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 18:15:49.310 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 4.7456ms
+2026-05-02 18:15:49.312 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.7812ms
+2026-05-02 18:15:49.312 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 6.786ms
+2026-05-02 18:15:49.312 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 7.0687ms
+2026-05-02 18:15:49.316 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.5603ms
+2026-05-02 18:15:49.396 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 18:15:49.399 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 18:15:49.493 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 18:15:49.493 +05:00 [INF] 0HNL89JMRBECV:00000003. Method GET took 95 ms
+2026-05-02 18:15:49.494 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 98.4295ms
+2026-05-02 18:16:06.456 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-05-02 18:16:06.458 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 18:16:06.481 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-02 18:16:07.281 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 18:16:07.523 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 240.641ms.
+2026-05-02 18:16:07.526 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-05-02 18:16:07.528 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1045.1682ms
+2026-05-02 18:16:07.528 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 18:16:07.528 +05:00 [INF] 0HNL89JMRBECV:00000004. Method POST took 1070 ms
+2026-05-02 18:16:07.531 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 1074.9704ms
+2026-05-02 18:17:18.621 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-05-02 18:17:18.623 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 18:17:18.623 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-02 18:17:18.667 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 18:17:18.669 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 2.324ms.
+2026-05-02 18:17:18.670 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-02 18:17:18.685 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 60.9518ms
+2026-05-02 18:17:18.685 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 18:17:18.685 +05:00 [INF] 0HNL89JMRBECV:00000005. Method POST took 62 ms
+2026-05-02 18:17:18.685 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 63.7586ms
+2026-05-02 18:17:27.113 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-05-02 18:17:27.114 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 18:17:27.114 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-02 18:17:27.164 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 18:17:27.169 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.1787ms.
+2026-05-02 18:17:27.170 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-05-02 18:17:27.170 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 55.7411ms
+2026-05-02 18:17:27.170 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 18:17:27.170 +05:00 [INF] 0HNL89JMRBECV:00000006. Method POST took 56 ms
+2026-05-02 18:17:27.170 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 56.6602ms
+2026-05-02 18:17:59.365 +05:00 [INF] Application is shutting down...
+2026-05-02 18:57:05.340 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 18:57:05.380 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 18:57:05.380 +05:00 [INF] Hosting environment: Development
+2026-05-02 18:57:05.380 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 18:57:15.702 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/GetAll - null null
+2026-05-02 18:57:15.727 +05:00 [INF] 0HNL8AARRUAP7:00000001. Method GET took 0 ms
+2026-05-02 18:57:15.731 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/GetAll - 404 0 null 29.7255ms
+2026-05-02 18:57:15.740 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5167/Klass/GetAll, Response status code: 404
+2026-05-02 18:57:32.918 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 18:57:32.990 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 72.2633ms
+2026-05-02 18:57:32.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 18:57:32.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 18:57:32.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 18:57:32.998 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 18:57:32.999 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 18:57:32.999 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.6864ms
+2026-05-02 18:57:33.002 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 3.7956ms
+2026-05-02 18:57:33.002 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.0483ms
+2026-05-02 18:57:33.002 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 3.1149ms
+2026-05-02 18:57:33.005 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.4122ms
+2026-05-02 18:57:33.043 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 18:57:33.045 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 18:57:33.046 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 18:57:33.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3134ms
+2026-05-02 18:57:33.124 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 18:57:33.125 +05:00 [INF] 0HNL8AARRUAP9:00000002. Method GET took 80 ms
+2026-05-02 18:57:33.126 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 82.2931ms
+2026-05-02 18:57:36.567 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-05-02 18:57:36.569 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-02 18:57:36.585 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-02 18:57:37.193 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 18:57:37.340 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 144.606ms.
+2026-05-02 18:57:37.342 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-02 18:57:37.345 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 758.568ms
+2026-05-02 18:57:37.346 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-02 18:57:37.346 +05:00 [INF] 0HNL8AARRUAP9:00000003. Method GET took 776 ms
+2026-05-02 18:57:37.349 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 781.21ms
+2026-05-02 18:59:19.863 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 18:59:19.866 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 18:59:19.869 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 18:59:19.876 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 6.219ms
+2026-05-02 18:59:19.876 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 18:59:19.876 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 12.8397ms
+2026-05-02 19:00:37.556 +05:00 [INF] Application is shutting down...
+2026-05-02 19:02:45.223 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:02:45.263 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:02:45.263 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:02:45.263 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:03:06.970 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 19:03:07.004 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:03:07.019 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:03:07.023 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 2.0074ms
+2026-05-02 19:03:07.029 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:03:07.097 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 128.2847ms
+2026-05-02 19:03:12.716 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 19:03:12.718 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:03:12.719 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:03:12.719 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 0.4393ms
+2026-05-02 19:03:12.720 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:03:12.745 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 28.8729ms
+2026-05-02 19:03:54.908 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 19:03:54.910 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:03:54.910 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:03:54.911 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 0.2626ms
+2026-05-02 19:03:54.911 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:03:54.929 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 21.0812ms
+2026-05-02 19:04:02.541 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:04:02.576 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:04:02.576 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:04:02.576 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:04:07.727 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 19:04:07.757 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:04:07.771 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:04:07.773 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 0.9797ms
+2026-05-02 19:04:07.779 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:04:07.845 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 119.6491ms
+2026-05-02 19:04:47.154 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:47.203 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 49.1006ms
+2026-05-02 19:04:47.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:47.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:47.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:47.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:47.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:47.217 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.2915ms
+2026-05-02 19:04:47.221 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.6882ms
+2026-05-02 19:04:47.221 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.491ms
+2026-05-02 19:04:47.221 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.8612ms
+2026-05-02 19:04:47.225 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.3959ms
+2026-05-02 19:04:47.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:47.256 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.257 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:47.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2391ms
+2026-05-02 19:04:47.313 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:47.313 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.3269ms
+2026-05-02 19:04:47.318 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:47.318 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:47.318 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:47.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.2083ms
+2026-05-02 19:04:47.318 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:47.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.3261ms
+2026-05-02 19:04:47.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.4673ms
+2026-05-02 19:04:47.319 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:47.319 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.2745ms
+2026-05-02 19:04:47.323 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 3.9531ms
+2026-05-02 19:04:47.338 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:47.338 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.341 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:47.341 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3721ms
+2026-05-02 19:04:47.357 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.357 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.357 +05:00 [INF] 0HNL8AEMLAFN2:00000006. Method GET took 19 ms
+2026-05-02 19:04:47.372 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 117.0382ms
+2026-05-02 19:04:47.372 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 34.4383ms
+2026-05-02 19:04:47.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:47.623 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.8016ms
+2026-05-02 19:04:47.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:47.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:47.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:47.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:47.629 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.2446ms
+2026-05-02 19:04:47.629 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.3035ms
+2026-05-02 19:04:47.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:47.629 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.6177ms
+2026-05-02 19:04:47.630 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.6143ms
+2026-05-02 19:04:47.630 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 1.3306ms
+2026-05-02 19:04:47.649 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:47.649 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.650 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:47.650 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2737ms
+2026-05-02 19:04:47.654 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.654 +05:00 [INF] 0HNL8AEMLAFN5:00000004. Method GET took 4 ms
+2026-05-02 19:04:47.654 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 5.1205ms
+2026-05-02 19:04:47.772 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:47.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.6395ms
+2026-05-02 19:04:47.778 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:47.778 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:47.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.2597ms
+2026-05-02 19:04:47.778 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:47.779 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:47.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.3279ms
+2026-05-02 19:04:47.779 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:47.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.7069ms
+2026-05-02 19:04:47.779 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.7256ms
+2026-05-02 19:04:47.780 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.1008ms
+2026-05-02 19:04:47.802 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:47.802 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.803 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:47.803 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.5427ms
+2026-05-02 19:04:47.806 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:47.806 +05:00 [INF] 0HNL8AEMLAFN2:0000000A. Method GET took 3 ms
+2026-05-02 19:04:47.806 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 4.2024ms
+2026-05-02 19:04:48.131 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:48.132 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.5393ms
+2026-05-02 19:04:48.144 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:48.144 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:48.145 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.8797ms
+2026-05-02 19:04:48.144 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:48.144 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:48.146 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.838ms
+2026-05-02 19:04:48.145 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.6227ms
+2026-05-02 19:04:48.144 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:48.147 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 3.0412ms
+2026-05-02 19:04:48.146 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 2.4512ms
+2026-05-02 19:04:48.174 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:48.175 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:48.176 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:48.177 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4969ms
+2026-05-02 19:04:48.187 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:48.187 +05:00 [INF] 0HNL8AEMLAFN2:0000000D. Method GET took 11 ms
+2026-05-02 19:04:48.187 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 13.6578ms
+2026-05-02 19:04:48.296 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:48.298 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.1102ms
+2026-05-02 19:04:48.303 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:48.303 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:48.304 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.5243ms
+2026-05-02 19:04:48.303 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:48.303 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:48.305 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.1648ms
+2026-05-02 19:04:48.303 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:48.305 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.1925ms
+2026-05-02 19:04:48.304 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.579ms
+2026-05-02 19:04:48.306 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 2.335ms
+2026-05-02 19:04:48.327 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:48.328 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:48.328 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:48.329 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3966ms
+2026-05-02 19:04:48.336 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:48.336 +05:00 [INF] 0HNL8AEMLAFN1:0000000B. Method GET took 8 ms
+2026-05-02 19:04:48.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 8.8208ms
+2026-05-02 19:04:48.464 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:04:48.465 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.1127ms
+2026-05-02 19:04:48.471 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:04:48.472 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.4932ms
+2026-05-02 19:04:48.472 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:04:48.472 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:04:48.473 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.3626ms
+2026-05-02 19:04:48.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:04:48.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:04:48.472 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.4162ms
+2026-05-02 19:04:48.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.2945ms
+2026-05-02 19:04:48.473 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.8463ms
+2026-05-02 19:04:48.493 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:04:48.494 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:48.494 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:04:48.494 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3217ms
+2026-05-02 19:04:48.502 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:04:48.502 +05:00 [INF] 0HNL8AEMLAFN2:00000011. Method GET took 8 ms
+2026-05-02 19:04:48.503 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 9.1785ms
+2026-05-02 19:05:45.815 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 201
+2026-05-02 19:05:45.817 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:05:45.817 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:05:45.818 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 0.3764ms
+2026-05-02 19:05:45.818 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:05:45.840 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 25.2208ms
+2026-05-02 19:06:09.402 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 36
+2026-05-02 19:06:09.403 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 19:06:09.405 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-02 19:06:10.195 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-02 19:06:10.204 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 799.0218ms
+2026-05-02 19:06:10.204 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-05-02 19:06:10.204 +05:00 [INF] 0HNL8AEMLAFN2:00000013. Method POST took 801 ms
+2026-05-02 19:06:10.208 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 806.1214ms
+2026-05-02 19:07:38.613 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:07:38.649 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:07:38.649 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:07:38.649 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:07:43.030 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 201
+2026-05-02 19:07:43.054 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:07:43.069 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:07:43.072 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.1842ms
+2026-05-02 19:07:43.079 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:07:43.081 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 52.0345ms
+2026-05-02 19:07:57.451 +05:00 [INF] Application is shutting down...
+2026-05-02 19:08:35.483 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:08:35.517 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:08:35.517 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:08:35.517 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:08:37.179 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:08:37.229 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 50.768ms
+2026-05-02 19:08:37.240 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:08:37.240 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:08:37.240 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:08:37.240 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:08:37.240 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:08:37.242 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.2924ms
+2026-05-02 19:08:37.245 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.2517ms
+2026-05-02 19:08:37.245 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.2517ms
+2026-05-02 19:08:37.245 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.4428ms
+2026-05-02 19:08:37.247 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.0393ms
+2026-05-02 19:08:37.276 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:08:37.277 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:08:37.277 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3417ms
+2026-05-02 19:08:37.278 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:08:37.355 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:08:37.355 +05:00 [INF] 0HNL8AH6V3EIN:00000002. Method GET took 78 ms
+2026-05-02 19:08:37.356 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 80.6665ms
+2026-05-02 19:08:44.342 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Createsss - application/json 201
+2026-05-02 19:08:44.344 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Createsss (MyAspNetProject)'
+2026-05-02 19:08:44.368 +05:00 [INF] Route matched with {action = "Createsss", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Createsss(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:08:44.373 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Createsss (MyAspNetProject) in 1.452ms
+2026-05-02 19:08:44.373 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Createsss (MyAspNetProject)'
+2026-05-02 19:08:44.373 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Createsss - 200 0 null 30.842ms
+2026-05-02 19:09:18.611 +05:00 [INF] Application is shutting down...
+2026-05-02 19:09:21.386 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:09:21.421 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:09:21.422 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:09:21.422 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:09:24.571 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Createsss - application/json 201
+2026-05-02 19:09:24.606 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Createsss (MyAspNetProject)'
+2026-05-02 19:09:24.621 +05:00 [INF] Route matched with {action = "Createsss", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Createsss(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:09:24.624 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Createsss (MyAspNetProject) in 1.2254ms
+2026-05-02 19:09:24.630 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Createsss (MyAspNetProject)'
+2026-05-02 19:09:24.699 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Createsss - 200 0 null 130.3068ms
+2026-05-02 19:10:10.849 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:10.928 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 80.8395ms
+2026-05-02 19:10:10.940 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:10.940 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:10.940 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:10.942 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:10.943 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:10.944 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.5774ms
+2026-05-02 19:10:10.947 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 7.4208ms
+2026-05-02 19:10:10.947 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.5892ms
+2026-05-02 19:10:10.947 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 7.4009ms
+2026-05-02 19:10:10.952 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 11.6725ms
+2026-05-02 19:10:10.982 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:10.983 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:10.983 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:10.983 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3109ms
+2026-05-02 19:10:11.074 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:11.074 +05:00 [INF] 0HNL8AHL2U5LL:00000002. Method GET took 91 ms
+2026-05-02 19:10:11.075 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 93.1754ms
+2026-05-02 19:10:28.329 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:28.331 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.9297ms
+2026-05-02 19:10:28.340 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:28.341 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.9382ms
+2026-05-02 19:10:28.343 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:28.343 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.5106ms
+2026-05-02 19:10:28.345 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:28.343 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:28.344 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:28.346 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 1.689ms
+2026-05-02 19:10:28.345 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.4702ms
+2026-05-02 19:10:28.345 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.3433ms
+2026-05-02 19:10:28.373 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:28.374 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:28.375 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:28.375 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.219ms
+2026-05-02 19:10:28.379 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:28.379 +05:00 [INF] 0HNL8AHL2U5LK:00000003. Method GET took 5 ms
+2026-05-02 19:10:28.379 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 5.825ms
+2026-05-02 19:10:28.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:28.623 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.9829ms
+2026-05-02 19:10:28.631 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:28.631 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.4328ms
+2026-05-02 19:10:28.632 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:28.632 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:28.632 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.2228ms
+2026-05-02 19:10:28.633 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:28.632 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.5461ms
+2026-05-02 19:10:28.633 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:28.633 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.1852ms
+2026-05-02 19:10:28.634 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.7078ms
+2026-05-02 19:10:28.659 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:28.660 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:28.660 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:28.660 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3419ms
+2026-05-02 19:10:28.668 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:28.668 +05:00 [INF] 0HNL8AHL2U5LM:00000005. Method GET took 8 ms
+2026-05-02 19:10:28.668 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 8.8829ms
+2026-05-02 19:10:29.004 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:29.006 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 2.2791ms
+2026-05-02 19:10:29.018 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:29.018 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:29.018 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:29.018 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:29.018 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:29.019 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.5078ms
+2026-05-02 19:10:29.019 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.6069ms
+2026-05-02 19:10:29.019 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.6798ms
+2026-05-02 19:10:29.019 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.5993ms
+2026-05-02 19:10:29.020 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.3595ms
+2026-05-02 19:10:29.047 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:29.047 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:29.048 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:29.048 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.461ms
+2026-05-02 19:10:29.057 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:29.057 +05:00 [INF] 0HNL8AHL2U5LL:00000006. Method GET took 10 ms
+2026-05-02 19:10:29.058 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 11.0573ms
+2026-05-02 19:10:58.452 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:58.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 3.5926ms
+2026-05-02 19:10:58.469 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:58.469 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:58.469 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:58.470 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 1.3902ms
+2026-05-02 19:10:58.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:58.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.7672ms
+2026-05-02 19:10:58.470 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.8053ms
+2026-05-02 19:10:58.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:58.479 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.9832ms
+2026-05-02 19:10:58.470 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 1.1225ms
+2026-05-02 19:10:58.506 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:58.507 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:58.507 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:58.508 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.5178ms
+2026-05-02 19:10:58.517 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:58.517 +05:00 [INF] 0HNL8AHL2U5LK:0000000A. Method GET took 10 ms
+2026-05-02 19:10:58.517 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 11.3192ms
+2026-05-02 19:10:58.956 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:58.958 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.7825ms
+2026-05-02 19:10:58.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:58.970 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:58.970 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.8659ms
+2026-05-02 19:10:58.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:58.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:58.970 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 1.3276ms
+2026-05-02 19:10:58.969 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:58.971 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 2.1777ms
+2026-05-02 19:10:58.971 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.8455ms
+2026-05-02 19:10:58.972 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 2.7418ms
+2026-05-02 19:10:58.999 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:59.000 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:59.000 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:59.000 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.77ms
+2026-05-02 19:10:59.010 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:59.010 +05:00 [INF] 0HNL8AHL2U5LM:0000000B. Method GET took 10 ms
+2026-05-02 19:10:59.011 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 12.0297ms
+2026-05-02 19:10:59.157 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:10:59.158 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.8767ms
+2026-05-02 19:10:59.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:10:59.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:10:59.165 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.5287ms
+2026-05-02 19:10:59.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:10:59.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:10:59.166 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 1.4015ms
+2026-05-02 19:10:59.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:10:59.165 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.2989ms
+2026-05-02 19:10:59.166 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.1148ms
+2026-05-02 19:10:59.167 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 2.5318ms
+2026-05-02 19:10:59.190 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:10:59.192 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:59.192 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:10:59.192 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4027ms
+2026-05-02 19:10:59.200 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:10:59.201 +05:00 [INF] 0HNL8AHL2U5LJ:0000000B. Method GET took 9 ms
+2026-05-02 19:10:59.201 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 10.3632ms
+2026-05-02 19:11:15.140 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:15.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.0342ms
+2026-05-02 19:11:15.148 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:15.149 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.3859ms
+2026-05-02 19:11:15.149 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:15.149 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:15.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:15.150 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.3602ms
+2026-05-02 19:11:15.149 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.197ms
+2026-05-02 19:11:15.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:15.150 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.2847ms
+2026-05-02 19:11:15.151 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.8798ms
+2026-05-02 19:11:15.174 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:15.174 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:15.175 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:15.175 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2816ms
+2026-05-02 19:11:15.178 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:15.178 +05:00 [INF] 0HNL8AHL2U5LJ:0000000F. Method GET took 3 ms
+2026-05-02 19:11:15.178 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 3.6475ms
+2026-05-02 19:11:17.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:17.885 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.8721ms
+2026-05-02 19:11:17.896 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:17.896 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:17.896 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.6923ms
+2026-05-02 19:11:17.896 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:17.896 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.2792ms
+2026-05-02 19:11:17.896 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:17.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:17.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.3793ms
+2026-05-02 19:11:17.899 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.3621ms
+2026-05-02 19:11:17.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 2.1913ms
+2026-05-02 19:11:17.924 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:17.925 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:17.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:17.926 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3777ms
+2026-05-02 19:11:17.933 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:17.933 +05:00 [INF] 0HNL8AHL2U5LM:0000000F. Method GET took 8 ms
+2026-05-02 19:11:17.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 9.3705ms
+2026-05-02 19:11:18.256 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:18.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.1745ms
+2026-05-02 19:11:18.270 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:18.271 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:18.271 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.8118ms
+2026-05-02 19:11:18.270 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:18.272 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.9284ms
+2026-05-02 19:11:18.271 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:18.271 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:18.273 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 2.1256ms
+2026-05-02 19:11:18.272 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.493ms
+2026-05-02 19:11:18.272 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 1.3196ms
+2026-05-02 19:11:18.299 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:18.300 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.301 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:18.301 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.365ms
+2026-05-02 19:11:18.308 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.308 +05:00 [INF] 0HNL8AHL2U5LN:0000000D. Method GET took 8 ms
+2026-05-02 19:11:18.309 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 9.09ms
+2026-05-02 19:11:18.466 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:18.467 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.97ms
+2026-05-02 19:11:18.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:18.474 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:18.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.4468ms
+2026-05-02 19:11:18.474 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:18.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:18.475 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 1.899ms
+2026-05-02 19:11:18.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.5316ms
+2026-05-02 19:11:18.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:18.476 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 2.8032ms
+2026-05-02 19:11:18.475 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.4396ms
+2026-05-02 19:11:18.500 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:18.500 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.501 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:18.501 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3801ms
+2026-05-02 19:11:18.512 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.513 +05:00 [INF] 0HNL8AHL2U5LK:00000014. Method GET took 12 ms
+2026-05-02 19:11:18.513 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 13.1976ms
+2026-05-02 19:11:18.709 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:18.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.4116ms
+2026-05-02 19:11:18.717 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:18.718 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:18.718 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:18.717 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:18.719 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 1.7337ms
+2026-05-02 19:11:18.719 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.2044ms
+2026-05-02 19:11:18.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.8267ms
+2026-05-02 19:11:18.717 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:18.721 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 3.41ms
+2026-05-02 19:11:18.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.529ms
+2026-05-02 19:11:18.746 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:18.747 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.748 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:18.748 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2229ms
+2026-05-02 19:11:18.750 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.750 +05:00 [INF] 0HNL8AHL2U5LM:00000014. Method GET took 3 ms
+2026-05-02 19:11:18.751 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 4.1402ms
+2026-05-02 19:11:18.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:18.926 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.969ms
+2026-05-02 19:11:18.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:18.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:18.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:18.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:18.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:18.932 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.4659ms
+2026-05-02 19:11:18.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.1321ms
+2026-05-02 19:11:18.932 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.7342ms
+2026-05-02 19:11:18.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.8482ms
+2026-05-02 19:11:18.932 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.2781ms
+2026-05-02 19:11:18.957 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:18.958 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.958 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:18.959 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.396ms
+2026-05-02 19:11:18.966 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:18.966 +05:00 [INF] 0HNL8AHL2U5LK:00000018. Method GET took 8 ms
+2026-05-02 19:11:18.966 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 9.3022ms
+2026-05-02 19:11:31.578 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:31.580 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.6692ms
+2026-05-02 19:11:31.592 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:31.593 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:31.593 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.3647ms
+2026-05-02 19:11:31.593 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:31.593 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.8178ms
+2026-05-02 19:11:31.592 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:31.594 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 1.8068ms
+2026-05-02 19:11:31.594 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 1.1826ms
+2026-05-02 19:11:31.593 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:31.596 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.3299ms
+2026-05-02 19:11:31.623 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:31.624 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:31.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:31.625 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4108ms
+2026-05-02 19:11:31.633 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:31.633 +05:00 [INF] 0HNL8AHL2U5LM:00000018. Method GET took 9 ms
+2026-05-02 19:11:31.633 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 9.9884ms
+2026-05-02 19:11:31.770 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:31.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.4818ms
+2026-05-02 19:11:31.779 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:31.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:31.780 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.6792ms
+2026-05-02 19:11:31.779 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:31.780 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.2988ms
+2026-05-02 19:11:31.779 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:31.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:31.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 1.3594ms
+2026-05-02 19:11:31.782 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.5754ms
+2026-05-02 19:11:31.781 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 1.8375ms
+2026-05-02 19:11:31.805 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:31.806 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:31.806 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:31.807 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4162ms
+2026-05-02 19:11:31.811 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:31.811 +05:00 [INF] 0HNL8AHL2U5LL:00000014. Method GET took 5 ms
+2026-05-02 19:11:31.812 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 6.6286ms
+2026-05-02 19:11:31.978 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:31.980 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.2785ms
+2026-05-02 19:11:31.986 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:31.986 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:31.987 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.6875ms
+2026-05-02 19:11:31.987 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.6495ms
+2026-05-02 19:11:31.988 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:31.988 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:31.986 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:31.988 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.3324ms
+2026-05-02 19:11:31.989 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 2.0494ms
+2026-05-02 19:11:31.989 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.6888ms
+2026-05-02 19:11:32.012 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:32.012 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:32.012 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:32.013 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.5269ms
+2026-05-02 19:11:32.022 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:32.022 +05:00 [INF] 0HNL8AHL2U5LM:0000001C. Method GET took 9 ms
+2026-05-02 19:11:32.022 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 10.4402ms
+2026-05-02 19:11:50.456 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:11:50.490 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:11:50.490 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:11:50.490 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:11:53.067 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:11:53.128 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 61.8635ms
+2026-05-02 19:11:53.139 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:11:53.139 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:11:53.139 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:11:53.139 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:11:53.139 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:11:53.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.6778ms
+2026-05-02 19:11:53.144 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.5955ms
+2026-05-02 19:11:53.144 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.7489ms
+2026-05-02 19:11:53.144 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.4962ms
+2026-05-02 19:11:53.146 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.3212ms
+2026-05-02 19:11:53.166 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:11:53.167 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:11:53.167 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.38ms
+2026-05-02 19:11:53.168 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:53.248 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:11:53.248 +05:00 [INF] 0HNL8AJ1B2T91:00000002. Method GET took 81 ms
+2026-05-02 19:11:53.249 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 83.766ms
+2026-05-02 19:12:04.714 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:12:04.717 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:12:04.749 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:12:04.754 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 1.5276ms
+2026-05-02 19:12:04.754 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:12:04.755 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 40.3401ms
+2026-05-02 19:14:38.648 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:38.651 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:38.654 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:38.656 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.9436ms
+2026-05-02 19:14:38.657 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:38.657 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 9.5669ms
+2026-05-02 19:14:42.274 +05:00 [INF] Application is shutting down...
+2026-05-02 19:14:44.491 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:14:44.526 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:14:44.526 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:14:44.526 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:14:46.005 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:46.033 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:46.049 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:46.052 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 1.309ms
+2026-05-02 19:14:46.059 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:46.061 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 57.6052ms
+2026-05-02 19:14:49.900 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:49.905 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:49.906 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:49.907 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.5982ms
+2026-05-02 19:14:49.907 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:49.908 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 8.8993ms
+2026-05-02 19:14:50.317 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:50.319 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.319 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:50.319 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.141ms
+2026-05-02 19:14:50.319 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.320 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 3.0891ms
+2026-05-02 19:14:50.494 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:50.494 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.495 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:50.495 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.2244ms
+2026-05-02 19:14:50.495 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.496 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 1.951ms
+2026-05-02 19:14:50.639 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:50.639 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.639 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:50.639 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.1834ms
+2026-05-02 19:14:50.640 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.640 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 1.2612ms
+2026-05-02 19:14:50.802 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:50.803 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.803 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:50.803 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.179ms
+2026-05-02 19:14:50.803 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:50.803 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 1.3543ms
+2026-05-02 19:14:51.032 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:14:51.032 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:51.032 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:14:51.034 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 1.1ms
+2026-05-02 19:14:51.034 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:14:51.035 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 3.0197ms
+2026-05-02 19:14:56.751 +05:00 [INF] Application is shutting down...
+2026-05-02 19:14:57.643 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:14:57.679 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:14:57.679 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:14:57.679 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:15:29.654 +05:00 [INF] Application is shutting down...
+2026-05-02 19:15:33.452 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:15:33.486 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:15:33.486 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:15:33.486 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:15:35.770 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:15:35.826 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 56.693ms
+2026-05-02 19:15:35.840 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:15:35.840 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:15:35.840 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:15:35.840 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:15:35.840 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:15:35.842 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.6414ms
+2026-05-02 19:15:35.845 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.0321ms
+2026-05-02 19:15:35.845 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.0322ms
+2026-05-02 19:15:35.845 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.9064ms
+2026-05-02 19:15:35.847 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.6954ms
+2026-05-02 19:15:35.876 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:15:35.878 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:15:35.878 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3718ms
+2026-05-02 19:15:35.879 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:15:35.960 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:15:35.960 +05:00 [INF] 0HNL8AL3MVVQJ:00000002. Method GET took 82 ms
+2026-05-02 19:15:35.961 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 85.0693ms
+2026-05-02 19:15:42.905 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:15:42.906 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:15:42.936 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:15:42.940 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 1.645ms
+2026-05-02 19:15:42.941 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:15:42.941 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 35.9712ms
+2026-05-02 19:16:01.944 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:01.946 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:01.947 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:01.947 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.3908ms
+2026-05-02 19:16:01.948 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:01.948 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 3.4233ms
+2026-05-02 19:16:05.505 +05:00 [INF] Application is shutting down...
+2026-05-02 19:16:07.071 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:16:07.105 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:16:07.106 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:16:07.106 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:16:09.419 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:09.434 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:09.445 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:09.447 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.8985ms
+2026-05-02 19:16:09.453 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:09.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 36.5359ms
+2026-05-02 19:16:09.900 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:09.904 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:09.904 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:09.905 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.2093ms
+2026-05-02 19:16:09.905 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:09.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 6.6206ms
+2026-05-02 19:16:10.090 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:10.092 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.093 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:10.093 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.303ms
+2026-05-02 19:16:10.094 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.094 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 3.9882ms
+2026-05-02 19:16:10.277 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:10.277 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.277 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:10.277 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.1465ms
+2026-05-02 19:16:10.278 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.278 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 1.0877ms
+2026-05-02 19:16:10.462 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:10.463 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.463 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:10.463 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.166ms
+2026-05-02 19:16:10.463 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.463 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 1.4718ms
+2026-05-02 19:16:10.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:10.621 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.621 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:10.622 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.3306ms
+2026-05-02 19:16:10.622 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.623 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 2.7629ms
+2026-05-02 19:16:10.798 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:10.798 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.798 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:10.798 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 0.1323ms
+2026-05-02 19:16:10.799 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:10.799 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 1.017ms
+2026-05-02 19:16:15.696 +05:00 [INF] Application is shutting down...
+2026-05-02 19:16:20.179 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:16:20.213 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:16:20.213 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:16:20.213 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:16:22.392 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:16:22.447 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 56.5868ms
+2026-05-02 19:16:22.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:16:22.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:16:22.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:16:22.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:16:22.460 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:16:22.461 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.4363ms
+2026-05-02 19:16:22.464 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.537ms
+2026-05-02 19:16:22.464 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.4858ms
+2026-05-02 19:16:22.464 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.726ms
+2026-05-02 19:16:22.467 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.3019ms
+2026-05-02 19:16:22.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:16:22.490 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:16:22.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.35ms
+2026-05-02 19:16:22.492 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:16:22.574 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:16:22.574 +05:00 [INF] 0HNL8ALHJKVVR:00000002. Method GET took 83 ms
+2026-05-02 19:16:22.575 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 86.2566ms
+2026-05-02 19:16:27.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 19:16:27.660 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:27.689 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:27.695 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 2.0215ms
+2026-05-02 19:16:27.696 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 19:16:27.696 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 37.7694ms
+2026-05-02 19:16:47.435 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:16:47.436 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.5664ms
+2026-05-02 19:16:47.443 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:16:47.444 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:16:47.444 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:16:47.444 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:16:47.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 1.1897ms
+2026-05-02 19:16:47.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.4545ms
+2026-05-02 19:16:47.445 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:16:47.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.5028ms
+2026-05-02 19:16:47.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.2974ms
+2026-05-02 19:16:47.445 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.3387ms
+2026-05-02 19:16:47.472 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:16:47.472 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:16:47.473 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:16:47.473 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3417ms
+2026-05-02 19:16:47.480 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:16:47.480 +05:00 [INF] 0HNL8ALHJKVVT:00000003. Method GET took 8 ms
+2026-05-02 19:16:47.480 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 8.6701ms
+2026-05-02 19:16:56.291 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/Get/1 - null null
+2026-05-02 19:16:56.292 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Get (MyAspNetProject)'
+2026-05-02 19:16:56.294 +05:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] Get(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:16:56.295 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Get (MyAspNetProject) in 0.2172ms
+2026-05-02 19:16:56.295 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Get (MyAspNetProject)'
+2026-05-02 19:16:56.295 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/Get/1 - 200 0 null 4.6515ms
+2026-05-02 19:17:42.625 +05:00 [INF] Application is shutting down...
+2026-05-02 19:17:46.799 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 19:17:46.835 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 19:17:46.835 +05:00 [INF] Hosting environment: Development
+2026-05-02 19:17:46.835 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 19:17:54.851 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:17:54.915 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 65.1717ms
+2026-05-02 19:17:55.003 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:17:55.003 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:17:55.003 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:17:55.003 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:17:55.003 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:17:55.005 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 28.9813ms
+2026-05-02 19:17:55.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 11.2564ms
+2026-05-02 19:17:55.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 36.4949ms
+2026-05-02 19:17:55.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 36.4879ms
+2026-05-02 19:17:55.015 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 39.1734ms
+2026-05-02 19:17:55.043 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:17:55.045 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:17:55.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3907ms
+2026-05-02 19:17:55.047 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:17:55.140 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:17:55.140 +05:00 [INF] 0HNL8AMD59A1R:00000002. Method GET took 94 ms
+2026-05-02 19:17:55.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 97.5875ms
+2026-05-02 19:17:55.164 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:17:55.164 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.4875ms
+2026-05-02 19:17:55.169 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:17:55.169 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.2933ms
+2026-05-02 19:17:55.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:17:55.170 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.2798ms
+2026-05-02 19:17:55.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:17:55.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:17:55.170 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:17:55.170 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.158ms
+2026-05-02 19:17:55.171 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 0.3111ms
+2026-05-02 19:17:55.171 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.5936ms
+2026-05-02 19:17:55.190 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:17:55.190 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:17:55.191 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:17:55.191 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2173ms
+2026-05-02 19:17:55.194 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:17:55.194 +05:00 [INF] 0HNL8AMD59A1T:00000003. Method GET took 3 ms
+2026-05-02 19:17:55.194 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 4.1203ms
+2026-05-02 19:18:23.657 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-05-02 19:18:23.659 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:18:23.691 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:18:23.697 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.9585ms
+2026-05-02 19:18:23.697 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:18:23.771 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 115.007ms
+2026-05-02 19:18:49.918 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 19:18:49.919 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 0.6122ms
+2026-05-02 19:18:49.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 19:18:49.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 19:18:49.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 19:18:49.951 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 19:18:49.977 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 25.8712ms
+2026-05-02 19:18:49.977 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 51.8874ms
+2026-05-02 19:18:49.977 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 19:18:49.977 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 51.9219ms
+2026-05-02 19:18:49.979 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 28.0507ms
+2026-05-02 19:18:49.981 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 3.8446ms
+2026-05-02 19:18:50.009 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 19:18:50.009 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:18:50.010 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 19:18:50.010 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2188ms
+2026-05-02 19:18:50.013 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 19:18:50.014 +05:00 [INF] 0HNL8AMD59A1S:00000003. Method GET took 4 ms
+2026-05-02 19:18:50.014 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 4.9944ms
+2026-05-02 19:19:00.477 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 201
+2026-05-02 19:19:00.477 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:19:00.478 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 19:19:00.478 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 0.2769ms
+2026-05-02 19:19:00.478 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 19:19:00.508 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 31.1299ms
+2026-05-02 21:48:27.503 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 21:48:27.539 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 21:48:27.539 +05:00 [INF] Hosting environment: Development
+2026-05-02 21:48:27.539 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 21:48:29.516 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 21:48:29.561 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 45.9385ms
+2026-05-02 21:48:29.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 21:48:29.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 21:48:29.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 21:48:29.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 21:48:29.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 21:48:29.573 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.733ms
+2026-05-02 21:48:29.576 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.8445ms
+2026-05-02 21:48:29.576 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.8441ms
+2026-05-02 21:48:29.576 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.7582ms
+2026-05-02 21:48:29.579 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.006ms
+2026-05-02 21:48:29.610 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 21:48:29.612 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 21:48:29.613 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.371ms
+2026-05-02 21:48:29.613 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:48:29.692 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:48:29.693 +05:00 [INF] 0HNL8DAHMQ0B5:00000002. Method GET took 80 ms
+2026-05-02 21:48:29.694 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 83.3554ms
+2026-05-02 21:48:49.937 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 201
+2026-05-02 21:48:49.939 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 21:48:49.977 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 21:48:49.982 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.6829ms
+2026-05-02 21:48:49.982 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 21:48:49.983 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 0 null 46.0947ms
+2026-05-02 21:49:04.068 +05:00 [INF] Application is shutting down...
+2026-05-02 21:49:49.710 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 21:49:49.744 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 21:49:49.744 +05:00 [INF] Hosting environment: Development
+2026-05-02 21:49:49.744 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 21:49:52.389 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 21:49:52.441 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 53.8877ms
+2026-05-02 21:49:52.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 21:49:52.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 21:49:52.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 21:49:52.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 21:49:52.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 21:49:52.453 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.8034ms
+2026-05-02 21:49:52.456 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.9717ms
+2026-05-02 21:49:52.456 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.969ms
+2026-05-02 21:49:52.456 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.2202ms
+2026-05-02 21:49:52.459 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.2191ms
+2026-05-02 21:49:52.481 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 21:49:52.482 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 21:49:52.482 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.4677ms
+2026-05-02 21:49:52.484 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:49:52.563 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:49:52.564 +05:00 [INF] 0HNL8DBAD1PH7:00000002. Method GET took 80 ms
+2026-05-02 21:49:52.564 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 83.252ms
+2026-05-02 21:49:56.924 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/All - null null
+2026-05-02 21:49:56.926 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.All (MyAspNetProject)'
+2026-05-02 21:49:56.953 +05:00 [INF] Route matched with {action = "All", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] All() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 21:49:56.958 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.All (MyAspNetProject) in 1.4375ms
+2026-05-02 21:49:56.959 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.All (MyAspNetProject)'
+2026-05-02 21:49:56.959 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/All - 200 0 null 34.414ms
+2026-05-02 21:51:04.098 +05:00 [INF] Application is shutting down...
+2026-05-02 21:51:07.647 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 21:51:07.685 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 21:51:07.685 +05:00 [INF] Hosting environment: Development
+2026-05-02 21:51:07.685 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 21:51:20.515 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-05-02 21:51:20.552 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-05-02 21:51:20.567 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] List(System.String, System.Nullable`1[System.Int32]) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-05-02 21:51:21.367 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 21:56:04.116 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 21:56:04.150 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 21:56:04.151 +05:00 [INF] Hosting environment: Development
+2026-05-02 21:56:04.151 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 21:56:23.275 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 21:56:23.332 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 58.5145ms
+2026-05-02 21:56:23.347 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 21:56:23.347 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 21:56:23.347 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 21:56:23.347 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 21:56:23.347 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 21:56:23.348 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.7509ms
+2026-05-02 21:56:23.351 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.112ms
+2026-05-02 21:56:23.351 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.1208ms
+2026-05-02 21:56:23.352 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.2308ms
+2026-05-02 21:56:23.355 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.2331ms
+2026-05-02 21:56:23.384 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 21:56:23.386 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 21:56:23.386 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3062ms
+2026-05-02 21:56:23.387 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:56:23.469 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:56:23.469 +05:00 [INF] 0HNL8DEUSNQL7:00000002. Method GET took 83 ms
+2026-05-02 21:56:23.470 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 85.7966ms
+2026-05-02 21:56:30.483 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Any/An - null null
+2026-05-02 21:56:30.484 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.Any.An (MyAspNetProject)'
+2026-05-02 21:56:30.509 +05:00 [INF] Route matched with {action = "An", controller = "Any"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.Any (MyAspNetProject).
+2026-05-02 21:56:30.518 +05:00 [INF] Executing action method MyAspNetProject.Controllers.Any.An (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 21:56:30.522 +05:00 [INF] Executed action method MyAspNetProject.Controllers.Any.An (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2292ms.
+2026-05-02 21:56:30.529 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-02 21:56:30.532 +05:00 [INF] Executed action MyAspNetProject.Controllers.Any.An (MyAspNetProject) in 20.2982ms
+2026-05-02 21:56:30.533 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.Any.An (MyAspNetProject)'
+2026-05-02 21:56:30.533 +05:00 [INF] 0HNL8DEUSNQL7:00000003. Method GET took 48 ms
+2026-05-02 21:56:30.533 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Any/An - 200 null text/plain; charset=utf-8 50.1169ms
+2026-05-02 21:56:45.025 +05:00 [INF] Application is shutting down...
+2026-05-02 21:56:51.634 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 21:56:51.670 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 21:56:51.670 +05:00 [INF] Hosting environment: Development
+2026-05-02 21:56:51.670 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 21:56:52.669 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Any/An - null null
+2026-05-02 21:56:52.694 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.Any.An (MyAspNetProject)'
+2026-05-02 21:56:52.705 +05:00 [INF] Route matched with {action = "An", controller = "Any"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.Any (MyAspNetProject).
+2026-05-02 21:56:52.710 +05:00 [INF] Executing action method MyAspNetProject.Controllers.Any.An (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 21:59:54.091 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 21:59:54.126 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 21:59:54.126 +05:00 [INF] Hosting environment: Development
+2026-05-02 21:59:54.126 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 21:59:56.262 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 21:59:56.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.5849ms
+2026-05-02 21:59:56.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 21:59:56.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 21:59:56.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 21:59:56.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 21:59:56.332 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 21:59:56.333 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.626ms
+2026-05-02 21:59:56.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.6687ms
+2026-05-02 21:59:56.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.6448ms
+2026-05-02 21:59:56.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.6635ms
+2026-05-02 21:59:56.340 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.0858ms
+2026-05-02 21:59:56.361 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 21:59:56.364 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 21:59:56.364 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.36ms
+2026-05-02 21:59:56.364 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:59:56.439 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 21:59:56.439 +05:00 [INF] 0HNL8DGUBU8ME:00000002. Method GET took 75 ms
+2026-05-02 21:59:56.440 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 78.4754ms
+2026-05-02 22:00:01.401 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/An - null null
+2026-05-02 22:00:01.404 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:00:01.426 +05:00 [INF] Route matched with {action = "An", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:00:01.434 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:00:01.439 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.An (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2254ms.
+2026-05-02 22:00:01.445 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-02 22:00:01.449 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) in 19.0993ms
+2026-05-02 22:00:01.449 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:00:01.449 +05:00 [INF] 0HNL8DGUBU8ME:00000003. Method GET took 45 ms
+2026-05-02 22:00:01.449 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/An - 200 null text/plain; charset=utf-8 48.4132ms
+2026-05-02 22:00:06.151 +05:00 [INF] Application is shutting down...
+2026-05-02 22:00:09.186 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 22:00:09.223 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 22:00:09.223 +05:00 [INF] Hosting environment: Development
+2026-05-02 22:00:09.223 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 22:00:14.232 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/An - null null
+2026-05-02 22:00:14.264 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:00:14.276 +05:00 [INF] Route matched with {action = "An", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:00:14.280 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:01:28.386 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 22:01:28.421 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 22:01:28.421 +05:00 [INF] Hosting environment: Development
+2026-05-02 22:01:28.421 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 22:01:30.050 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/An - null null
+2026-05-02 22:01:30.065 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:01:30.073 +05:00 [INF] Route matched with {action = "An", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:01:30.076 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) in 0.7432ms
+2026-05-02 22:01:30.082 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:01:30.083 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/An - 200 0 null 33.3759ms
+2026-05-02 22:01:31.246 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/An - null null
+2026-05-02 22:01:31.249 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:01:31.249 +05:00 [INF] Route matched with {action = "An", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:01:31.250 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) in 0.2093ms
+2026-05-02 22:01:31.250 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:01:31.251 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/An - 200 0 null 5.8668ms
+2026-05-02 22:01:34.908 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 22:01:34.943 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 34.8793ms
+2026-05-02 22:01:34.954 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 22:01:34.954 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 22:01:34.955 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 22:01:34.955 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 22:01:34.955 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 22:01:34.955 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.281ms
+2026-05-02 22:01:34.957 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 2.8622ms
+2026-05-02 22:01:34.957 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 2.8786ms
+2026-05-02 22:01:34.957 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 2.1795ms
+2026-05-02 22:01:34.959 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 4.8267ms
+2026-05-02 22:01:34.981 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 22:01:34.982 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 22:01:34.982 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 22:01:34.983 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3664ms
+2026-05-02 22:01:35.055 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 22:01:35.055 +05:00 [INF] 0HNL8DHQAINMV:00000002. Method GET took 73 ms
+2026-05-02 22:01:35.056 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 74.661ms
+2026-05-02 22:01:41.809 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/An - null null
+2026-05-02 22:01:41.810 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:01:41.811 +05:00 [INF] Route matched with {action = "An", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:01:41.811 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) in 0.2274ms
+2026-05-02 22:01:41.812 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:01:41.812 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/An - 200 0 null 2.458ms
+2026-05-02 22:01:55.313 +05:00 [INF] Application is shutting down...
+2026-05-02 22:01:56.815 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 22:01:56.849 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 22:01:56.849 +05:00 [INF] Hosting environment: Development
+2026-05-02 22:01:56.849 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 22:02:02.421 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/An - null null
+2026-05-02 22:02:02.446 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:02:02.457 +05:00 [INF] Route matched with {action = "An", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] An() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:02:02.461 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:02:02.464 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.An (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1155ms.
+2026-05-02 22:02:02.474 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-02 22:02:02.477 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.An (MyAspNetProject) in 18.4269ms
+2026-05-02 22:02:02.477 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.An (MyAspNetProject)'
+2026-05-02 22:02:02.477 +05:00 [INF] 0HNL8DI3V4UI7:00000001. Method GET took 32 ms
+2026-05-02 22:02:02.478 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/An - 200 null text/plain; charset=utf-8 58.0007ms
+2026-05-02 22:02:59.178 +05:00 [INF] Application is shutting down...
+2026-05-02 22:04:29.678 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 22:04:29.712 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 22:04:29.713 +05:00 [INF] Hosting environment: Development
+2026-05-02 22:04:29.713 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 22:05:19.564 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 22:05:19.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 54.9836ms
+2026-05-02 22:05:19.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 22:05:19.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 22:05:19.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 22:05:19.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 22:05:19.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 22:05:19.627 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.957ms
+2026-05-02 22:05:19.630 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.7599ms
+2026-05-02 22:05:19.630 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.5336ms
+2026-05-02 22:05:19.630 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.3182ms
+2026-05-02 22:05:19.633 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.3482ms
+2026-05-02 22:05:19.703 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 22:05:19.706 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 22:05:19.710 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 22:05:19.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3155ms
+2026-05-02 22:05:19.787 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 22:05:19.787 +05:00 [INF] 0HNL8DJUNAA07:00000002. Method GET took 81 ms
+2026-05-02 22:05:19.788 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 84.5327ms
+2026-05-02 22:05:25.116 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 201
+2026-05-02 22:05:25.118 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 22:05:25.149 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:05:25.820 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-02 22:05:25.829 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 678.1492ms
+2026-05-02 22:05:25.829 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 22:05:25.829 +05:00 [INF] 0HNL8DJUNAA07:00000003. Method POST took 710 ms
+2026-05-02 22:05:25.832 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 715.9471ms
+2026-05-02 22:06:51.464 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 22:06:51.466 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 22:06:51.466 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:06:51.514 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:06:51.704 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 187.6123ms.
+2026-05-02 22:06:51.704 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-05-02 22:06:51.705 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 238.0458ms
+2026-05-02 22:06:51.705 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 22:06:51.705 +05:00 [INF] 0HNL8DJUNAA07:00000004. Method POST took 239 ms
+2026-05-02 22:06:51.705 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 404 null text/plain; charset=utf-8 241.3052ms
+2026-05-02 22:07:26.063 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 223
+2026-05-02 22:07:26.065 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 22:07:26.066 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:07:26.140 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:07:26.276 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 135.6965ms.
+2026-05-02 22:07:26.276 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-05-02 22:07:26.277 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 211.1489ms
+2026-05-02 22:07:26.277 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-05-02 22:07:26.277 +05:00 [INF] 0HNL8DJUNAA07:00000005. Method POST took 211 ms
+2026-05-02 22:07:26.277 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 214.0425ms
+2026-05-02 22:08:16.068 +05:00 [INF] Application is shutting down...
+2026-05-02 22:20:44.087 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 22:20:44.124 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 22:20:44.124 +05:00 [INF] Hosting environment: Development
+2026-05-02 22:20:44.124 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 22:20:48.271 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-02 22:20:48.340 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 69.6666ms
+2026-05-02 22:20:48.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-02 22:20:48.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-02 22:20:48.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-02 22:20:48.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-02 22:20:48.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-02 22:20:48.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.9041ms
+2026-05-02 22:20:48.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 9.031ms
+2026-05-02 22:20:48.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 10.6224ms
+2026-05-02 22:20:48.366 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 10.6207ms
+2026-05-02 22:20:48.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 13.6487ms
+2026-05-02 22:20:48.456 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-02 22:20:48.458 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-02 22:20:48.458 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3205ms
+2026-05-02 22:20:48.459 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 22:20:48.553 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-02 22:20:48.553 +05:00 [INF] 0HNL8DSJFUKQT:00000002. Method GET took 95 ms
+2026-05-02 22:20:48.554 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 98.4971ms
+2026-05-02 22:20:56.670 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 22:20:56.672 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:20:56.705 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:20:57.462 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:21:39.254 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 42546.084ms
+2026-05-02 22:21:39.255 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:21:39.267 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 42596.7323ms
+2026-05-02 22:21:58.676 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 22:21:58.678 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:21:58.678 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:21:58.698 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:21:58.715 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 36.206ms
+2026-05-02 22:21:58.715 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:21:58.724 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 47.8538ms
+2026-05-02 22:21:59.419 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 22:21:59.419 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:21:59.419 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:21:59.453 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:21:59.476 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 56.1681ms
+2026-05-02 22:21:59.476 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:21:59.486 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 67.8448ms
+2026-05-02 22:22:10.627 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-02 22:22:10.662 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-02 22:22:10.662 +05:00 [INF] Hosting environment: Development
+2026-05-02 22:22:10.662 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-02 22:22:12.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - null null
+2026-05-02 22:22:12.519 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:22:12.532 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentListDto] GetById(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-05-02 22:22:13.307 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-05-02 22:22:13.449 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 914.8097ms
+2026-05-02 22:22:13.455 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-05-02 22:22:13.474 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/1 - 200 0 null 986.5276ms

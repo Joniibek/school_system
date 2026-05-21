@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MyAspNetProject.InfraStructure;
 using MyAspNetProject.Models.Domain;
 using MyAspNetProject.Models.DTO.Request;
 using MyAspNetProject.Models.DTO.Response;
+using MyAspNetProject.Models.Query;
 using MyAspNetProject.Repositories;
 using MyAspNetProject.Services;
 
@@ -9,13 +12,21 @@ namespace MyAspNetProject.Controllers;
 
 [ApiController]
 [Route("[controller]/[action]")]
-public class StudentController(IStudentService service, ILogger<StudentController> logger) : ControllerBase
+public class StudentController( IStudentService service, ILogger<StudentController> logger) : ControllerBase
 {
+    [HttpPost]
+    public async Task<ActionResult<StudentCreateResponseDto>> Create([FromBody] StudentCreateDto studentDto)
+    {
+        StudentCreateResponseDto? studentResponseDto = await service.Create(studentDto);
+        if (studentResponseDto is null) return NotFound("Something went wrong");
+        
+        return Ok(studentResponseDto);
+    }
     
     [HttpGet("{id:int:min(0)}")]
-    public ActionResult<Student>? GetById([FromRoute] int id)
+    public async Task<ActionResult<StudentDetailedListDto>> GetById([FromRoute] int id)
     {
-        Student? student = service.GetById(id);
+        StudentDetailedListDto? student = await service.GetById(id);
         if (student is null)
             return NotFound($"Student with id - {id} was not found");
         
@@ -23,32 +34,9 @@ public class StudentController(IStudentService service, ILogger<StudentControlle
     }
 
     [HttpGet]
-    public ActionResult<List<Student>> GetAll()
+    public async Task<ActionResult<List<StudentListDto>>> List([FromQuery] StudentListQuery query)
     {
-        return Ok(service.GetAll());
-    }
-
-    [HttpPost]
-    public ActionResult<StudentCreateResponseDto> Create([FromBody] StudentCreateDto studentDto)
-    {
-        logger.LogInformation($"Student creation was called with data {studentDto.ToString()}");
-        StudentCreateResponseDto studentResponseDto = service.Create(studentDto);
-        return Ok(studentResponseDto);
-    }
-
-    [HttpDelete("{id:int:min(0)}")]
-    public ActionResult<string> Delete([FromRoute] int id)
-    {
-        service.Delete(id);
-        return Ok();
-    }
-
-    [HttpGet("{year:int:min(0):max(11)}")]
-    public ActionResult<List<StudentCreateResponseDto>> GetAllByYearGroup
-    ([FromRoute] int year, [FromQuery] string? group)
-    {
-        var studentListDtos = service.GetAllByYear(year, group);
-        return Ok(studentListDtos);
+        return Ok(await service.List(query));
     }
 }
 

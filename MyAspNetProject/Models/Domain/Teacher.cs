@@ -1,14 +1,10 @@
 namespace MyAspNetProject.Models.Domain;
 
-public class Teacher : User
+public class Teacher : UserEntity
 {
-    public Сlass? HeadClass { get; set; }
+    public KlassEntity? HeadClass { get; set; }
     public int Experience { get; set; }
-}
-
-
-public class TeacherSubject
-{
-    public required Subject SubjectId { get; set; }
-    public required Teacher TeacherId { get; set; }
+    public decimal Salary { get; set; }
+    public List<int> SubjectIds { get; set; }
+    public ICollection<SubjectEntity> SubjectEntities { get; set; }
 }

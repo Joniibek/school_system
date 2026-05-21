@@ -1,6 +1,6 @@
 namespace MyAspNetProject.Models.Domain;
 
-public class UserPofile: BaseModel
+public class UserPofile: BaseEntityModel
 {
     
 }

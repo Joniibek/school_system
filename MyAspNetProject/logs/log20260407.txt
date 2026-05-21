@@ -1,0 +1,828 @@
+2026-04-07 00:03:29.019 +05:00 [INF] Application is shutting down...
+2026-04-07 00:03:30.508 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 00:03:30.542 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 00:03:30.542 +05:00 [INF] Hosting environment: Development
+2026-04-07 00:03:30.542 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 00:03:33.228 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-07 00:03:33.254 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 00:03:33.269 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 00:03:33.310 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:03:33.311 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 00:03:33.315 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.6647ms.
+2026-04-07 00:03:33.324 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-07 00:03:33.328 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 57.411ms
+2026-04-07 00:03:33.328 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 00:03:33.328 +05:00 [INF] 0HNKK1SPDRU67:00000001. Method POST took 76 ms
+2026-04-07 00:03:33.329 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 101.9067ms
+2026-04-07 00:03:34.668 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 33
+2026-04-07 00:03:34.671 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 00:03:34.671 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 00:03:34.674 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:03:34.675 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 00:03:34.677 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 5.7592ms
+2026-04-07 00:03:34.678 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 00:03:34.678 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 11.1529ms
+2026-04-07 00:04:36.876 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 188
+2026-04-07 00:04:36.878 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 00:04:36.882 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:04:36.924 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:04:36.924 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 00:04:36.926 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.998ms.
+2026-04-07 00:04:36.926 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 00:04:36.927 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 44.6986ms
+2026-04-07 00:04:36.927 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 00:04:36.927 +05:00 [INF] 0HNKK1SPDRU67:00000003. Method POST took 49 ms
+2026-04-07 00:04:36.927 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 51.4761ms
+2026-04-07 00:04:39.860 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 188
+2026-04-07 00:04:39.864 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 00:04:39.865 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:04:39.866 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:04:39.866 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 00:04:39.866 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0633ms.
+2026-04-07 00:04:39.867 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 00:04:39.867 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.501ms
+2026-04-07 00:04:39.867 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 00:04:39.867 +05:00 [INF] 0HNKK1SPDRU67:00000004. Method POST took 2 ms
+2026-04-07 00:04:39.867 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 7.7496ms
+2026-04-07 00:04:40.672 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 188
+2026-04-07 00:04:40.672 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 00:04:40.672 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:04:40.677 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:04:40.677 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 00:04:40.677 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0993ms.
+2026-04-07 00:04:40.677 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 00:04:40.678 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 5.2091ms
+2026-04-07 00:04:40.678 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 00:04:40.678 +05:00 [INF] 0HNKK1SPDRU67:00000005. Method POST took 5 ms
+2026-04-07 00:04:40.678 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 6.3479ms
+2026-04-07 00:04:53.664 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/Student/Delete/2 - null null
+2026-04-07 00:04:53.665 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-07 00:04:53.667 +05:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Delete(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:04:53.668 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:04:53.669 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.6558ms.
+2026-04-07 00:04:53.672 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-04-07 00:04:53.672 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) in 4.8208ms
+2026-04-07 00:04:53.673 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-07 00:04:53.673 +05:00 [INF] 0HNKK1SPDRU67:00000006. Method DELETE took 7 ms
+2026-04-07 00:04:53.673 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/Student/Delete/2 - 200 0 null 8.3997ms
+2026-04-07 00:05:03.899 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5167/Student/Delete/3 - null null
+2026-04-07 00:05:03.899 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-07 00:05:03.900 +05:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Delete(Int32) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:05:03.900 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:05:03.901 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.0372ms.
+2026-04-07 00:05:03.901 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-04-07 00:05:03.904 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject) in 4.176ms
+2026-04-07 00:05:03.904 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Delete (MyAspNetProject)'
+2026-04-07 00:05:03.904 +05:00 [INF] 0HNKK1SPDRU67:00000007. Method DELETE took 4 ms
+2026-04-07 00:05:03.904 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5167/Student/Delete/3 - 200 0 null 5.652ms
+2026-04-07 00:05:12.621 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 00:05:12.622 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 00:05:12.622 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:05:12.623 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:05:12.623 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2637ms.
+2026-04-07 00:05:12.623 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 00:05:12.647 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 24.8193ms
+2026-04-07 00:05:12.647 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 00:05:12.647 +05:00 [INF] 0HNKK1SPDRU67:00000008. Method GET took 25 ms
+2026-04-07 00:05:12.648 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 26.9334ms
+2026-04-07 00:06:13.120 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11?group=%D0%90 - null null
+2026-04-07 00:06:13.122 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:13.125 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:06:13.131 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:06:13.145 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.1956ms.
+2026-04-07 00:06:13.146 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 00:06:13.149 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 24.1588ms
+2026-04-07 00:06:13.150 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:13.150 +05:00 [INF] 0HNKK1SPDRU67:00000009. Method GET took 27 ms
+2026-04-07 00:06:13.150 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11?group=%D0%90 - 200 null application/json; charset=utf-8 30.2463ms
+2026-04-07 00:06:14.549 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11?group=%D0%90 - null null
+2026-04-07 00:06:14.549 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:14.550 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:06:14.550 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:06:14.551 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0528ms.
+2026-04-07 00:06:14.551 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 00:06:14.551 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.4251ms
+2026-04-07 00:06:14.551 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:14.551 +05:00 [INF] 0HNKK1SPDRU67:0000000A. Method GET took 2 ms
+2026-04-07 00:06:14.552 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11?group=%D0%90 - 200 null application/json; charset=utf-8 2.8562ms
+2026-04-07 00:06:17.306 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11 - null null
+2026-04-07 00:06:17.307 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:17.307 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:06:17.308 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:06:17.309 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5721ms.
+2026-04-07 00:06:17.309 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 00:06:17.309 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.7551ms
+2026-04-07 00:06:17.309 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:17.309 +05:00 [INF] 0HNKK1SPDRU67:0000000B. Method GET took 2 ms
+2026-04-07 00:06:17.309 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11 - 200 null application/json; charset=utf-8 3.1583ms
+2026-04-07 00:06:20.639 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/1 - null null
+2026-04-07 00:06:20.640 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:20.640 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:06:20.640 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:06:20.641 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.064ms.
+2026-04-07 00:06:20.641 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 00:06:20.642 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.536ms
+2026-04-07 00:06:20.642 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:20.642 +05:00 [INF] 0HNKK1SPDRU67:0000000C. Method GET took 2 ms
+2026-04-07 00:06:20.642 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/1 - 200 null application/json; charset=utf-8 2.7387ms
+2026-04-07 00:06:28.068 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11?group=%D0%90 - null null
+2026-04-07 00:06:28.069 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:28.069 +05:00 [INF] Route matched with {action = "GetAllByYearGroup", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] GetAllByYearGroup(Int32, System.String) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 00:06:28.070 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 00:06:28.070 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.042ms.
+2026-04-07 00:06:28.070 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 00:06:28.071 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject) in 1.4074ms
+2026-04-07 00:06:28.071 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAllByYearGroup (MyAspNetProject)'
+2026-04-07 00:06:28.071 +05:00 [INF] 0HNKK1SPDRU67:0000000D. Method GET took 2 ms
+2026-04-07 00:06:28.071 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAllByYearGroup/11?group=%D0%90 - 200 null application/json; charset=utf-8 2.7708ms
+2026-04-07 00:06:40.278 +05:00 [INF] Application is shutting down...
+2026-04-07 22:05:08.724 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 22:05:08.760 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 22:05:08.761 +05:00 [INF] Hosting environment: Development
+2026-04-07 22:05:08.761 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 22:05:19.253 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-07 22:05:19.316 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 63.6976ms
+2026-04-07 22:05:19.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-07 22:05:19.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-07 22:05:19.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-07 22:05:19.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-07 22:05:19.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-07 22:05:19.332 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.3322ms
+2026-04-07 22:05:19.342 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 12.7405ms
+2026-04-07 22:05:19.342 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 12.7425ms
+2026-04-07 22:05:19.342 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 12.8371ms
+2026-04-07 22:05:19.346 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 16.4141ms
+2026-04-07 22:05:19.427 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-07 22:05:19.430 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-07 22:05:19.525 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-07 22:05:19.525 +05:00 [INF] 0HNKKOVCF2K90:00000002. Method GET took 96 ms
+2026-04-07 22:05:19.526 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 99.5448ms
+2026-04-07 22:05:25.724 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 22:05:25.725 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:05:25.739 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:05:25.745 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:05:25.749 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4437ms.
+2026-04-07 22:05:25.754 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 22:05:25.760 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 19.0272ms
+2026-04-07 22:05:25.760 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:05:25.761 +05:00 [INF] 0HNKKOVCF2K90:00000003. Method GET took 35 ms
+2026-04-07 22:05:25.761 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 36.6939ms
+2026-04-07 22:05:39.624 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:05:39.626 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:05:39.636 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:05:39.701 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:05:39.709 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 72.8873ms
+2026-04-07 22:05:39.710 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:05:39.710 +05:00 [INF] 0HNKKOVCF2K90:00000004. Method POST took 83 ms
+2026-04-07 22:05:39.710 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 85.5287ms
+2026-04-07 22:05:45.376 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:05:45.376 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:05:45.377 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:05:45.383 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:05:45.383 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:05:45.395 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.2886ms.
+2026-04-07 22:05:45.396 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-07 22:05:45.397 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 19.5497ms
+2026-04-07 22:05:45.397 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:05:45.397 +05:00 [INF] 0HNKKOVCF2K90:00000005. Method POST took 20 ms
+2026-04-07 22:05:45.397 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 21.33ms
+2026-04-07 22:30:53.796 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:30:53.798 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:30:53.799 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:30:53.823 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:30:53.823 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 23.6144ms
+2026-04-07 22:30:53.823 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:30:53.823 +05:00 [INF] 0HNKKOVCF2K94:00000001. Method POST took 25 ms
+2026-04-07 22:30:53.823 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 400 null application/problem+json; charset=utf-8 27.1815ms
+2026-04-07 22:31:04.003 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:31:04.004 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:04.004 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:31:04.010 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:31:04.010 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:31:04.013 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.7488ms.
+2026-04-07 22:31:04.013 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:31:04.014 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 9.6016ms
+2026-04-07 22:31:04.014 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:04.014 +05:00 [INF] 0HNKKOVCF2K94:00000002. Method POST took 9 ms
+2026-04-07 22:31:04.014 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 10.5284ms
+2026-04-07 22:31:05.684 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:31:05.684 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:05.684 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:31:05.686 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:31:05.686 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:31:05.686 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1266ms.
+2026-04-07 22:31:05.687 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:31:05.687 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 2.6207ms
+2026-04-07 22:31:05.687 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:05.687 +05:00 [INF] 0HNKKOVCF2K94:00000003. Method POST took 3 ms
+2026-04-07 22:31:05.687 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 3.535ms
+2026-04-07 22:31:06.181 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:31:06.181 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:06.182 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:31:06.184 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:31:06.185 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:31:06.185 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1581ms.
+2026-04-07 22:31:06.185 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:31:06.185 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 3.4152ms
+2026-04-07 22:31:06.185 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:06.186 +05:00 [INF] 0HNKKOVCF2K94:00000004. Method POST took 4 ms
+2026-04-07 22:31:06.186 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 4.5459ms
+2026-04-07 22:31:06.348 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:31:06.349 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:06.349 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:31:06.350 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:31:06.351 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:31:06.351 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0776ms.
+2026-04-07 22:31:06.351 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:31:06.351 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.7363ms
+2026-04-07 22:31:06.351 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:06.351 +05:00 [INF] 0HNKKOVCF2K94:00000005. Method POST took 2 ms
+2026-04-07 22:31:06.352 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 3.5073ms
+2026-04-07 22:31:06.521 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:31:06.521 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:06.521 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:31:06.522 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:31:06.522 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:31:06.522 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0619ms.
+2026-04-07 22:31:06.522 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:31:06.523 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1.357ms
+2026-04-07 22:31:06.523 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:31:06.523 +05:00 [INF] 0HNKKOVCF2K94:00000006. Method POST took 1 ms
+2026-04-07 22:31:06.523 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 2.2027ms
+2026-04-07 22:31:25.126 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 22:31:25.126 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:31:25.127 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:31:25.127 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:31:25.127 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0884ms.
+2026-04-07 22:31:25.127 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 22:31:25.140 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 13.0451ms
+2026-04-07 22:31:25.140 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:31:25.140 +05:00 [INF] 0HNKKOVCF2K94:00000007. Method GET took 13 ms
+2026-04-07 22:31:25.140 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 14.4573ms
+2026-04-07 22:32:51.944 +05:00 [INF] Application is shutting down...
+2026-04-07 22:33:03.685 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 22:33:03.720 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 22:33:03.720 +05:00 [INF] Hosting environment: Development
+2026-04-07 22:33:03.720 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 22:33:11.608 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:33:11.631 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:33:11.648 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:33:11.693 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:33:11.693 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:33:11.698 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.5593ms.
+2026-04-07 22:33:11.706 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto'.
+2026-04-07 22:33:11.711 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 60.4616ms
+2026-04-07 22:33:11.711 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:33:11.711 +05:00 [INF] 0HNKKPEURSHTF:00000001. Method POST took 81 ms
+2026-04-07 22:33:11.711 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 null application/json; charset=utf-8 104.708ms
+2026-04-07 22:33:13.470 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:33:13.473 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:33:13.474 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:33:13.477 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:33:13.477 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:33:13.482 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 8.3648ms
+2026-04-07 22:33:13.483 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:33:13.484 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 14.1203ms
+2026-04-07 22:38:45.088 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:45.090 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.090 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:45.096 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:45.096 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:38:45.096 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 6.1236ms
+2026-04-07 22:38:45.096 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.097 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 8.7002ms
+2026-04-07 22:38:45.504 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:45.504 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.504 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:45.505 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:45.506 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:38:45.509 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 4.3206ms
+2026-04-07 22:38:45.510 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.510 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 6.4159ms
+2026-04-07 22:38:45.797 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:45.797 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.797 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:45.798 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:45.798 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:38:45.799 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1.2208ms
+2026-04-07 22:38:45.799 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.799 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 2.2593ms
+2026-04-07 22:38:45.926 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:45.926 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.926 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:45.927 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:45.927 +05:00 [INF] Klass creation was called with data MyAspNetProject.Models.DTO.Request.KlassCreateDto
+2026-04-07 22:38:45.927 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1.248ms
+2026-04-07 22:38:45.928 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:45.928 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 200 0 null 2.2407ms
+2026-04-07 22:38:48.850 +05:00 [INF] Application is shutting down...
+2026-04-07 22:38:52.369 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 22:38:52.403 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 22:38:52.403 +05:00 [INF] Hosting environment: Development
+2026-04-07 22:38:52.403 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 22:38:56.106 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:56.127 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:56.140 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:56.178 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:56.182 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.3692ms.
+2026-04-07 22:38:56.191 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 22:38:56.192 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 50.3159ms
+2026-04-07 22:38:56.193 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:56.193 +05:00 [INF] 0HNKKPI5HA0L7:00000001. Method POST took 67 ms
+2026-04-07 22:38:56.194 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 89.3359ms
+2026-04-07 22:38:56.799 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:56.800 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:56.801 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:56.803 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:56.803 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.3007ms.
+2026-04-07 22:38:56.804 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:38:56.824 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 23.1394ms
+2026-04-07 22:38:56.824 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:56.824 +05:00 [INF] 0HNKKPI5HA0L7:00000002. Method POST took 23 ms
+2026-04-07 22:38:56.824 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 26.1457ms
+2026-04-07 22:38:58.100 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:58.101 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:58.102 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:58.107 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:58.107 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0848ms.
+2026-04-07 22:38:58.108 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:38:58.108 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 6.4016ms
+2026-04-07 22:38:58.108 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:58.108 +05:00 [INF] 0HNKKPI5HA0L7:00000003. Method POST took 7 ms
+2026-04-07 22:38:58.109 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 8.7819ms
+2026-04-07 22:38:58.674 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:58.674 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:58.674 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:58.675 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:58.675 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0207ms.
+2026-04-07 22:38:58.675 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:38:58.676 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 0.9733ms
+2026-04-07 22:38:58.676 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:58.676 +05:00 [INF] 0HNKKPI5HA0L7:00000004. Method POST took 1 ms
+2026-04-07 22:38:58.676 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 1.9319ms
+2026-04-07 22:38:59.382 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:59.382 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:59.382 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:59.383 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:59.384 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0496ms.
+2026-04-07 22:38:59.384 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:38:59.385 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 2.5622ms
+2026-04-07 22:38:59.385 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:59.386 +05:00 [INF] 0HNKKPI5HA0L7:00000005. Method POST took 3 ms
+2026-04-07 22:38:59.386 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 4.3482ms
+2026-04-07 22:38:59.790 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:38:59.791 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:59.791 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:38:59.794 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:38:59.795 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.1015ms.
+2026-04-07 22:38:59.795 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:38:59.796 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 4.3731ms
+2026-04-07 22:38:59.796 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:38:59.796 +05:00 [INF] 0HNKKPI5HA0L7:00000006. Method POST took 5 ms
+2026-04-07 22:38:59.796 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 6.0707ms
+2026-04-07 22:39:00.293 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:39:00.293 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:39:00.293 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:39:00.324 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:39:00.324 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0298ms.
+2026-04-07 22:39:00.324 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:39:00.324 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1.2806ms
+2026-04-07 22:39:00.324 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:39:00.324 +05:00 [INF] 0HNKKPI5HA0L7:00000007. Method POST took 31 ms
+2026-04-07 22:39:00.325 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 31.809ms
+2026-04-07 22:39:00.834 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:39:00.834 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:39:00.835 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:39:00.836 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:39:00.836 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0361ms.
+2026-04-07 22:39:00.836 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:39:00.837 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1.6782ms
+2026-04-07 22:39:00.837 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:39:00.837 +05:00 [INF] 0HNKKPI5HA0L7:00000008. Method POST took 2 ms
+2026-04-07 22:39:00.838 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 4.534ms
+2026-04-07 22:39:01.339 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:39:01.339 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:39:01.339 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:39:01.340 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:39:01.340 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0389ms.
+2026-04-07 22:39:01.341 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:39:01.342 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 2.5674ms
+2026-04-07 22:39:01.342 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:39:01.342 +05:00 [INF] 0HNKKPI5HA0L7:00000009. Method POST took 3 ms
+2026-04-07 22:39:01.343 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 3.8281ms
+2026-04-07 22:39:36.952 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:39:36.952 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:39:36.956 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:39:36.999 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:39:36.999 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:39:37.002 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4828ms.
+2026-04-07 22:39:37.002 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:39:37.003 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 46.7585ms
+2026-04-07 22:39:37.003 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:39:37.003 +05:00 [INF] 0HNKKPI5HA0L7:0000000A. Method POST took 50 ms
+2026-04-07 22:39:37.003 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 50.7616ms
+2026-04-07 22:39:49.234 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 22:39:49.236 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:39:49.238 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:39:49.238 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:39:49.239 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5659ms.
+2026-04-07 22:39:49.239 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.Domain.Student, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 22:39:49.277 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 38.8774ms
+2026-04-07 22:39:49.277 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:39:49.277 +05:00 [INF] 0HNKKPI5HA0L7:0000000B. Method GET took 40 ms
+2026-04-07 22:39:49.277 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 43.0222ms
+2026-04-07 22:44:25.653 +05:00 [INF] Application is shutting down...
+2026-04-07 22:45:27.416 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 22:45:27.450 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 22:45:27.450 +05:00 [INF] Hosting environment: Development
+2026-04-07 22:45:27.450 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 22:45:37.368 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:45:37.391 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:45:37.404 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:45:37.442 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:45:37.446 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2193ms.
+2026-04-07 22:45:37.454 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 22:45:37.456 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 50.4605ms
+2026-04-07 22:45:37.456 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:45:37.456 +05:00 [INF] 0HNKKPLT42TCB:00000001. Method POST took 67 ms
+2026-04-07 22:45:37.458 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 90.8266ms
+2026-04-07 22:45:47.775 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:45:47.778 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:45:47.781 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:45:47.823 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:45:47.823 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:45:47.825 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1961ms.
+2026-04-07 22:45:47.825 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:45:47.829 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 47.4779ms
+2026-04-07 22:45:47.829 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:45:47.829 +05:00 [INF] 0HNKKPLT42TCB:00000002. Method POST took 51 ms
+2026-04-07 22:45:47.829 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 55.9836ms
+2026-04-07 22:45:52.992 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 22:45:52.997 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:45:52.998 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:45:52.999 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:45:53.000 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6242ms.
+2026-04-07 22:45:53.000 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 22:45:53.006 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 7.143ms
+2026-04-07 22:45:53.006 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:45:53.006 +05:00 [INF] 0HNKKPLT42TCB:00000003. Method GET took 9 ms
+2026-04-07 22:45:53.006 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 14.304ms
+2026-04-07 22:45:56.231 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 22:45:56.232 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:45:56.233 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:45:56.238 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:45:56.238 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0435ms.
+2026-04-07 22:45:56.239 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 22:45:56.239 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 6.3538ms
+2026-04-07 22:45:56.239 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:45:56.239 +05:00 [INF] 0HNKKPLT42TCB:00000004. Method GET took 6 ms
+2026-04-07 22:45:56.239 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 8.5068ms
+2026-04-07 22:47:04.670 +05:00 [INF] Application is shutting down...
+2026-04-07 22:47:06.585 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 22:47:06.619 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 22:47:06.619 +05:00 [INF] Hosting environment: Development
+2026-04-07 22:47:06.619 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 22:47:11.759 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:47:11.784 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:47:11.799 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:47:11.837 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:47:11.842 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7812ms.
+2026-04-07 22:47:11.851 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 22:47:11.852 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 52.0693ms
+2026-04-07 22:47:11.852 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:47:11.852 +05:00 [INF] 0HNKKPMP86J95:00000001. Method POST took 70 ms
+2026-04-07 22:47:11.853 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 95.2359ms
+2026-04-07 22:47:43.261 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:47:43.265 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:47:43.269 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:47:43.307 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:47:43.307 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:47:43.309 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.0418ms.
+2026-04-07 22:47:43.310 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:47:43.313 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 43.6822ms
+2026-04-07 22:47:43.313 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:47:43.313 +05:00 [INF] 0HNKKPMP86J95:00000002. Method POST took 48 ms
+2026-04-07 22:47:43.313 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 52.7982ms
+2026-04-07 22:47:48.690 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 22:47:48.695 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:47:48.697 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:47:48.698 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:47:48.712 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.1977ms.
+2026-04-07 22:47:48.713 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 22:47:48.721 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 23.7932ms
+2026-04-07 22:47:48.721 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 22:47:48.722 +05:00 [INF] 0HNKKPMP86J95:00000003. Method GET took 26 ms
+2026-04-07 22:47:48.722 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 31.5685ms
+2026-04-07 22:48:06.884 +05:00 [INF] Application is shutting down...
+2026-04-07 22:53:51.851 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 22:53:51.890 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 22:53:51.890 +05:00 [INF] Hosting environment: Development
+2026-04-07 22:53:51.890 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 22:59:45.206 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:59:45.239 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:59:45.253 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:59:45.304 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:59:45.307 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2863ms.
+2026-04-07 22:59:45.316 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 22:59:45.317 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 62.8241ms
+2026-04-07 22:59:45.317 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:59:45.317 +05:00 [INF] 0HNKKPTPPI5S7:00000001. Method POST took 80 ms
+2026-04-07 22:59:45.318 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 113.6205ms
+2026-04-07 22:59:47.355 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 22:59:47.356 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:59:47.357 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 22:59:47.364 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:59:47.365 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.8812ms.
+2026-04-07 22:59:47.367 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 22:59:47.391 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 33.8773ms
+2026-04-07 22:59:47.391 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 22:59:47.391 +05:00 [INF] 0HNKKPTPPI5S7:00000002. Method POST took 34 ms
+2026-04-07 22:59:47.391 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 38.347ms
+2026-04-07 22:59:59.046 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 22:59:59.048 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:59:59.051 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 22:59:59.097 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 22:59:59.097 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 22:59:59.100 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.8582ms.
+2026-04-07 22:59:59.100 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 22:59:59.101 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 49.2573ms
+2026-04-07 22:59:59.101 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 22:59:59.101 +05:00 [INF] 0HNKKPTPPI5S7:00000003. Method POST took 53 ms
+2026-04-07 22:59:59.101 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 55.5313ms
+2026-04-07 23:00:04.989 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 23:00:04.993 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:00:04.995 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:00:04.996 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:00:58.223 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 53225.3891ms.
+2026-04-07 23:00:58.225 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 23:00:58.227 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 53231.1741ms
+2026-04-07 23:00:58.227 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:00:58.227 +05:00 [INF] 0HNKKPTPPI5S7:00000004. Method GET took 53233 ms
+2026-04-07 23:00:58.227 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 53238.2736ms
+2026-04-07 23:01:02.484 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 23:01:02.517 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 23:01:02.517 +05:00 [INF] Hosting environment: Development
+2026-04-07 23:01:02.517 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 23:01:12.471 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 23:01:12.487 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:01:12.495 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:01:12.499 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:01:12.502 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3943ms.
+2026-04-07 23:01:12.510 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 23:01:12.519 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 21.981ms
+2026-04-07 23:01:12.519 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:01:12.519 +05:00 [INF] 0HNKKPUJPVK5H:00000001. Method GET took 33 ms
+2026-04-07 23:01:12.520 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 48.8959ms
+2026-04-07 23:01:15.246 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:01:15.249 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:01:15.256 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:01:15.310 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:01:15.311 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.4731ms.
+2026-04-07 23:01:15.312 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 23:01:15.312 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 55.7926ms
+2026-04-07 23:01:15.312 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:01:15.312 +05:00 [INF] 0HNKKPUJPVK5H:00000002. Method POST took 63 ms
+2026-04-07 23:01:15.312 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 67.4599ms
+2026-04-07 23:01:17.571 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:01:17.573 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:01:17.573 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:01:17.576 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:01:17.576 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.3057ms.
+2026-04-07 23:01:17.577 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 23:01:17.592 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 18.6553ms
+2026-04-07 23:01:17.592 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:01:17.592 +05:00 [INF] 0HNKKPUJPVK5H:00000003. Method POST took 19 ms
+2026-04-07 23:01:17.592 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 20.8861ms
+2026-04-07 23:01:18.378 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:01:18.379 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:01:18.379 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:01:18.386 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:01:18.387 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0591ms.
+2026-04-07 23:01:18.387 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 23:01:18.388 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 8.6167ms
+2026-04-07 23:01:18.388 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:01:18.388 +05:00 [INF] 0HNKKPUJPVK5H:00000004. Method POST took 9 ms
+2026-04-07 23:01:18.389 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 10.2035ms
+2026-04-07 23:01:23.056 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:01:23.058 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:01:23.060 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:01:23.101 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:01:23.101 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:01:23.103 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1996ms.
+2026-04-07 23:01:23.105 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:01:23.106 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 46.004ms
+2026-04-07 23:01:23.106 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:01:23.106 +05:00 [INF] 0HNKKPUJPVK5H:00000005. Method POST took 48 ms
+2026-04-07 23:01:23.106 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 49.9397ms
+2026-04-07 23:01:28.835 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 23:01:28.837 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:01:28.837 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:01:28.839 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:01:28.841 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.8103ms.
+2026-04-07 23:01:28.842 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 23:01:28.844 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 6.4708ms
+2026-04-07 23:01:28.844 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:01:28.844 +05:00 [INF] 0HNKKPUJPVK5H:00000006. Method GET took 7 ms
+2026-04-07 23:01:28.845 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 9.2738ms
+2026-04-07 23:02:40.325 +05:00 [INF] Application is shutting down...
+2026-04-07 23:02:41.824 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 23:02:41.859 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 23:02:41.859 +05:00 [INF] Hosting environment: Development
+2026-04-07 23:02:41.859 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 23:02:48.891 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:02:48.907 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:02:48.917 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:02:48.953 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:02:48.957 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.272ms.
+2026-04-07 23:02:48.965 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 23:02:48.967 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 48.5031ms
+2026-04-07 23:02:48.967 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:02:48.967 +05:00 [INF] 0HNKKPVGHG549:00000001. Method POST took 61 ms
+2026-04-07 23:02:48.968 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 77.5298ms
+2026-04-07 23:02:52.379 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:02:52.383 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:02:52.384 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:02:52.387 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:02:52.388 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.4972ms.
+2026-04-07 23:02:52.389 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-07 23:02:52.422 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 38.3012ms
+2026-04-07 23:02:52.422 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:02:52.422 +05:00 [INF] 0HNKKPVGHG549:00000002. Method POST took 39 ms
+2026-04-07 23:02:52.423 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 400 null application/problem+json; charset=utf-8 44.6112ms
+2026-04-07 23:03:03.223 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:03:03.225 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:03:03.229 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:03:03.267 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:03:03.267 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:03:03.270 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3871ms.
+2026-04-07 23:03:03.271 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:03:03.272 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 42.3571ms
+2026-04-07 23:03:03.272 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:03:03.273 +05:00 [INF] 0HNKKPVGHG549:00000003. Method POST took 47 ms
+2026-04-07 23:03:03.273 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 49.4399ms
+2026-04-07 23:03:07.801 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 23:03:07.805 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:03:07.807 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:03:07.807 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:03:07.810 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.9569ms.
+2026-04-07 23:03:07.810 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 23:03:07.814 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 6.8783ms
+2026-04-07 23:03:07.814 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:03:07.814 +05:00 [INF] 0HNKKPVGHG549:00000004. Method GET took 9 ms
+2026-04-07 23:03:07.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 13.2293ms
+2026-04-07 23:03:12.438 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetAll - null null
+2026-04-07 23:03:12.439 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:03:12.439 +05:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.Domain.Student]] GetAll() on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:03:12.445 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:03:12.445 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0396ms.
+2026-04-07 23:03:12.446 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-07 23:03:12.446 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject) in 6.706ms
+2026-04-07 23:03:12.446 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetAll (MyAspNetProject)'
+2026-04-07 23:03:12.446 +05:00 [INF] 0HNKKPVGHG549:00000005. Method GET took 7 ms
+2026-04-07 23:03:12.446 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetAll - 200 null application/json; charset=utf-8 8.6295ms
+2026-04-07 23:03:24.882 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:03:24.883 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:03:24.883 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:03:24.886 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:03:24.887 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:03:24.887 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1487ms.
+2026-04-07 23:03:24.887 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:03:24.887 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 4.3932ms
+2026-04-07 23:03:24.888 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:03:24.888 +05:00 [INF] 0HNKKPVGHG549:00000006. Method POST took 4 ms
+2026-04-07 23:03:24.889 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 6.1746ms
+2026-04-07 23:03:52.770 +05:00 [INF] Application is shutting down...
+2026-04-07 23:10:23.167 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 23:10:23.200 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 23:10:23.200 +05:00 [INF] Hosting environment: Development
+2026-04-07 23:10:23.200 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 23:10:29.033 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:10:29.056 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:10:29.071 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:10:29.112 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:10:29.116 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2757ms.
+2026-04-07 23:10:29.124 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 23:10:29.126 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 53.3879ms
+2026-04-07 23:10:29.126 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:10:29.126 +05:00 [INF] 0HNKKQ3PLM0IP:00000001. Method POST took 72 ms
+2026-04-07 23:10:29.128 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 95.932ms
+2026-04-07 23:10:38.119 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:10:38.123 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:10:38.126 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:10:38.170 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:10:38.170 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:10:38.173 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.5487ms.
+2026-04-07 23:10:38.173 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:10:38.176 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 49.5281ms
+2026-04-07 23:10:38.177 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:10:38.177 +05:00 [INF] 0HNKKQ3PLM0IP:00000002. Method POST took 53 ms
+2026-04-07 23:10:38.177 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 59.7434ms
+2026-04-07 23:10:40.174 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:10:40.176 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:10:40.176 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:10:40.180 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:10:40.180 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:10:40.181 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4966ms.
+2026-04-07 23:10:40.181 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:10:40.181 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 4.9798ms
+2026-04-07 23:10:40.182 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:10:40.182 +05:00 [INF] 0HNKKQ3PLM0IP:00000003. Method POST took 5 ms
+2026-04-07 23:10:40.182 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 8.3786ms
+2026-04-07 23:10:40.971 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:10:40.971 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:10:40.971 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:10:40.977 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:10:40.977 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:10:40.977 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1075ms.
+2026-04-07 23:10:40.977 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:10:40.978 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 6.2415ms
+2026-04-07 23:10:40.978 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:10:40.978 +05:00 [INF] 0HNKKQ3PLM0IP:00000004. Method POST took 6 ms
+2026-04-07 23:10:40.978 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 7.445ms
+2026-04-07 23:11:03.944 +05:00 [INF] Application is shutting down...
+2026-04-07 23:11:49.564 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 23:11:49.601 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 23:11:49.601 +05:00 [INF] Hosting environment: Development
+2026-04-07 23:11:49.601 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 23:11:54.439 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:11:54.473 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:11:54.490 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:11:54.539 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:11:54.543 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.305ms.
+2026-04-07 23:11:54.552 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 23:11:54.554 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 61.822ms
+2026-04-07 23:11:54.554 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:11:54.554 +05:00 [INF] 0HNKKQ4J42SR5:00000001. Method POST took 81 ms
+2026-04-07 23:11:54.555 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 117.6879ms
+2026-04-07 23:12:22.262 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:12:22.263 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:12:22.266 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:12:22.314 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:12:22.315 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:12:38.891 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 23:12:38.926 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 23:12:38.926 +05:00 [INF] Hosting environment: Development
+2026-04-07 23:12:38.927 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 23:12:50.129 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:12:50.164 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:12:50.178 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:12:50.229 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:12:50.233 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.3619ms.
+2026-04-07 23:12:50.242 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 23:12:50.243 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 63.6198ms
+2026-04-07 23:12:50.243 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:12:50.243 +05:00 [INF] 0HNKKQ53N6DJ3:00000001. Method POST took 81 ms
+2026-04-07 23:12:50.245 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 116.8653ms
+2026-04-07 23:12:55.938 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:12:55.939 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:12:55.942 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:12:55.985 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:12:55.986 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:12:59.512 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3526.2725ms.
+2026-04-07 23:12:59.512 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:12:59.516 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 3573.8285ms
+2026-04-07 23:12:59.516 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:12:59.516 +05:00 [INF] 0HNKKQ53N6DJ3:00000002. Method POST took 3576 ms
+2026-04-07 23:12:59.516 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 3579.7466ms
+2026-04-07 23:13:06.917 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:13:06.918 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:13:06.918 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:13:06.921 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:13:06.922 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:16:15.094 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-07 23:16:15.127 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-07 23:16:15.127 +05:00 [INF] Hosting environment: Development
+2026-04-07 23:16:15.127 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-07 23:16:19.827 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-04-07 23:16:19.851 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:16:19.867 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-04-07 23:16:19.908 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:16:19.912 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2406ms.
+2026-04-07 23:16:19.920 +05:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2026-04-07 23:16:19.922 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 53.0725ms
+2026-04-07 23:16:19.922 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-04-07 23:16:19.922 +05:00 [INF] 0HNKKQ72723BV:00000001. Method POST took 72 ms
+2026-04-07 23:16:19.923 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 204 null null 97.4643ms
+2026-04-07 23:16:23.546 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:16:23.549 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:16:23.552 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:16:23.597 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:16:23.597 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:16:23.600 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.6136ms.
+2026-04-07 23:16:23.600 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-04-07 23:16:23.603 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 50.442ms
+2026-04-07 23:16:23.603 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:16:23.603 +05:00 [INF] 0HNKKQ72723BV:00000002. Method POST took 54 ms
+2026-04-07 23:16:23.604 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 57.9249ms
+2026-04-07 23:16:25.356 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 193
+2026-04-07 23:16:25.359 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:16:25.359 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto] Create(MyAspNetProject.Models.DTO.Request.StudentCreateDto) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-04-07 23:16:25.362 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-04-07 23:16:25.363 +05:00 [INF] Student creation was called with data MyAspNetProject.Models.DTO.Request.StudentCreateDto
+2026-04-07 23:16:25.363 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 0.4402ms.
+2026-04-07 23:16:25.363 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-04-07 23:16:25.364 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 4.8341ms
+2026-04-07 23:16:25.364 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-04-07 23:16:25.364 +05:00 [INF] 0HNKKQ72723BV:00000003. Method POST took 5 ms
+2026-04-07 23:16:25.364 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 404 null text/plain; charset=utf-8 8.3692ms
+2026-04-07 23:16:30.812 +05:00 [INF] Application is shutting down...

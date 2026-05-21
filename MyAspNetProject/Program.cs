@@ -1,5 +1,7 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
+using MyAspNetProject.InfraStructure;
 using MyAspNetProject.Middlewares;
 using MyAspNetProject.Models.DTO.Response;
 using MyAspNetProject.Repositories;
@@ -22,17 +24,20 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
-builder.Services.AddScoped<IStudentService, StudentGetService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IKlassService, KlassService>();
 builder.Services.AddScoped<IKlassRepository, KlassRepository>();
 builder.Services.AddFluentValidationAutoValidation();
+
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+builder.Services.AddDbContext<DBContext>();
+
 
 builder.Services.AddSerilog();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline .
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();

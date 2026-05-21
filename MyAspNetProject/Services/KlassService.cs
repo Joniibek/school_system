@@ -2,6 +2,7 @@ using System.Data;
 using MyAspNetProject.Models.Domain;
 using MyAspNetProject.Models.DTO.Request;
 using MyAspNetProject.Models.DTO.Response;
+using MyAspNetProject.Models.Query;
 using MyAspNetProject.Repositories;
 using MyAspNetProject.Utilities;
 
@@ -9,25 +10,41 @@ namespace MyAspNetProject.Services;
 
 public interface IKlassService
 {
-    KlassCreateResponseDto Create(KlassCreateDto klassCreateDto);
+    Task<List<KlassListDto>> List(KlassListQuery query);
+    Task<KlassCreateResponseDto?> Create(KlassCreateDto klassCreateDto);
+    Task Delete(int id);
 }
 
 
 
 public class KlassService(IKlassRepository repository) : IKlassService
 {
-    public KlassCreateResponseDto Create(KlassCreateDto klassCreateDto)
+    public async Task<List<KlassListDto>> List(KlassListQuery query)
     {
-        if (repository.ExistsByYearGroup(klassCreateDto.Year, klassCreateDto.Group))
+        var klasses = await repository.GetAll(query.Group, query.Year);
+        List<KlassListDto> klassResponseDto = new();
+        foreach (var klass in klasses)
         {
-            throw new ConstraintException(
-                $"Klass with year {klassCreateDto.Year} and group {klassCreateDto.Group} already exists"
-                );
+            klassResponseDto.Add(klass.ToListDto());
         }
-        var klass = repository.Create(klassCreateDto.ToEntity());
+
+        return klassResponseDto;
+    }
+
+    public async Task<KlassCreateResponseDto?> Create(KlassCreateDto klassCreateDto)
+    {
+        if (await repository.ExistsByYearGroup(klassCreateDto.Year, klassCreateDto.Group))
+            return null;
+        
+        var klass = await repository.Create(klassCreateDto.ToEntity());
         return new KlassCreateResponseDto
         {
-            Id = klass.Id
+            Id = klass.Id,
         };
+    }
+
+    public async Task Delete(int id)
+    {
+        await repository.Delete(id);
     }
 }

@@ -1,0 +1,22 @@
+2026-04-23 18:16:01.447 +05:00 [INF] Now listening on: http://localhost:5167
+2026-04-23 18:16:01.480 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-23 18:16:01.480 +05:00 [INF] Hosting environment: Development
+2026-04-23 18:16:01.480 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-04-23 18:16:19.091 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-04-23 18:16:19.152 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 61.8337ms
+2026-04-23 18:16:19.163 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-04-23 18:16:19.164 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-04-23 18:16:19.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-04-23 18:16:19.165 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-04-23 18:16:19.166 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-23 18:16:19.166 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.4974ms
+2026-04-23 18:16:19.169 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 3.9388ms
+2026-04-23 18:16:19.169 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 6.5807ms
+2026-04-23 18:16:19.173 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 7.1353ms
+2026-04-23 18:16:19.178 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 14.484ms
+2026-04-23 18:16:19.246 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-04-23 18:16:19.249 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-23 18:16:19.343 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-04-23 18:16:19.343 +05:00 [INF] 0HNL17A0SDU66:00000002. Method GET took 95 ms
+2026-04-23 18:16:19.343 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 96.7788ms
+2026-04-23 18:20:22.509 +05:00 [INF] Application is shutting down...

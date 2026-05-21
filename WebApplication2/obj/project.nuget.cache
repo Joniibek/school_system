@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "dgSpecHash": "wdR0zjSnPLw=",
+  "success": true,
+  "projectFilePath": "/Users/macuser/development/courses/c-sharp/MyAspNetProject/WebApplication2/WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "/Users/macuser/.nuget/packages/aliyun.api.logservice/1.1.0/aliyun.api.logservice.1.1.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/azure.core/1.44.1/azure.core.1.44.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/google.protobuf/3.5.1/google.protobuf.3.5.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/iconic.zlib.netstandard/1.0.0/iconic.zlib.netstandard.1.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/jetbrains.annotations/11.1.0/jetbrains.annotations.11.1.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/lz4net/1.0.15.93/lz4net.1.0.15.93.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/lz4net.unsafe.netcore/1.0.15.93/lz4net.unsafe.netcore.1.0.15.93.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.aspnet.webapi.client/5.2.4/microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.extensions.dependencymodel/10.0.0/microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.io.recyclablememorystream/2.2.0/microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/newtonsoft.json.bson/1.0.1/newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog/4.3.2-dev-02419/serilog.4.3.2-dev-02419.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.aspnetcore/10.0.0/serilog.aspnetcore.10.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.aspnetcore.iplogging/0.3.1/serilog.aspnetcore.iplogging.0.3.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.enrichers.environment/3.0.1/serilog.enrichers.environment.3.0.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.extensions.hosting/10.0.0/serilog.extensions.hosting.10.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.extensions.logging/10.0.0/serilog.extensions.logging.10.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.formatting.compact/3.0.0/serilog.formatting.compact.3.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.requestandresponselogging/1.0.0/serilog.requestandresponselogging.1.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.settings.configuration/10.0.0/serilog.settings.configuration.10.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.sinks.aliyunlog/1.1.0/serilog.sinks.aliyunlog.1.1.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.sinks.azureloganalytics/7.0.0/serilog.sinks.azureloganalytics.7.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.sinks.console/6.1.1/serilog.sinks.console.6.1.1.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.sinks.debug/3.0.0/serilog.sinks.debug.3.0.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.sinks.file/8.0.0-nblumhardt-02322/serilog.sinks.file.8.0.0-nblumhardt-02322.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/serilog.sinks.periodicbatching/2.3.0/serilog.sinks.periodicbatching.2.3.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.7/swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/system.clientmodel/1.1.0/system.clientmodel.1.1.0.nupkg.sha512",
+    "/Users/macuser/.nuget/packages/system.memory.data/6.0.0/system.memory.data.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 11.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "/Users/macuser/development/courses/c-sharp/MyAspNetProject/WebApplication2/WebApplication2.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/macuser/development/courses/c-sharp/MyAspNetProject/WebApplication2/WebApplication2.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

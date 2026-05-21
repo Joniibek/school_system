@@ -8,3 +8,5 @@ public class StudentCreateDto: BaseUserCreateDto
 {
     public int KlassId { get; set; }
 }
+
+public class StudentUpdateDto : BaseUserUpdateDto {}

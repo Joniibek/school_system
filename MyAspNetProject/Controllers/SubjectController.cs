@@ -8,12 +8,12 @@ namespace MyAspNetProject.Controllers;
 [Route("[controller]/[action]")]
 public class SubjectController: ControllerBase
 {
-    private static List<Subject> _subjects = new();
+    private static List<SubjectEntity> _subjects = new();
     
     [HttpPost]
-    public ActionResult<string> Create([FromBody] Subject subject)
+    public ActionResult<string> Create([FromBody] SubjectEntity subjectEntity)
     {
-        throw new NotFoundException("Subject", subject.Id);
+        throw new NotFoundException("Subject", subjectEntity.Id);
         // var id = _subjects.LastOrDefault()?.Id ?? 0;
         // subject.Id = id + 1;
         // _subjects.Add(subject);

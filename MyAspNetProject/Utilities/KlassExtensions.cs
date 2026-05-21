@@ -1,27 +1,27 @@
 using MyAspNetProject.Models.Domain;
 using MyAspNetProject.Models.DTO.Request;
+using MyAspNetProject.Models.DTO.Response;
 
 namespace MyAspNetProject.Utilities;
 
 public static class KlassExtensions
 {
-    public static Klass ToEntity(this KlassCreateDto klassCreateDto)
+    public static KlassEntity ToEntity(this KlassCreateDto klassCreateDto)
     {
-        return new Klass
+        return new KlassEntity
         {
-            CreatedAt = DateTime.Now,
-            UpdatedAt = DateTime.Now,
             Year = klassCreateDto.Year,
             Group = klassCreateDto.Group,
         };
     }
 
-    public static KlassListDto ToListDto(this Klass klass)
+    public static KlassListDto ToListDto(this KlassEntity klassEntity)
     {
         return new KlassListDto
         {
-            Year = klass.Year,
-            Group = klass.Group,
+            Id = klassEntity.Id,
+            Year = klassEntity.Year,
+            Group = klassEntity.Group,
         };
     }
 }
