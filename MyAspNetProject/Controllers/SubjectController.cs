@@ -1,22 +1,29 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MyAspNetProject.Exceptions;
 using MyAspNetProject.Models.Domain;
+using MyAspNetProject.Models.DTO.Request;
+using MyAspNetProject.Models.DTO.Response;
+using MyAspNetProject.Models.Query;
 
 namespace MyAspNetProject.Controllers;
 
 [ApiController]
 [Route("[controller]/[action]")]
-public class SubjectController: ControllerBase
+public class SubjectController(IMediator mediator): ControllerBase
 {
-    private static List<SubjectEntity> _subjects = new();
-    
+    private readonly IMediator _mediator = mediator;
     [HttpPost]
-    public ActionResult<string> Create([FromBody] SubjectEntity subjectEntity)
+    public async Task<ActionResult<ActionResult<string>>> Create([FromBody] SubjectCreateCommand data)
     {
-        throw new NotFoundException("Subject", subjectEntity.Id);
-        // var id = _subjects.LastOrDefault()?.Id ?? 0;
-        // subject.Id = id + 1;
-        // _subjects.Add(subject);
-        // return Ok(subject);
+        var createdSubject = await _mediator.Send(data);
+        return Ok(createdSubject);
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<List<SubjectListDto>>> List([FromQuery] SubjectListQuery query)
+    {
+        var result = await _mediator.Send(query);
+        return Ok(result);
     }
 }

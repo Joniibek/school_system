@@ -1,0 +1,186 @@
+2026-06-12 19:29:18.904 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 19:29:18.938 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 19:29:18.938 +05:00 [INF] Hosting environment: Development
+2026-06-12 19:29:18.938 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 19:29:22.972 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-12 19:29:23.029 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.7177ms
+2026-06-12 19:29:23.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-12 19:29:23.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-12 19:29:23.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-12 19:29:23.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-12 19:29:23.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-12 19:29:23.041 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.0735ms
+2026-06-12 19:29:23.044 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.5951ms
+2026-06-12 19:29:23.044 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.6142ms
+2026-06-12 19:29:23.045 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.9554ms
+2026-06-12 19:29:23.048 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.5284ms
+2026-06-12 19:29:23.116 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-12 19:29:23.119 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-12 19:29:23.228 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-12 19:29:23.229 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 112.4743ms
+2026-06-12 19:31:16.691 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/SetSubjects - application/json 123
+2026-06-12 19:31:16.692 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.SetSubjects (MyAspNetProject)'
+2026-06-12 19:31:16.729 +05:00 [INF] Route matched with {action = "SetSubjects", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SetSubjects(MyAspNetProject.Models.DTO.Request.TeacherSubjectsSetCommand) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-12 19:31:16.734 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-12 19:31:16.761 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.SetSubjects (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 19:31:17.941 +05:00 [INF] Executed action method MyAspNetProject.Controllers.TeacherController.SetSubjects (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1177.5692ms.
+2026-06-12 19:31:17.946 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-06-12 19:31:17.949 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.SetSubjects (MyAspNetProject) in 1217.3401ms
+2026-06-12 19:31:17.949 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.SetSubjects (MyAspNetProject)'
+2026-06-12 19:31:17.956 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/SetSubjects - 200 null text/plain; charset=utf-8 1264.7838ms
+2026-06-12 19:31:30.495 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Subject/List - null null
+2026-06-12 19:31:30.495 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject)'
+2026-06-12 19:31:30.506 +05:00 [INF] Route matched with {action = "List", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.SubjectListDto]]] List(MyAspNetProject.Models.Query.SubjectListQuery) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-12 19:31:30.514 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 19:31:30.568 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject) in 62.3674ms
+2026-06-12 19:31:30.569 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject)'
+2026-06-12 19:31:30.570 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyAspNetProject.Repositories.SubjectRepository.List(SubjectListQuery query) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/SubjectRepository.cs:line 33
+   at MyAspNetProject.Handlers.SubjectListQueryHandler.Handle(SubjectListQuery query, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/SubjectHandlers.cs:line 30
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.SubjectController.List(SubjectListQuery query) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/SubjectController.cs:line 26
+   at lambda_method66(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-12 19:31:30.578 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Subject/List - 500 null text/plain; charset=utf-8 83.7958ms
+2026-06-12 19:33:59.653 +05:00 [INF] Application is shutting down...
+2026-06-12 19:36:17.070 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 19:36:17.104 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 19:36:17.104 +05:00 [INF] Hosting environment: Development
+2026-06-12 19:36:17.104 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 19:36:19.621 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Subject/List - null null
+2026-06-12 19:36:19.646 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject)'
+2026-06-12 19:36:19.668 +05:00 [INF] Route matched with {action = "List", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.SubjectListDto]]] List(MyAspNetProject.Models.Query.SubjectListQuery) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-12 19:36:19.678 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-12 19:36:19.689 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 19:36:20.734 +05:00 [INF] Executed action method MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1042.0355ms.
+2026-06-12 19:36:20.744 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.SubjectListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-12 19:36:20.759 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject) in 1088.5277ms
+2026-06-12 19:36:20.760 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject)'
+2026-06-12 19:36:20.770 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Subject/List - 200 null application/json; charset=utf-8 1149.88ms
+2026-06-12 19:37:27.718 +05:00 [INF] Application is shutting down...
+2026-06-12 19:53:18.618 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 19:53:18.651 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 19:53:18.651 +05:00 [INF] Hosting environment: Development
+2026-06-12 19:53:18.651 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 19:53:23.639 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-12 19:53:23.694 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.3817ms
+2026-06-12 19:53:23.705 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-12 19:53:23.705 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-12 19:53:23.706 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-12 19:53:23.706 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-12 19:53:23.706 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-12 19:53:23.707 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.3635ms
+2026-06-12 19:53:23.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.0312ms
+2026-06-12 19:53:23.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.0017ms
+2026-06-12 19:53:23.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.7782ms
+2026-06-12 19:53:23.714 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.8969ms
+2026-06-12 19:53:23.787 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-12 19:53:23.789 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-06-12 19:53:23.789 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2722ms
+2026-06-12 19:53:23.790 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-12 19:53:23.897 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-12 19:53:23.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 110.7819ms
+2026-06-12 19:53:29.239 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Teacher/List - null null
+2026-06-12 19:53:29.240 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 19:53:29.276 +05:00 [INF] Route matched with {action = "List", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.TeacherShortListDto]]] List(MyAspNetProject.Models.Query.TeacherListQuery) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-12 19:53:29.280 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-12 19:53:29.294 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 19:53:30.246 +05:00 [INF] Executed action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 949.0681ms.
+2026-06-12 19:53:30.250 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.TeacherShortListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-12 19:53:30.255 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) in 977.3173ms
+2026-06-12 19:53:30.255 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 19:53:30.261 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Teacher/List - 200 null application/json; charset=utf-8 1021.8405ms
+2026-06-12 19:57:13.263 +05:00 [INF] Application is shutting down...
+2026-06-12 20:00:27.018 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 20:00:27.052 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 20:00:27.052 +05:00 [INF] Hosting environment: Development
+2026-06-12 20:00:27.052 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 20:00:28.896 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Teacher/List - null null
+2026-06-12 20:00:28.917 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:00:28.936 +05:00 [INF] Route matched with {action = "List", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.TeacherListDto]]] List(MyAspNetProject.Models.Query.TeacherListQuery) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-12 20:00:28.946 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-12 20:00:28.957 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 20:00:29.977 +05:00 [INF] Executed action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1017.8245ms.
+2026-06-12 20:00:29.987 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.TeacherListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-12 20:00:29.999 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) in 1061.1266ms
+2026-06-12 20:00:30.000 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:00:30.008 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Teacher/List - 200 null application/json; charset=utf-8 1113.0038ms
+2026-06-12 20:00:46.277 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Teacher/List - null null
+2026-06-12 20:00:46.281 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:00:46.282 +05:00 [INF] Route matched with {action = "List", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.TeacherListDto]]] List(MyAspNetProject.Models.Query.TeacherListQuery) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-12 20:00:46.284 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 20:00:46.323 +05:00 [INF] Executed action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 38.8312ms.
+2026-06-12 20:00:46.324 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.TeacherListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-12 20:00:46.324 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) in 42.0534ms
+2026-06-12 20:00:46.324 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:00:46.325 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Teacher/List - 200 null application/json; charset=utf-8 49.4948ms
+2026-06-12 20:00:49.580 +05:00 [INF] Application is shutting down...
+2026-06-12 20:00:51.396 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 20:00:51.431 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 20:00:51.431 +05:00 [INF] Hosting environment: Development
+2026-06-12 20:00:51.431 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 20:01:09.654 +05:00 [INF] Application is shutting down...
+2026-06-12 20:02:42.882 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 20:02:42.915 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 20:02:42.915 +05:00 [INF] Hosting environment: Development
+2026-06-12 20:02:42.915 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 20:02:44.750 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Teacher/List - null null
+2026-06-12 20:02:44.766 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:02:44.782 +05:00 [INF] Route matched with {action = "List", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.TeacherListDto]]] List(MyAspNetProject.Models.Query.TeacherListQuery) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-12 20:02:44.790 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-12 20:02:44.801 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 20:02:45.798 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) in 1013.4167ms
+2026-06-12 20:02:45.804 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:02:45.807 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MyAspNetProject.Utilities.TeacherExtensions.ToDto(TeacherEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Utilities/TeacherExtensions.cs:line 43
+   at MyAspNetProject.Handlers.TeacherListQueryHandler.Handle(TeacherListQuery query, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/TeacherHandlers.cs:line 64
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.TeacherController.List(TeacherListQuery query) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 32
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-12 20:02:45.825 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Teacher/List - 500 null text/plain; charset=utf-8 1075.4629ms
+2026-06-12 20:03:39.665 +05:00 [INF] Application is shutting down...
+2026-06-12 20:03:41.624 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-12 20:03:41.657 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-12 20:03:41.658 +05:00 [INF] Hosting environment: Development
+2026-06-12 20:03:41.658 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-12 20:03:43.321 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Teacher/List - null null
+2026-06-12 20:03:43.336 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:03:43.350 +05:00 [INF] Route matched with {action = "List", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.TeacherListDto]]] List(MyAspNetProject.Models.Query.TeacherListQuery) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-12 20:03:43.359 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-12 20:03:43.368 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-12 20:03:44.353 +05:00 [INF] Executed action method MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 982.8317ms.
+2026-06-12 20:03:44.362 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.TeacherListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-12 20:03:44.377 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject) in 1024.3095ms
+2026-06-12 20:03:44.377 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.List (MyAspNetProject)'
+2026-06-12 20:03:44.385 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Teacher/List - 200 null application/json; charset=utf-8 1065.2915ms
+2026-06-12 20:03:50.458 +05:00 [INF] Application is shutting down...

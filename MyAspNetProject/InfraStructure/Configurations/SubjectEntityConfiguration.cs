@@ -10,5 +10,8 @@ public class LessonEntityConfiguration: IEntityTypeConfiguration<SubjectEntity>
     public void Configure(EntityTypeBuilder<SubjectEntity> builder)
     {
         builder.ToTable("subject");
+        builder.Property(s => s.Name).IsRequired().HasMaxLength(50);
+        builder.HasIndex(s => s.Name)
+            .IsUnique();
     }
 }

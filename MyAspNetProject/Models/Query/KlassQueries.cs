@@ -1,7 +1,8 @@
+using MediatR;
+using MyAspNetProject.Models.DTO.Response;
+
 namespace MyAspNetProject.Models.Query;
 
-public record KlassListQuery : BaseQuery
-{
-    public string? Group { get; set; }
-    public int Year { get; set; }
-}
+public record KlassListQuery(
+    string? Group, int Year
+    ) : IRequest<List<KlassListDto>>;

@@ -1,8 +1,4 @@
 namespace MyAspNetProject.Models.Query;
 
 
-public record BaseQuery
-{
-    public int Offset { get; set; } = 0;
-    public int Limit { get; set; } = 10;
-}
+public record BaseQuery(int Offset=0, int Limit=10);

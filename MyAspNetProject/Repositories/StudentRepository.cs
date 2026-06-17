@@ -12,9 +12,9 @@ namespace MyAspNetProject.Repositories;
 public interface IStudentRepository
 {
     Task<List<StudentEntity>> List(StudentListQuery query);
-    Task<StudentEntity> GetById(int id);
+    Task<StudentEntity?> GetById(Guid id);
 
-    Task<bool> ExistsById(int id);
+    Task<bool> ExistsById(Guid id);
     Task<bool> ExistsByCredentials(string email, string phone);
     Task<StudentEntity> Create(StudentEntity studentEntityCreateDto);
     // List<Student> GetByYear(int year);
@@ -43,7 +43,7 @@ public class StudentRepository(DBContext dbContext) : IStudentRepository
          return await queryStudent.Take(query.Limit).Skip(query.Offset).ToListAsync();
      }
 
-     public async Task<StudentEntity> GetById(int id)
+     public async Task<StudentEntity?> GetById(Guid id)
      {
          return await _dbContext.Students.
              AsNoTracking()
@@ -74,7 +74,7 @@ public class StudentRepository(DBContext dbContext) : IStudentRepository
          return await _dbContext.Students.AnyAsync(x => x.Email == email || x.PhoneNumber == phone);
      }
 
-     public async Task<bool> ExistsById(int id)
+     public async Task<bool> ExistsById(Guid id)
      {
          return await _dbContext.Students
              .AsNoTracking()

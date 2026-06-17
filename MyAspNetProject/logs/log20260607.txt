@@ -1,0 +1,1155 @@
+2026-06-07 14:33:09.092 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 14:33:09.121 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 14:33:09.121 +05:00 [INF] Hosting environment: Development
+2026-06-07 14:33:09.121 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 14:33:20.142 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-07 14:33:20.187 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 46.5693ms
+2026-06-07 14:33:20.197 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 14:33:20.197 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-07 14:33:20.197 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-07 14:33:20.197 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-07 14:33:20.197 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-07 14:33:20.199 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.6632ms
+2026-06-07 14:33:20.202 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.5484ms
+2026-06-07 14:33:20.202 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.529ms
+2026-06-07 14:33:20.203 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 6.3715ms
+2026-06-07 14:33:20.206 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.8267ms
+2026-06-07 14:33:20.242 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-07 14:33:20.244 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 14:33:20.323 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 14:33:20.324 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 81.6614ms
+2026-06-07 14:33:24.036 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 36
+2026-06-07 14:33:24.037 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 14:33:24.070 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 14:33:24.796 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 724.9742ms
+2026-06-07 14:33:24.796 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 14:33:24.797 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 22001: value too long for type character varying(1)
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 22001
+    MessageText: value too long for type character varying(1)
+    File: varchar.c
+    Line: 640
+    Routine: varchar
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.KlassRepository.Create(KlassEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/KlassRepository.cs:line 45
+   at MyAspNetProject.Services.KlassService.Create(KlassCreateCommand klassCreateCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/KlassService.cs:line 58
+   at MyAspNetProject.Controllers.KlassController.Create(KlassCreateCommand klassCreateCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 16
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 14:33:24.812 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 775.2088ms
+2026-06-07 14:34:13.736 +05:00 [INF] Application is shutting down...
+2026-06-07 15:45:47.076 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 15:45:47.112 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 15:45:47.112 +05:00 [INF] Hosting environment: Development
+2026-06-07 15:45:47.112 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 15:56:05.872 +05:00 [INF] Application is shutting down...
+2026-06-07 15:56:10.053 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 15:56:10.091 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 15:56:10.092 +05:00 [INF] Hosting environment: Development
+2026-06-07 15:56:10.092 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 15:56:19.477 +05:00 [INF] Application is shutting down...
+2026-06-07 15:56:20.425 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 15:56:20.462 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 15:56:20.462 +05:00 [INF] Hosting environment: Development
+2026-06-07 15:56:20.462 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 15:56:41.108 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-07 15:56:41.170 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 63.5911ms
+2026-06-07 15:56:41.183 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-07 15:56:41.183 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-07 15:56:41.183 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-07 15:56:41.183 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 15:56:41.183 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-07 15:56:41.184 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.1182ms
+2026-06-07 15:56:41.188 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.7787ms
+2026-06-07 15:56:41.188 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.7995ms
+2026-06-07 15:56:41.188 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.6606ms
+2026-06-07 15:56:41.192 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.3955ms
+2026-06-07 15:56:41.228 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-07 15:56:41.230 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-06-07 15:56:41.230 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3557ms
+2026-06-07 15:56:41.230 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 15:56:41.340 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 15:56:41.341 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 112.8545ms
+2026-06-07 15:56:54.972 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 15:56:54.973 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 15:56:55.004 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 15:56:55.010 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 15:56:55.915 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 908.8434ms
+2026-06-07 15:56:55.915 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 15:56:55.916 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.AsyncValidatorInvokedSynchronouslyException: Validator "KlassCreateDtoValidator" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 124
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 85
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in /_/src/FluentValidation.AspNetCore/FluentValidationModelValidatorProvider.cs:line 150
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 45
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 63
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 47
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 15:56:55.927 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 955.1264ms
+2026-06-07 15:57:19.407 +05:00 [INF] Application is shutting down...
+2026-06-07 15:57:21.471 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 15:57:21.507 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 15:57:21.507 +05:00 [INF] Hosting environment: Development
+2026-06-07 15:57:21.507 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 15:57:46.292 +05:00 [INF] Application is shutting down...
+2026-06-07 15:57:47.271 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 15:57:47.307 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 15:57:47.307 +05:00 [INF] Hosting environment: Development
+2026-06-07 15:57:47.307 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 15:57:50.042 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 15:57:50.056 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 15:57:50.071 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 15:57:50.080 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 15:57:50.902 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 828.6454ms
+2026-06-07 15:57:50.907 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 15:57:50.908 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.AsyncValidatorInvokedSynchronouslyException: Validator "KlassCreateDtoValidator" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 124
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 85
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in /_/src/FluentValidation.AspNetCore/FluentValidationModelValidatorProvider.cs:line 150
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 45
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 63
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 47
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 15:57:50.920 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 879.3528ms
+2026-06-07 15:58:25.377 +05:00 [INF] Application is shutting down...
+2026-06-07 16:00:50.646 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:00:50.679 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:00:50.680 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:00:50.680 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:00:52.766 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 16:00:52.790 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 16:00:52.807 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:00:52.817 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 16:00:52.842 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:00:53.894 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1084.0342ms
+2026-06-07 16:00:53.900 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 16:00:53.903 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Year: Не выполнено указанное условие для 'Year'. Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.KlassController.Create(KlassCreateCommand klassCreateCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 18
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 16:00:53.922 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 1156.6457ms
+2026-06-07 16:03:01.156 +05:00 [INF] Application is shutting down...
+2026-06-07 16:03:03.348 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:03:03.384 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:03:03.384 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:03:03.384 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:06:34.818 +05:00 [INF] Application is shutting down...
+2026-06-07 16:06:36.906 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:06:36.940 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:06:36.940 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:06:36.940 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:06:39.830 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 16:06:39.853 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 16:06:39.872 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:06:39.882 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 16:06:39.906 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:06:41.079 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 1169.8147ms.
+2026-06-07 16:06:41.089 +05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2026-06-07 16:06:41.092 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1217.4152ms
+2026-06-07 16:06:41.093 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 16:06:41.104 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 201 0 null 1275.9682ms
+2026-06-07 16:06:43.980 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 16:06:43.983 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 16:06:43.983 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:06:43.985 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:06:44.034 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 50.8654ms
+2026-06-07 16:06:44.035 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 16:06:44.037 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Year: Класс с такими данными уже сущесвует Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.KlassController.Create(KlassCreateCommand klassCreateCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 18
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 16:06:44.054 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 500 null text/plain; charset=utf-8 76.5986ms
+2026-06-07 16:07:15.256 +05:00 [INF] Application is shutting down...
+2026-06-07 16:16:56.045 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:16:56.080 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:16:56.080 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:16:56.080 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:17:07.338 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-06-07 16:17:07.367 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 16:17:07.387 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 16:17:08.146 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:17:08.407 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 258.5082ms.
+2026-06-07 16:17:08.418 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 16:17:08.433 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 1043.9376ms
+2026-06-07 16:17:08.434 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 16:17:08.443 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 null application/json; charset=utf-8 1107.6372ms
+2026-06-07 16:18:58.540 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-07 16:18:58.612 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 73.0407ms
+2026-06-07 16:18:58.629 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-07 16:18:58.630 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-07 16:18:58.630 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-07 16:18:58.631 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 16:18:58.631 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-07 16:18:58.631 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.8269ms
+2026-06-07 16:18:58.635 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.4613ms
+2026-06-07 16:18:58.635 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.9826ms
+2026-06-07 16:18:58.636 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.0767ms
+2026-06-07 16:18:58.640 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 9.8926ms
+2026-06-07 16:18:58.677 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-07 16:18:58.678 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 16:18:58.679 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-06-07 16:18:58.679 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.358ms
+2026-06-07 16:18:58.777 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 16:18:58.777 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 99.7476ms
+2026-06-07 16:19:02.838 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:19:02.839 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:02.853 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:19:02.859 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 16:19:02.865 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-06-07 16:19:02.881 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 27.9727ms
+2026-06-07 16:19:02.881 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:02.881 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 400 null application/problem+json; charset=utf-8 43.1398ms
+2026-06-07 16:19:15.304 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:19:15.307 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:15.308 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:19:15.311 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-06-07 16:19:15.311 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 2.639ms
+2026-06-07 16:19:15.312 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:15.312 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 400 null application/problem+json; charset=utf-8 8.0975ms
+2026-06-07 16:19:15.385 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:19:15.385 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:15.385 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:19:15.386 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-06-07 16:19:15.387 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 1.1729ms
+2026-06-07 16:19:15.387 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:15.387 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 400 null application/problem+json; charset=utf-8 1.8408ms
+2026-06-07 16:19:15.983 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:19:15.983 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:15.983 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:19:15.984 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-06-07 16:19:15.985 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 1.6815ms
+2026-06-07 16:19:15.986 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:15.986 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 400 null application/problem+json; charset=utf-8 2.9375ms
+2026-06-07 16:19:18.600 +05:00 [INF] Application is shutting down...
+2026-06-07 16:19:20.697 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:19:20.732 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:19:20.732 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:19:20.732 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:19:21.485 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:19:21.504 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:21.521 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:19:21.530 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 16:19:21.539 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:19:21.547 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 24.1624ms
+2026-06-07 16:19:21.553 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:19:21.554 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'MediatR.IRequestHandler`2[MyAspNetProject.Models.Query.KlassListQuery,System.Collections.Generic.List`1[MyAspNetProject.Models.Query.KlassListQuery]]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0(CancellationToken t)
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(Object request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MyAspNetProject.Controllers.KlassController.List(KlassListQuery query) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 25
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 16:19:21.562 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 500 null text/plain; charset=utf-8 77.6793ms
+2026-06-07 16:21:13.529 +05:00 [INF] Application is shutting down...
+2026-06-07 16:27:53.067 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:27:53.101 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:27:53.101 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:27:53.101 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:27:57.886 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:27:57.909 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:27:57.928 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:27:57.937 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 16:27:57.947 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:27:57.955 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 25.4482ms
+2026-06-07 16:27:57.961 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:27:57.961 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'MediatR.IRequestHandler`2[MyAspNetProject.Models.Query.KlassListQuery,System.Collections.Generic.List`1[MyAspNetProject.Models.Query.KlassListQuery]]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0(CancellationToken t)
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.Handle(Object request, IServiceProvider serviceProvider, CancellationToken cancellationToken)
+   at MyAspNetProject.Controllers.KlassController.List(KlassListQuery query) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/KlassController.cs:line 25
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 16:27:57.969 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 500 null text/plain; charset=utf-8 83.5157ms
+2026-06-07 16:29:23.533 +05:00 [INF] Application is shutting down...
+2026-06-07 16:29:25.672 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:29:25.707 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:29:25.708 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:29:25.708 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:29:29.691 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 16:29:29.715 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:29:29.738 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:29:29.748 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 16:29:29.758 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:29:30.741 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 980.6679ms.
+2026-06-07 16:29:30.751 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 16:29:30.764 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 1023.7227ms
+2026-06-07 16:29:30.764 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:29:30.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 1082.3604ms
+2026-06-07 16:29:38.272 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-07 16:29:38.277 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:29:38.277 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:29:38.287 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:29:38.410 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 122.9881ms.
+2026-06-07 16:29:38.410 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 16:29:38.411 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 132.9729ms
+2026-06-07 16:29:38.411 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:29:38.411 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 139.3705ms
+2026-06-07 16:29:41.209 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D1%84 - null null
+2026-06-07 16:29:41.211 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:29:41.211 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 16:29:41.214 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 16:29:41.289 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 74.6003ms.
+2026-06-07 16:29:41.289 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 16:29:41.289 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 77.857ms
+2026-06-07 16:29:41.289 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 16:29:41.290 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D1%84 - 200 null application/json; charset=utf-8 80.6476ms
+2026-06-07 16:30:03.527 +05:00 [INF] Application is shutting down...
+2026-06-07 16:49:05.078 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:49:05.113 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:49:05.113 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:49:05.113 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 16:49:07.608 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-07 16:49:07.668 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 60.8368ms
+2026-06-07 16:49:07.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-07 16:49:07.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-07 16:49:07.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 16:49:07.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-07 16:49:07.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-07 16:49:07.681 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.6984ms
+2026-06-07 16:49:07.685 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.2284ms
+2026-06-07 16:49:07.685 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.2325ms
+2026-06-07 16:49:07.685 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.4452ms
+2026-06-07 16:49:07.688 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.7489ms
+2026-06-07 16:49:07.723 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-07 16:49:07.725 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-06-07 16:49:07.725 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3273ms
+2026-06-07 16:49:07.726 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 16:49:07.826 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 16:49:07.827 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 103.4454ms
+2026-06-07 16:49:24.214 +05:00 [INF] Application is shutting down...
+2026-06-07 16:53:41.816 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 16:53:41.850 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 16:53:41.850 +05:00 [INF] Hosting environment: Development
+2026-06-07 16:53:41.850 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:05:34.267 +05:00 [INF] Application is shutting down...
+2026-06-07 17:05:38.402 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:05:38.436 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:05:38.437 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:05:38.437 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:05:46.528 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 272
+2026-06-07 17:05:46.551 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:05:46.570 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:05:46.581 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:05:46.619 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:05:47.744 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1170.2136ms
+2026-06-07 17:05:47.750 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:05:47.754 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Email: 'Email' неверный email адрес. Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:05:47.775 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 1248.6311ms
+2026-06-07 17:06:03.180 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:06:03.183 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:06:03.183 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:06:03.186 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:06:09.707 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:06:09.740 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:06:09.740 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:06:09.740 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:06:13.210 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:06:13.228 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:06:13.244 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:06:13.253 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:06:13.287 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:06:49.961 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:06:49.992 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:06:49.992 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:06:49.992 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:06:53.589 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:06:53.600 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:06:53.612 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:06:53.621 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:07:38.619 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:07:38.650 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:07:38.650 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:07:38.650 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:07:41.467 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:07:41.487 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:07:41.505 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:07:41.515 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:09:49.348 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:09:49.394 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:09:49.395 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:09:49.395 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:09:53.954 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:09:53.976 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:09:53.996 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:09:54.006 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:09:54.043 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:12:08.799 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:12:08.834 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:12:08.835 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:12:08.835 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:12:20.261 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:12:20.286 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:12:20.305 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:12:20.315 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:12:20.352 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:12:21.627 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1318.7918ms
+2026-06-07 17:12:21.633 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:12:21.637 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: student
+    ConstraintName: fk_student_klasses_klass_entity_id
+    File: ri_triggers.c
+    Line: 2610
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.StudentRepository.Create(StudentEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/StudentRepository.cs:line 58
+   at MyAspNetProject.Handlers.StudentCreateCommandHandler.Handle(StudentCreateCommand request, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/StudentServices.cs:line 16
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:12:21.664 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 1405.3935ms
+2026-06-07 17:13:59.900 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:13:59.905 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:13:59.905 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:13:59.906 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:13:59.933 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 27.9858ms
+2026-06-07 17:13:59.933 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:13:59.934 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: student
+    ConstraintName: fk_student_klasses_klass_entity_id
+    File: ri_triggers.c
+    Line: 2610
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.StudentRepository.Create(StudentEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/StudentRepository.cs:line 58
+   at MyAspNetProject.Handlers.StudentCreateCommandHandler.Handle(StudentCreateCommand request, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/StudentServices.cs:line 16
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:13:59.938 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 38.9272ms
+2026-06-07 17:13:59.997 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:13:59.998 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:13:59.998 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:13:59.999 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:14:00.045 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 46.667ms
+2026-06-07 17:14:00.045 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:14:00.045 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: student
+    ConstraintName: fk_student_klasses_klass_entity_id
+    File: ri_triggers.c
+    Line: 2610
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.StudentRepository.Create(StudentEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/StudentRepository.cs:line 58
+   at MyAspNetProject.Handlers.StudentCreateCommandHandler.Handle(StudentCreateCommand request, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/StudentServices.cs:line 16
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:14:00.049 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 52.3324ms
+2026-06-07 17:14:21.705 +05:00 [INF] Application is shutting down...
+2026-06-07 17:14:23.776 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:14:23.810 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:14:23.810 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:14:23.810 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:14:25.803 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:14:25.825 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:14:25.844 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:14:25.853 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:14:25.887 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:14:26.934 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 1087.4105ms
+2026-06-07 17:14:26.940 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:14:26.943 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- KlassId: Класс не найден Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:14:26.964 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 1162.0784ms
+2026-06-07 17:17:22.805 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 17:17:22.811 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 17:17:22.828 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 17:17:22.835 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:17:22.921 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 83.363ms.
+2026-06-07 17:17:22.925 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 17:17:22.932 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 103.964ms
+2026-06-07 17:17:22.932 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 17:17:22.933 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 128.352ms
+2026-06-07 17:17:33.207 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:17:33.209 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:17:33.209 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:17:33.212 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:17:33.483 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 273.7563ms
+2026-06-07 17:17:33.483 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:17:33.483 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: student
+    ConstraintName: fk_student_klasses_klass_entity_id
+    File: ri_triggers.c
+    Line: 2610
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.StudentRepository.Create(StudentEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/StudentRepository.cs:line 58
+   at MyAspNetProject.Handlers.StudentCreateCommandHandler.Handle(StudentCreateCommand request, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/StudentServices.cs:line 16
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:17:33.488 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 281.5074ms
+2026-06-07 17:18:01.941 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:18:01.943 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:18:01.944 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:18:01.945 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:18:01.976 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 32.2421ms
+2026-06-07 17:18:01.977 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:18:01.977 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23503: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23503
+    MessageText: insert or update on table "student" violates foreign key constraint "fk_student_klasses_klass_entity_id"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: student
+    ConstraintName: fk_student_klasses_klass_entity_id
+    File: ri_triggers.c
+    Line: 2610
+    Routine: ri_ReportViolation
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.StudentRepository.Create(StudentEntity entity) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/StudentRepository.cs:line 58
+   at MyAspNetProject.Handlers.StudentCreateCommandHandler.Handle(StudentCreateCommand request, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/StudentServices.cs:line 16
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.StudentController.Create(StudentCreateCommand studentCommand) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/StudentController.cs:line 23
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 17:18:01.982 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 500 null text/plain; charset=utf-8 41.8664ms
+2026-06-07 17:18:18.637 +05:00 [INF] Application is shutting down...
+2026-06-07 17:46:36.232 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:46:36.297 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:46:36.298 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:46:36.298 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:46:52.631 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 17:46:52.656 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 17:46:52.676 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 17:46:52.686 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:46:52.709 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:46:53.933 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 1220.62ms.
+2026-06-07 17:46:53.943 +05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2026-06-07 17:46:53.946 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1267.4726ms
+2026-06-07 17:46:53.947 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 17:46:53.958 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 201 0 null 1328.1094ms
+2026-06-07 17:47:02.549 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 17:47:02.553 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 17:47:02.565 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 17:47:02.574 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:47:02.646 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 72.1242ms.
+2026-06-07 17:47:02.647 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 17:47:02.657 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 91.1884ms
+2026-06-07 17:47:02.657 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 17:47:02.657 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 109.2151ms
+2026-06-07 17:48:24.502 +05:00 [INF] Application is shutting down...
+2026-06-07 17:49:12.375 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:49:12.409 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:49:12.410 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:49:12.410 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:49:48.993 +05:00 [INF] Application is shutting down...
+2026-06-07 17:50:19.134 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:50:19.167 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:50:19.167 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:50:19.167 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:50:34.184 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 17:50:34.204 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 17:50:34.224 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 17:50:34.234 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:50:34.256 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:50:35.513 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 1254.2808ms.
+2026-06-07 17:50:35.524 +05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2026-06-07 17:50:35.527 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1300.7283ms
+2026-06-07 17:50:35.527 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 17:50:35.538 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 201 0 null 1355.2661ms
+2026-06-07 17:51:13.157 +05:00 [INF] Application is shutting down...
+2026-06-07 17:56:23.086 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 17:56:23.122 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 17:56:23.122 +05:00 [INF] Hosting environment: Development
+2026-06-07 17:56:23.122 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 17:56:34.260 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-07 17:56:34.282 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 17:56:34.300 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateCommand) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 17:56:34.310 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 17:56:34.332 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:56:35.574 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 1239.1821ms.
+2026-06-07 17:56:35.585 +05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2026-06-07 17:56:35.588 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 1285.2232ms
+2026-06-07 17:56:35.588 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-07 17:56:35.600 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 201 0 null 1340.3272ms
+2026-06-07 17:57:33.262 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-07 17:57:33.267 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 17:57:33.280 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-07 17:57:33.285 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:57:33.358 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73.1055ms.
+2026-06-07 17:57:33.359 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 17:57:33.368 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 88.2529ms
+2026-06-07 17:57:33.369 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-07 17:57:33.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 107.9932ms
+2026-06-07 17:57:47.454 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Student/Create - application/json 282
+2026-06-07 17:57:47.457 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:57:47.465 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.StudentCreateCommand) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 17:57:47.498 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 17:57:47.628 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 130.3197ms.
+2026-06-07 17:57:47.628 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentCreateResponseDto'.
+2026-06-07 17:57:47.629 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject) in 163.9968ms
+2026-06-07 17:57:47.629 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.Create (MyAspNetProject)'
+2026-06-07 17:57:47.629 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Student/Create - 200 null application/json; charset=utf-8 175.4244ms
+2026-06-07 18:00:17.761 +05:00 [INF] Application is shutting down...
+2026-06-07 18:45:29.374 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 18:45:29.409 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 18:45:29.409 +05:00 [INF] Hosting environment: Development
+2026-06-07 18:45:29.409 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 18:45:31.125 +05:00 [INF] Application is shutting down...
+2026-06-07 18:55:20.461 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 18:55:20.495 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 18:55:20.495 +05:00 [INF] Hosting environment: Development
+2026-06-07 18:55:20.495 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 18:55:33.285 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-07 18:55:33.347 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 62.7601ms
+2026-06-07 18:55:33.355 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-07 18:55:33.355 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-07 18:55:33.355 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-07 18:55:33.355 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-07 18:55:33.355 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-07 18:55:33.356 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.5324ms
+2026-06-07 18:55:33.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.9827ms
+2026-06-07 18:55:33.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.985ms
+2026-06-07 18:55:33.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.1432ms
+2026-06-07 18:55:33.363 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.3701ms
+2026-06-07 18:55:33.395 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-07 18:55:33.396 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-06-07 18:55:33.396 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2652ms
+2026-06-07 18:55:33.397 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 18:55:33.503 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-07 18:55:33.504 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 109.3291ms
+2026-06-07 18:55:37.619 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List - null null
+2026-06-07 18:55:37.620 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 18:55:37.659 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 18:55:37.664 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 18:55:37.678 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 18:55:38.695 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1014.5892ms.
+2026-06-07 18:55:38.699 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 18:55:38.705 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 1044.3124ms
+2026-06-07 18:55:38.706 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 18:55:38.711 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List - 200 null application/json; charset=utf-8 1092.439ms
+2026-06-07 18:56:07.866 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Year=4 - null null
+2026-06-07 18:56:07.867 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 18:56:07.868 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 18:56:07.874 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 18:56:07.939 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 64.3324ms.
+2026-06-07 18:56:07.940 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 18:56:07.940 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 72.011ms
+2026-06-07 18:56:07.940 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 18:56:07.940 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Year=4 - 200 null application/json; charset=utf-8 74.7722ms
+2026-06-07 18:56:12.311 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/List?Year=3 - null null
+2026-06-07 18:56:12.312 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 18:56:12.312 +05:00 [INF] Route matched with {action = "List", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.StudentListDto]]] List(MyAspNetProject.Models.Query.StudentListQuery) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 18:56:12.314 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 18:56:12.389 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 74.6656ms.
+2026-06-07 18:56:12.390 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.StudentListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-07 18:56:12.390 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.List (MyAspNetProject) in 77.9808ms
+2026-06-07 18:56:12.390 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.List (MyAspNetProject)'
+2026-06-07 18:56:12.390 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/List?Year=3 - 200 null application/json; charset=utf-8 79.2461ms
+2026-06-07 18:56:19.945 +05:00 [INF] Application is shutting down...
+2026-06-07 18:56:22.767 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 18:56:22.803 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 18:56:22.804 +05:00 [INF] Hosting environment: Development
+2026-06-07 18:56:22.804 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 18:56:37.446 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Student/GetById/019ea229-2b3f-7ac9-a929-7f9ac50c52d9 - null null
+2026-06-07 18:56:37.472 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-06-07 18:56:37.491 +05:00 [INF] Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.StudentDetailedListDto]] GetById(System.Guid) on controller MyAspNetProject.Controllers.StudentController (MyAspNetProject).
+2026-06-07 18:56:37.501 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 18:56:37.509 +05:00 [INF] Executing action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 18:56:38.541 +05:00 [INF] Executed action method MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1029.4181ms.
+2026-06-07 18:56:38.550 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.StudentDetailedListDto'.
+2026-06-07 18:56:38.575 +05:00 [INF] Executed action MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject) in 1081.6845ms
+2026-06-07 18:56:38.576 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.StudentController.GetById (MyAspNetProject)'
+2026-06-07 18:56:38.584 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Student/GetById/019ea229-2b3f-7ac9-a929-7f9ac50c52d9 - 200 null application/json; charset=utf-8 1139.3429ms
+2026-06-07 18:57:00.963 +05:00 [INF] Application is shutting down...
+2026-06-07 19:23:16.200 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 19:23:16.234 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 19:23:16.234 +05:00 [INF] Hosting environment: Development
+2026-06-07 19:23:16.234 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 19:23:26.747 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Subject/Create - application/json 28
+2026-06-07 19:23:26.772 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:23:26.791 +05:00 [INF] Route matched with {action = "Create", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Create(MyAspNetProject.Models.DTO.Request.SubjectCreateCommand) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-07 19:23:26.801 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 19:23:26.822 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 19:23:27.843 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) in 1049.1203ms
+2026-06-07 19:23:27.849 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:23:27.852 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Name: Предмет уже сущесвует Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.SubjectController.Create(SubjectCreateCommand data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/SubjectController.cs:line 18
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 19:23:27.871 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Subject/Create - 500 null text/plain; charset=utf-8 1125.6207ms
+2026-06-07 19:25:24.230 +05:00 [INF] Application is shutting down...
+2026-06-07 19:25:26.304 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-07 19:25:26.338 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-07 19:25:26.338 +05:00 [INF] Hosting environment: Development
+2026-06-07 19:25:26.338 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-07 19:25:27.592 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Subject/Create - application/json 28
+2026-06-07 19:25:27.606 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:27.620 +05:00 [INF] Route matched with {action = "Create", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Create(MyAspNetProject.Models.DTO.Request.SubjectCreateCommand) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-07 19:25:27.629 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-07 19:25:27.648 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 19:25:28.764 +05:00 [INF] Executed action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1114.0666ms.
+2026-06-07 19:25:28.775 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.SubjectResponseDto'.
+2026-06-07 19:25:28.789 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) in 1166.5937ms
+2026-06-07 19:25:28.790 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:28.801 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Subject/Create - 200 null application/json; charset=utf-8 1209.4746ms
+2026-06-07 19:25:38.664 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Subject/Create - application/json 28
+2026-06-07 19:25:38.665 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:38.666 +05:00 [INF] Route matched with {action = "Create", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Create(MyAspNetProject.Models.DTO.Request.SubjectCreateCommand) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-07 19:25:38.666 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 19:25:38.690 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) in 24.7566ms
+2026-06-07 19:25:38.691 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:38.692 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Name: Предмет уже сущесвует Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.SubjectController.Create(SubjectCreateCommand data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/SubjectController.cs:line 18
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 19:25:38.703 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Subject/Create - 500 null text/plain; charset=utf-8 38.785ms
+2026-06-07 19:25:38.741 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Subject/Create - application/json 28
+2026-06-07 19:25:38.742 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:38.742 +05:00 [INF] Route matched with {action = "Create", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Create(MyAspNetProject.Models.DTO.Request.SubjectCreateCommand) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-07 19:25:38.742 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 19:25:38.784 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) in 41.9951ms
+2026-06-07 19:25:38.784 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:38.784 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.ValidationException: Validation failed: 
+ -- Name: Предмет уже сущесвует Severity: Error
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 33
+   at MyAspNetProject.Controllers.SubjectController.Create(SubjectCreateCommand data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/SubjectController.cs:line 18
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-07 19:25:38.786 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Subject/Create - 500 null text/plain; charset=utf-8 44.6405ms
+2026-06-07 19:25:46.867 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Subject/Create - application/json 26
+2026-06-07 19:25:46.868 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:46.868 +05:00 [INF] Route matched with {action = "Create", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Create(MyAspNetProject.Models.DTO.Request.SubjectCreateCommand) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-07 19:25:46.869 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-07 19:25:46.881 +05:00 [INF] Executed action method MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.894ms.
+2026-06-07 19:25:46.882 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.SubjectResponseDto'.
+2026-06-07 19:25:46.882 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject) in 13.8869ms
+2026-06-07 19:25:46.882 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.Create (MyAspNetProject)'
+2026-06-07 19:25:46.883 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Subject/Create - 200 null application/json; charset=utf-8 15.4769ms
+2026-06-07 19:27:44.584 +05:00 [INF] Application is shutting down...

@@ -6,12 +6,12 @@ namespace MyAspNetProject.Utilities;
 
 public static class KlassExtensions
 {
-    public static KlassEntity ToEntity(this KlassCreateDto klassCreateDto)
+    public static KlassEntity ToEntity(this KlassCreateCommand klassCreateCommand)
     {
         return new KlassEntity
         {
-            Year = klassCreateDto.Year,
-            Group = klassCreateDto.Group,
+            Year = klassCreateCommand.Year,
+            Group = klassCreateCommand.Group,
         };
     }
 

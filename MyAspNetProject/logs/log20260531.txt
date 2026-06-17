@@ -1,0 +1,581 @@
+2026-05-31 15:31:21.356 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:31:21.390 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:31:21.390 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:31:21.390 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:31:32.304 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 15:31:32.357 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 53.7065ms
+2026-05-31 15:31:32.365 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 15:31:32.365 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 15:31:32.365 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 15:31:32.366 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 15:31:32.367 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 15:31:32.367 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.4077ms
+2026-05-31 15:31:32.371 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 5.095ms
+2026-05-31 15:31:32.371 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 200 26388 text/css 6.2635ms
+2026-05-31 15:31:32.373 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 7.0036ms
+2026-05-31 15:31:32.378 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 12.8141ms
+2026-05-31 15:31:32.444 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 15:31:32.447 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:31:32.450 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 15:31:32.450 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2787ms
+2026-05-31 15:31:32.536 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:31:32.536 +05:00 [INF] 0HNLUVV47SC7O:00000002. Method GET took 89 ms
+2026-05-31 15:31:32.536 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 92.1274ms
+2026-05-31 15:35:16.686 +05:00 [INF] Application is shutting down...
+2026-05-31 15:36:23.074 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:36:23.108 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:36:23.108 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:36:23.108 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:36:27.150 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 15:36:27.208 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 59.5563ms
+2026-05-31 15:36:27.221 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 15:36:27.221 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 15:36:27.221 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 15:36:27.221 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 15:36:27.221 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 15:36:27.222 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.7602ms
+2026-05-31 15:36:27.225 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.8493ms
+2026-05-31 15:36:27.225 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.8488ms
+2026-05-31 15:36:27.225 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.0115ms
+2026-05-31 15:36:27.229 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.2197ms
+2026-05-31 15:36:27.265 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 15:36:27.266 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 15:36:27.266 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.505ms
+2026-05-31 15:36:27.267 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:36:27.369 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:36:27.369 +05:00 [INF] 0HNLV01S3K657:00000002. Method GET took 102 ms
+2026-05-31 15:36:27.370 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 105.5283ms
+2026-05-31 15:37:09.668 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 15:37:09.669 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 1.3048ms
+2026-05-31 15:37:09.680 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 15:37:09.681 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 15:37:09.681 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 15:37:09.681 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 0.4744ms
+2026-05-31 15:37:09.681 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 0.2895ms
+2026-05-31 15:37:09.681 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 0.4074ms
+2026-05-31 15:37:09.681 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 15:37:09.681 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 15:37:09.683 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 1.0804ms
+2026-05-31 15:37:09.683 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.6157ms
+2026-05-31 15:37:09.716 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 15:37:09.716 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:37:09.716 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 15:37:09.717 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.3227ms
+2026-05-31 15:37:09.727 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:37:09.727 +05:00 [INF] 0HNLV01S3K655:00000003. Method GET took 10 ms
+2026-05-31 15:37:09.727 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 11.5158ms
+2026-05-31 15:37:13.479 +05:00 [INF] Application is shutting down...
+2026-05-31 15:37:18.181 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:37:18.216 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:37:18.217 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:37:18.217 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:37:19.841 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 15:37:19.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 57.9137ms
+2026-05-31 15:37:19.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 15:37:19.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 15:37:19.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 15:37:19.904 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 15:37:19.905 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 15:37:19.908 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 3.8993ms
+2026-05-31 15:37:19.910 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.1097ms
+2026-05-31 15:37:19.910 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.6214ms
+2026-05-31 15:37:19.910 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 6.177ms
+2026-05-31 15:37:19.913 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.9859ms
+2026-05-31 15:37:19.981 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 15:37:19.983 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:37:19.987 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 15:37:19.987 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2855ms
+2026-05-31 15:37:20.082 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 15:37:20.082 +05:00 [INF] 0HNLV02BQ63KV:00000002. Method GET took 99 ms
+2026-05-31 15:37:20.083 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 102.3166ms
+2026-05-31 15:38:23.759 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 265
+2026-05-31 15:38:23.760 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 15:38:23.795 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 15:38:24.558 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 15:38:24.737 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 940.5968ms
+2026-05-31 15:38:24.737 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 15:38:24.740 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 200 0 null 981.9593ms
+2026-05-31 15:40:02.613 +05:00 [INF] Application is shutting down...
+2026-05-31 15:40:15.287 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:40:15.324 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:40:15.325 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:40:15.325 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:40:23.998 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 265
+2026-05-31 15:40:24.022 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 15:40:24.037 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 15:40:24.958 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 15:41:01.900 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:41:01.936 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:41:01.936 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:41:01.936 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:41:04.507 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 265
+2026-05-31 15:41:04.541 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 15:41:04.556 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 15:41:05.429 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 15:42:18.590 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:42:18.625 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:42:18.625 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:42:18.625 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:42:19.293 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 265
+2026-05-31 15:42:19.314 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 15:42:19.327 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 15:42:20.172 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 15:43:17.675 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 15:43:17.710 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 15:43:17.710 +05:00 [INF] Hosting environment: Development
+2026-05-31 15:43:17.710 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 15:43:22.321 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 265
+2026-05-31 15:43:22.344 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 15:43:22.358 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 15:43:23.235 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 16:22:48.039 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 16:22:48.072 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 16:22:48.073 +05:00 [INF] Hosting environment: Development
+2026-05-31 16:22:48.073 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 16:22:48.663 +05:00 [INF] Application is shutting down...
+2026-05-31 16:48:01.970 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 16:48:02.003 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 16:48:02.004 +05:00 [INF] Hosting environment: Development
+2026-05-31 16:48:02.004 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 16:56:50.188 +05:00 [INF] Application is shutting down...
+2026-05-31 17:49:52.044 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 17:49:52.081 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 17:49:52.081 +05:00 [INF] Hosting environment: Development
+2026-05-31 17:49:52.081 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 17:50:15.258 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 17:50:15.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 61.2512ms
+2026-05-31 17:50:15.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 17:50:15.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 17:50:15.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 17:50:15.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 17:50:15.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 17:50:15.334 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.5963ms
+2026-05-31 17:50:15.337 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.9053ms
+2026-05-31 17:50:15.337 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.112ms
+2026-05-31 17:50:15.338 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.2565ms
+2026-05-31 17:50:15.341 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.5295ms
+2026-05-31 17:50:15.428 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 17:50:15.430 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 17:50:15.430 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 17:50:15.431 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.397ms
+2026-05-31 17:50:15.532 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 17:50:15.533 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 104.9039ms
+2026-05-31 17:50:56.199 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 292
+2026-05-31 17:50:56.201 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:50:56.238 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 17:50:56.889 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-31 17:50:56.898 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 658.1026ms
+2026-05-31 17:50:56.898 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:50:56.902 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 400 null application/problem+json; charset=utf-8 702.6275ms
+2026-05-31 17:51:27.789 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 291
+2026-05-31 17:51:27.790 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:51:27.790 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 17:51:27.833 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-31 17:51:27.833 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 42.8702ms
+2026-05-31 17:51:27.833 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:51:27.834 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 400 null application/problem+json; charset=utf-8 44.806ms
+2026-05-31 17:53:24.692 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 17:53:24.693 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:53:24.693 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 17:53:24.807 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 113.0414ms
+2026-05-31 17:53:24.807 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:53:24.808 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+FluentValidation.AsyncValidatorInvokedSynchronouslyException: Validator "TeacherValidators" can't be used with ASP.NET automatic validation as it contains asynchronous rules. ASP.NET's validation pipeline is not asynchronous and can't invoke asynchronous rules. Remove the asynchronous rules in order for this validator to run.
+   at FluentValidation.AbstractValidator`1.Validate(ValidationContext`1 context) in /_/src/FluentValidation/AbstractValidator.cs:line 124
+   at FluentValidation.AbstractValidator`1.FluentValidation.IValidator.Validate(IValidationContext context) in /_/src/FluentValidation/AbstractValidator.cs:line 85
+   at FluentValidation.AspNetCore.FluentValidationModelValidator.Validate(ModelValidationContext mvContext) in /_/src/FluentValidation.AspNetCore/FluentValidationModelValidatorProvider.cs:line 150
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>n__1(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container)
+   at FluentValidation.AspNetCore.FluentValidationVisitor.<>c__DisplayClass2_0.<Validate>g__BaseValidate|0() in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 45
+   at FluentValidation.AspNetCore.FluentValidationVisitor.ValidateInternal(ModelMetadata metadata, String key, Object model, Func`1 continuation) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 63
+   at FluentValidation.AspNetCore.FluentValidationVisitor.Validate(ModelMetadata metadata, String key, Object model, Boolean alwaysValidateAtTopLevel, Object container) in /_/src/FluentValidation.AspNetCore/FluentValidationVisitor.cs:line 47
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 17:53:24.816 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 124.1732ms
+2026-05-31 17:54:21.219 +05:00 [INF] Application is shutting down...
+2026-05-31 17:58:35.150 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 17:58:35.185 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 17:58:35.185 +05:00 [INF] Hosting environment: Development
+2026-05-31 17:58:35.185 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 17:58:41.004 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 17:58:41.027 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:58:41.045 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 17:58:41.800 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 17:58:42.022 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 974.246ms
+2026-05-31 17:58:42.028 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:58:42.031 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at MyAspNetProject.Repositories.SubjectRepository.ExistsManyAsync(List`1 ids) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/SubjectRepository.cs:line 25
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 24
+   at MyAspNetProject.Services.TeacherService.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/TeacherService.cs:line 19
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 17:58:42.051 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 1048.3229ms
+2026-05-31 17:59:26.054 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 17:59:26.056 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:59:26.056 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 17:59:26.073 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 17:59:26.078 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 21.819ms
+2026-05-31 17:59:26.078 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:59:26.079 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at MyAspNetProject.Repositories.SubjectRepository.ExistsManyAsync(List`1 ids) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/SubjectRepository.cs:line 25
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 24
+   at MyAspNetProject.Services.TeacherService.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/TeacherService.cs:line 19
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 17:59:26.080 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 26.6427ms
+2026-05-31 17:59:30.318 +05:00 [INF] Application is shutting down...
+2026-05-31 17:59:32.342 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 17:59:32.379 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 17:59:32.379 +05:00 [INF] Hosting environment: Development
+2026-05-31 17:59:32.379 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 17:59:34.524 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 17:59:34.548 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:59:34.568 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 17:59:35.267 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 17:59:35.652 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 1080.283ms
+2026-05-31 17:59:35.658 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 17:59:35.662 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "Salary" of relation "teacher" does not exist
+
+POSITION: 167
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "Salary" of relation "teacher" does not exist
+    Position: 167
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 32
+   at MyAspNetProject.Services.TeacherService.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/TeacherService.cs:line 19
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 17:59:35.690 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 1167.091ms
+2026-05-31 18:00:01.357 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 18:00:01.358 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 18:00:01.358 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 18:00:01.375 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 18:00:01.381 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 22.5286ms
+2026-05-31 18:00:01.381 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 18:00:01.381 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "Salary" of relation "teacher" does not exist
+
+POSITION: 167
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "Salary" of relation "teacher" does not exist
+    Position: 167
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 32
+   at MyAspNetProject.Services.TeacherService.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/TeacherService.cs:line 19
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 18:00:01.386 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 29.0132ms
+2026-05-31 18:00:01.442 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 18:00:01.443 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 18:00:01.443 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 18:00:01.485 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 18:00:01.488 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 44.7285ms
+2026-05-31 18:00:01.488 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 18:00:01.488 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "Salary" of relation "teacher" does not exist
+
+POSITION: 167
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "Salary" of relation "teacher" does not exist
+    Position: 167
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 32
+   at MyAspNetProject.Services.TeacherService.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/TeacherService.cs:line 19
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 18:00:01.492 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 50.1438ms
+2026-05-31 18:00:04.039 +05:00 [INF] Application is shutting down...
+2026-05-31 18:00:06.161 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 18:00:06.196 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 18:00:06.196 +05:00 [INF] Hosting environment: Development
+2026-05-31 18:00:06.196 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 18:00:09.473 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 317
+2026-05-31 18:00:09.487 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 18:00:09.501 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 18:00:10.234 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-05-31 18:00:10.627 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 1123.6007ms
+2026-05-31 18:00:10.633 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 18:00:10.637 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "Salary" of relation "teacher" does not exist
+
+POSITION: 167
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "Salary" of relation "teacher" does not exist
+    Position: 167
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 32
+   at MyAspNetProject.Services.TeacherService.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Services/TeacherService.cs:line 19
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateDto data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-05-31 18:00:10.666 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 1193.212ms
+2026-05-31 18:00:46.683 +05:00 [INF] Application is shutting down...
+2026-05-31 18:59:11.476 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 18:59:11.508 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 18:59:11.508 +05:00 [INF] Hosting environment: Development
+2026-05-31 18:59:11.508 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 18:59:25.392 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 18:59:25.439 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 48.5855ms
+2026-05-31 18:59:25.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 18:59:25.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 18:59:25.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 18:59:25.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 18:59:25.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 18:59:25.453 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.828ms
+2026-05-31 18:59:25.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.7003ms
+2026-05-31 18:59:25.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.677ms
+2026-05-31 18:59:25.456 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.9981ms
+2026-05-31 18:59:25.459 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.5026ms
+2026-05-31 18:59:25.496 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 18:59:25.497 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 18:59:25.497 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2781ms
+2026-05-31 18:59:25.498 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 18:59:25.571 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 18:59:25.572 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 76.2804ms
+2026-05-31 18:59:34.448 +05:00 [INF] Application is shutting down...
+2026-05-31 19:12:15.394 +05:00 [INF] Now listening on: http://localhost:5167
+2026-05-31 19:12:15.424 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-31 19:12:15.425 +05:00 [INF] Hosting environment: Development
+2026-05-31 19:12:15.425 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-05-31 19:15:18.116 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-05-31 19:15:18.163 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 48.1815ms
+2026-05-31 19:15:18.177 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-05-31 19:15:18.177 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-05-31 19:15:18.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-05-31 19:15:18.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-05-31 19:15:18.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-31 19:15:18.179 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 0.9266ms
+2026-05-31 19:15:18.182 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.5714ms
+2026-05-31 19:15:18.182 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 4.925ms
+2026-05-31 19:15:18.182 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 4.549ms
+2026-05-31 19:15:18.185 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 7.6807ms
+2026-05-31 19:15:18.217 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-05-31 19:15:18.219 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - null null
+2026-05-31 19:15:18.219 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/favicon-32x32.png - 304 null null 0.2725ms
+2026-05-31 19:15:18.219 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 19:15:18.292 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-05-31 19:15:18.293 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 75.991ms
+2026-05-31 19:16:18.901 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 295
+2026-05-31 19:16:18.904 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 19:16:18.935 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 19:16:19.578 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto'.
+2026-05-31 19:16:19.581 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 644.2115ms
+2026-05-31 19:16:19.581 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 19:16:19.583 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 200 null application/json; charset=utf-8 681.9699ms
+2026-05-31 19:22:56.486 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 295
+2026-05-31 19:22:56.487 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 19:22:56.488 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateDto) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-05-31 19:22:56.535 +05:00 [INF] Executing OkObjectResult, writing value of type 'MyAspNetProject.Models.DTO.Response.TeacherCreateResponseDto'.
+2026-05-31 19:22:56.536 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 47.5555ms
+2026-05-31 19:22:56.536 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-05-31 19:22:56.536 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 200 null application/json; charset=utf-8 50.649ms
+2026-05-31 19:23:04.310 +05:00 [INF] Application is shutting down...

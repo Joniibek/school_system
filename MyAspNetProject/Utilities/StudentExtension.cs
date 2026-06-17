@@ -15,22 +15,22 @@ public static class StudentExtension
         };
     }
 
-    public static StudentEntity ToEntity(this StudentCreateDto dto)
+    public static StudentEntity ToEntity(this StudentCreateCommand command)
     {
         return new StudentEntity
         {
-            FirstName = dto.FirstName,
-            LastName = dto.LastName,
-            Surname = dto.Surname,
-            Password = dto.Password,
-            KlassId = dto.KlassId,
+            FirstName = command.FirstName,
+            LastName = command.LastName,
+            Surname = command.Surname,
+            Password = command.Password,
+            KlassId = command.KlassId,
             CreatedAt = DateTime.Now,
-            Birthday = dto.Birthday,
-            Email = dto.Email,
-            Gender = dto.Gender,
-            ImageUrl = dto.ImageUrl,
+            Birthday = command.Birthday,
+            Email = command.Email,
+            Gender = command.Gender,
+            ImageUrl = command.ImageUrl,
             Role = UserRoleEnum.Student,
-            PhoneNumber = dto.PhoneNumber,
+            PhoneNumber = command.PhoneNumber,
             KlassEntity = null,
         };
     }

@@ -1,11 +1,15 @@
+using System.Reflection;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
+using MyAspNetProject.Behaviors;
+using MyAspNetProject.Handlers;
+using MyAspNetProject.Behaviors;
 using MyAspNetProject.InfraStructure;
 using MyAspNetProject.Middlewares;
 using MyAspNetProject.Models.DTO.Response;
 using MyAspNetProject.Repositories;
-using MyAspNetProject.Services;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,12 +28,23 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
-builder.Services.AddScoped<IStudentService, StudentService>();
-builder.Services.AddScoped<IKlassService, KlassService>();
 builder.Services.AddScoped<IKlassRepository, KlassRepository>();
-builder.Services.AddFluentValidationAutoValidation();
+
+builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
+
+builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
+
+
+// Registratsiya MediatR-a
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+    cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+});
+
 
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
 builder.Services.AddDbContext<DBContext>();
 
 
@@ -45,5 +60,5 @@ if (app.Environment.IsDevelopment())
 }
 
 app.MapControllers();
-app.UseMiddleware<ExceptionHandlerMiddleware>();
+// app.UseMiddleware<ExceptionHandlerMiddleware>();
 app.Run();

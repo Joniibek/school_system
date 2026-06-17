@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using MyAspNetProject.InfraStructure;
 using MyAspNetProject.Models.Domain;
@@ -14,8 +15,8 @@ public interface IKlassRepository
     Task<KlassEntity> Create(KlassEntity entity);
     Task<bool> ExistsByYearGroup(int? year, string? group);
     Task<KlassEntity> GetByYearAndGroup(int year, string group);
-    Task<bool> ExistsById(int id);
-    Task Delete(int id);
+    Task<bool> ExistsById(Guid id);
+    Task Delete(Guid id);
 }
 
 
@@ -30,9 +31,10 @@ public class KlassRepository(DBContext dbContext) :IKlassRepository
         IQueryable<KlassEntity> query = _dbContext.Klasses.AsNoTracking();
         
         if (!string.IsNullOrWhiteSpace(group))
-            query = query.Where(k => k.Group == group);
-        if (year.HasValue)
-            query = query.Where(k => k.Year == year.Value);
+            query = query.Where(k => k.Group.ToUpper() == group.ToUpper());
+        
+        if (year.HasValue && year > 0)
+            query = query.Where(k => k.Year == year);
         
         return await query.ToListAsync();
     }
@@ -60,14 +62,14 @@ public class KlassRepository(DBContext dbContext) :IKlassRepository
            .FirstAsync(k => k.Group == group && k.Year == year);
    }
 
-   public async Task<bool> ExistsById(int id)
+   public async Task<bool> ExistsById(Guid id)
    {
        return await _dbContext.Klasses
            .AsNoTracking()
            .AnyAsync(k => k.Id == id);
    }
 
-   public async Task Delete(int id)
+   public async Task Delete(Guid id)
    { 
        await _dbContext.Klasses.Where(k => k.Id == id).ExecuteDeleteAsync();
    }

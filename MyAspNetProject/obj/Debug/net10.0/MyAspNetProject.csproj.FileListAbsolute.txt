@@ -136,3 +136,10 @@
 /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/EFCore.NamingConventions.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/MediatR.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/MediatR.Contracts.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll

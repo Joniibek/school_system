@@ -1,0 +1,381 @@
+2026-06-03 18:47:37.002 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 18:47:37.036 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 18:47:37.036 +05:00 [INF] Hosting environment: Development
+2026-06-03 18:47:37.036 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 18:48:21.607 +05:00 [INF] Application is shutting down...
+2026-06-03 18:57:22.247 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 18:57:22.278 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 18:57:22.278 +05:00 [INF] Hosting environment: Development
+2026-06-03 18:57:22.279 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 18:57:27.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-03 18:57:27.533 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 44.5571ms
+2026-06-03 18:57:27.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-03 18:57:27.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-03 18:57:27.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-03 18:57:27.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-03 18:57:27.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-03 18:57:27.544 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 1.2862ms
+2026-06-03 18:57:27.547 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 4.1136ms
+2026-06-03 18:57:27.548 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 5.1859ms
+2026-06-03 18:57:27.549 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 5.6638ms
+2026-06-03 18:57:27.551 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 8.492ms
+2026-06-03 18:57:27.585 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-03 18:57:27.587 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-03 18:57:27.662 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-03 18:57:27.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 77.9752ms
+2026-06-03 18:57:44.546 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Klass/Create - application/json 32
+2026-06-03 18:57:44.547 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-03 18:57:44.581 +05:00 [INF] Route matched with {action = "Create", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.KlassListDto]] Create(MyAspNetProject.Models.DTO.Request.KlassCreateDto) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 18:57:45.309 +05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2026-06-03 18:57:45.310 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject) in 727.2309ms
+2026-06-03 18:57:45.310 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.Create (MyAspNetProject)'
+2026-06-03 18:57:45.312 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Klass/Create - 201 0 null 766.5171ms
+2026-06-03 19:01:09.002 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:01:09.003 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:01:09.019 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:01:09.088 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:01:09.089 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 69.8485ms
+2026-06-03 19:01:09.090 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:01:09.090 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 88.2027ms
+2026-06-03 19:02:45.795 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:02:45.797 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:02:45.797 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:02:45.855 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:02:45.856 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 58.5235ms
+2026-06-03 19:02:45.856 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:02:45.856 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 61.2024ms
+2026-06-03 19:02:46.500 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:02:46.501 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:02:46.501 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:02:46.505 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:02:46.506 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4.7281ms
+2026-06-03 19:02:46.506 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:02:46.506 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 5.6715ms
+2026-06-03 19:02:51.243 +05:00 [INF] Application is shutting down...
+2026-06-03 19:02:55.908 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:02:55.938 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:02:55.938 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:02:55.938 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:02:58.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:02:58.033 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:02:58.049 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:02:58.533 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:02:58.541 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 490.0515ms
+2026-06-03 19:02:58.546 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:02:58.549 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 536.7801ms
+2026-06-03 19:03:09.806 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:03:09.810 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:09.810 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:09.842 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:09.843 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 32.0966ms
+2026-06-03 19:03:09.843 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:09.843 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 37.6764ms
+2026-06-03 19:03:09.888 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:03:09.889 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:09.890 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:09.929 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:09.929 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 39.2968ms
+2026-06-03 19:03:09.929 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:09.929 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 40.8955ms
+2026-06-03 19:03:10.386 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:03:10.387 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:10.387 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:10.392 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:10.392 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 5.1943ms
+2026-06-03 19:03:10.392 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:10.393 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 6.466ms
+2026-06-03 19:03:12.957 +05:00 [INF] Application is shutting down...
+2026-06-03 19:03:16.930 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:03:16.960 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:03:16.960 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:03:16.960 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:03:19.393 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:03:19.406 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:19.420 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:19.941 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:19.948 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 526.1482ms
+2026-06-03 19:03:19.953 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:19.956 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 564.4881ms
+2026-06-03 19:03:28.491 +05:00 [INF] Application is shutting down...
+2026-06-03 19:03:32.647 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:03:32.676 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:03:32.676 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:03:32.676 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:03:34.161 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:03:34.182 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:34.201 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:34.679 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:34.687 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 483.9713ms
+2026-06-03 19:03:34.692 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:34.696 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 536.3513ms
+2026-06-03 19:03:36.072 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:03:36.076 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:36.076 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:36.104 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:36.105 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 28.2787ms
+2026-06-03 19:03:36.105 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:36.105 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 33.3742ms
+2026-06-03 19:03:42.010 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:42.012 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:42.012 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:42.082 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:42.083 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 70.6388ms
+2026-06-03 19:03:42.083 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:42.083 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 72.913ms
+2026-06-03 19:03:42.948 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:42.949 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:42.949 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:42.954 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:42.954 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4.9823ms
+2026-06-03 19:03:42.954 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:42.955 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 6.2122ms
+2026-06-03 19:03:43.500 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:43.500 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.501 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:43.508 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:43.509 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 8.139ms
+2026-06-03 19:03:43.509 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.509 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 9.4793ms
+2026-06-03 19:03:43.639 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:43.640 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.640 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:43.647 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:43.647 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 7.4918ms
+2026-06-03 19:03:43.648 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.648 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 8.9981ms
+2026-06-03 19:03:43.788 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:43.788 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.788 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:43.793 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:43.794 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 5.0925ms
+2026-06-03 19:03:43.794 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.794 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 6.4082ms
+2026-06-03 19:03:43.935 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:43.936 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.936 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:03:43.940 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:03:43.940 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4.1282ms
+2026-06-03 19:03:43.940 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:43.941 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 5.3379ms
+2026-06-03 19:03:53.211 +05:00 [INF] Application is shutting down...
+2026-06-03 19:03:58.233 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:03:58.261 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:03:58.262 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:03:58.262 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:03:59.954 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:03:59.968 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:03:59.981 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:04:00.509 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:04:00.516 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 533.9475ms
+2026-06-03 19:04:00.522 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:00.525 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 570.9391ms
+2026-06-03 19:04:02.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - null null
+2026-06-03 19:04:02.338 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:02.339 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:04:02.371 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:04:02.371 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 32.4157ms
+2026-06-03 19:04:02.371 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:02.372 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%90 - 200 null application/json; charset=utf-8 39.4299ms
+2026-06-03 19:04:05.395 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:04:05.397 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:05.397 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:04:05.476 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:04:05.477 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 79.5367ms
+2026-06-03 19:04:05.477 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:05.477 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 81.9785ms
+2026-06-03 19:04:10.613 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-03 19:04:10.614 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:10.614 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:04:10.621 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:04:10.622 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 7.6964ms
+2026-06-03 19:04:10.622 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:10.622 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 9.1957ms
+2026-06-03 19:04:13.492 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%92 - null null
+2026-06-03 19:04:13.492 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:13.493 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:04:13.497 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:04:13.498 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4.7928ms
+2026-06-03 19:04:13.498 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:13.498 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%92 - 200 null application/json; charset=utf-8 6.3008ms
+2026-06-03 19:04:15.300 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:04:15.300 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:15.300 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:04:15.305 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:04:15.305 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4.8007ms
+2026-06-03 19:04:15.306 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:04:15.306 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 6.0492ms
+2026-06-03 19:05:21.074 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:05:21.074 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:05:21.074 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:05:21.077 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:05:21.078 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 3.3439ms
+2026-06-03 19:05:21.078 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:05:21.078 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 4.217ms
+2026-06-03 19:05:26.380 +05:00 [INF] Application is shutting down...
+2026-06-03 19:05:39.961 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:05:39.990 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:05:39.990 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:05:39.990 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:05:42.243 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:05:42.255 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:05:42.268 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:05:42.793 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:05:42.801 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 531.7049ms
+2026-06-03 19:05:42.806 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:05:42.809 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 566.531ms
+2026-06-03 19:07:16.996 +05:00 [INF] Application is shutting down...
+2026-06-03 19:09:48.682 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:09:48.714 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:09:48.715 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:09:48.715 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:10:39.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-03 19:10:39.276 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:39.295 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:10:39.853 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:10:39.862 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 564.5064ms
+2026-06-03 19:10:39.867 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:39.871 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 617.7679ms
+2026-06-03 19:10:41.791 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:10:41.796 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:41.797 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:10:41.834 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:10:41.835 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 37.6629ms
+2026-06-03 19:10:41.835 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:41.835 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 45.4731ms
+2026-06-03 19:10:44.825 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:10:44.827 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:44.827 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:10:44.896 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:10:44.896 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 68.908ms
+2026-06-03 19:10:44.896 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:44.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 71.515ms
+2026-06-03 19:10:48.251 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Year=4 - null null
+2026-06-03 19:10:48.251 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:48.251 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:10:48.258 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:10:48.259 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 6.938ms
+2026-06-03 19:10:48.259 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:10:48.259 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Year=4 - 200 null application/json; charset=utf-8 8.4795ms
+2026-06-03 19:11:38.461 +05:00 [INF] Application is shutting down...
+2026-06-03 19:11:45.013 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:11:45.045 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:11:45.045 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:11:45.045 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:11:45.254 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:11:45.270 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:45.284 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:11:45.811 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:11:45.818 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 532.8012ms
+2026-06-03 19:11:45.824 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:45.827 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 573.9243ms
+2026-06-03 19:11:47.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:11:47.017 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:47.018 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:11:47.050 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:11:47.051 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 32.7862ms
+2026-06-03 19:11:47.051 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:47.051 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 38.0433ms
+2026-06-03 19:11:49.583 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Year=4 - null null
+2026-06-03 19:11:49.584 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:49.585 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:11:49.661 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:11:49.661 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 76.361ms
+2026-06-03 19:11:49.661 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:49.661 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Year=4 - 200 null application/json; charset=utf-8 78.7407ms
+2026-06-03 19:11:50.443 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Year=4 - null null
+2026-06-03 19:11:50.443 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:50.443 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:11:50.451 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:11:50.451 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 7.8216ms
+2026-06-03 19:11:50.452 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:50.452 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Year=4 - 200 null application/json; charset=utf-8 9.0656ms
+2026-06-03 19:11:55.102 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Year=2 - null null
+2026-06-03 19:11:55.103 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:55.103 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:11:55.107 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:11:55.108 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4.2862ms
+2026-06-03 19:11:55.108 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:55.108 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Year=2 - 200 null application/json; charset=utf-8 5.7551ms
+2026-06-03 19:11:58.156 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Year=3 - null null
+2026-06-03 19:11:58.156 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:58.156 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:11:58.169 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:11:58.171 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 14.4289ms
+2026-06-03 19:11:58.171 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:11:58.171 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Year=3 - 200 null application/json; charset=utf-8 15.6873ms
+2026-06-03 19:12:03.983 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-03 19:12:03.984 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:12:03.984 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:12:04.036 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:12:04.036 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 51.4718ms
+2026-06-03 19:12:04.036 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:12:04.036 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 53.6169ms
+2026-06-03 19:12:06.759 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%B1 - null null
+2026-06-03 19:12:06.760 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:12:06.760 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:12:06.765 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:12:06.765 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 5.257ms
+2026-06-03 19:12:06.766 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:12:06.766 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%B1 - 200 null application/json; charset=utf-8 6.8962ms
+2026-06-03 19:12:29.693 +05:00 [INF] Application is shutting down...
+2026-06-03 19:15:01.113 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:15:01.144 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:15:01.144 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:15:01.144 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:15:08.267 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List - null null
+2026-06-03 19:15:08.284 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:15:08.297 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:15:08.972 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:15:08.980 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 540.417ms
+2026-06-03 19:15:08.985 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:15:08.988 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List - 200 null application/json; charset=utf-8 722.2613ms
+2026-06-03 19:15:32.112 +05:00 [INF] Application is shutting down...
+2026-06-03 19:15:43.442 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-03 19:15:43.479 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-03 19:15:43.479 +05:00 [INF] Hosting environment: Development
+2026-06-03 19:15:43.479 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-03 19:16:14.296 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Year=3 - null null
+2026-06-03 19:16:14.327 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:16:14.345 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:16:15.195 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-03 19:16:48.413 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 33216.3023ms.
+2026-06-03 19:16:48.423 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:16:48.439 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 34092.5889ms
+2026-06-03 19:16:48.440 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:16:48.449 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Year=3 - 200 null application/json; charset=utf-8 34154.8958ms
+2026-06-03 19:16:54.931 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91&Year=3 - null null
+2026-06-03 19:16:54.933 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:16:54.933 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:16:54.989 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-03 19:16:59.084 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4094.0217ms.
+2026-06-03 19:16:59.085 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:16:59.085 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 4110.3561ms
+2026-06-03 19:16:59.085 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:16:59.086 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91&Year=3 - 200 null application/json; charset=utf-8 4154.6778ms
+2026-06-03 19:17:10.108 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-03 19:17:10.110 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:17:10.110 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:17:10.143 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-03 19:17:12.704 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2560.0688ms.
+2026-06-03 19:17:12.704 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:17:12.704 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 2593.8839ms
+2026-06-03 19:17:12.705 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:17:12.705 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 2596.3311ms
+2026-06-03 19:17:39.275 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-03 19:17:39.276 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:17:39.276 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:17:39.279 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-03 19:20:40.835 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 181556.8877ms.
+2026-06-03 19:20:40.836 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:20:40.836 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 181560.7337ms
+2026-06-03 19:20:40.836 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:20:40.836 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 181561.404ms
+2026-06-03 19:20:45.609 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - null null
+2026-06-03 19:20:45.610 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:20:45.614 +05:00 [INF] Route matched with {action = "List", controller = "Klass"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.KlassListDto]]] List(MyAspNetProject.Models.Query.KlassListQuery) on controller MyAspNetProject.Controllers.KlassController (MyAspNetProject).
+2026-06-03 19:20:45.659 +05:00 [INF] Executing action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-03 19:20:48.325 +05:00 [INF] Executed action method MyAspNetProject.Controllers.KlassController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2665.043ms.
+2026-06-03 19:20:48.325 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.KlassListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-03 19:20:48.325 +05:00 [INF] Executed action MyAspNetProject.Controllers.KlassController.List (MyAspNetProject) in 2710.6935ms
+2026-06-03 19:20:48.325 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.KlassController.List (MyAspNetProject)'
+2026-06-03 19:20:48.326 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Klass/List?Group=%D0%91 - 200 null application/json; charset=utf-8 2716.8525ms

@@ -1,0 +1,126 @@
+2026-06-11 19:05:46.295 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-11 19:05:46.332 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-11 19:05:46.332 +05:00 [INF] Hosting environment: Development
+2026-06-11 19:05:46.332 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-11 19:05:49.260 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.html - null null
+2026-06-11 19:05:49.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.html - 304 null null 58.6632ms
+2026-06-11 19:05:49.329 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.css - null null
+2026-06-11 19:05:49.329 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - null null
+2026-06-11 19:05:49.329 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - null null
+2026-06-11 19:05:49.329 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-11 19:05:49.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/swagger/index.js - null null
+2026-06-11 19:05:49.332 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.js - 304 null null 2.2178ms
+2026-06-11 19:05:49.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/index.css - 304 null null 6.3807ms
+2026-06-11 19:05:49.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui.css - 304 null null 6.8098ms
+2026-06-11 19:05:49.336 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-standalone-preset.js - 304 null null 7.0364ms
+2026-06-11 19:05:49.340 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/swagger/swagger-ui-bundle.js - 304 null null 10.5397ms
+2026-06-11 19:05:49.375 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/openapi/v1.json - null null
+2026-06-11 19:05:49.378 +05:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 19:05:49.485 +05:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-06-11 19:05:49.486 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/openapi/v1.json - 200 null application/json;charset=utf-8 110.7639ms
+2026-06-11 19:05:56.976 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5167/Subject/List - null null
+2026-06-11 19:05:56.978 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject)'
+2026-06-11 19:05:57.024 +05:00 [INF] Route matched with {action = "List", controller = "Subject"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MyAspNetProject.Models.DTO.Response.SubjectListDto]]] List(MyAspNetProject.Models.Query.SubjectListQuery) on controller MyAspNetProject.Controllers.SubjectController (MyAspNetProject).
+2026-06-11 19:05:57.030 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 19:05:57.044 +05:00 [INF] Executing action method MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject) - Validation state: "Valid"
+2026-06-11 19:05:58.128 +05:00 [INF] Executed action method MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1081.1924ms.
+2026-06-11 19:05:58.133 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyAspNetProject.Models.DTO.Response.SubjectListDto, MyAspNetProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-11 19:05:58.140 +05:00 [INF] Executed action MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject) in 1113.1492ms
+2026-06-11 19:05:58.141 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.SubjectController.List (MyAspNetProject)'
+2026-06-11 19:05:58.148 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5167/Subject/List - 200 null application/json; charset=utf-8 1171.073ms
+2026-06-11 19:06:53.503 +05:00 [INF] Application is shutting down...
+2026-06-11 19:06:58.814 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-11 19:06:58.854 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-11 19:06:58.855 +05:00 [INF] Hosting environment: Development
+2026-06-11 19:06:58.855 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-11 19:07:07.315 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 363
+2026-06-11 19:07:07.340 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-06-11 19:07:07.354 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherShortListDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateCommand) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-11 19:07:07.364 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 19:07:07.431 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-11 19:07:27.480 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-11 19:07:27.519 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-11 19:07:27.520 +05:00 [INF] Hosting environment: Development
+2026-06-11 19:07:27.520 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-11 19:07:33.896 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 368
+2026-06-11 19:07:33.930 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-06-11 19:07:33.948 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherShortListDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateCommand) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-11 19:07:33.958 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 19:07:34.024 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-11 19:07:42.384 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-11 19:07:42.423 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-11 19:07:42.424 +05:00 [INF] Hosting environment: Development
+2026-06-11 19:07:42.424 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-11 19:07:50.191 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 368
+2026-06-11 19:07:50.227 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-06-11 19:07:50.244 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherShortListDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateCommand) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-11 19:07:50.253 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 19:07:50.322 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-11 19:08:12.941 +05:00 [INF] Now listening on: http://localhost:5167
+2026-06-11 19:08:12.978 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-11 19:08:12.978 +05:00 [INF] Hosting environment: Development
+2026-06-11 19:08:12.978 +05:00 [INF] Content root path: /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject
+2026-06-11 19:08:16.185 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5167/Teacher/Create - application/json 367
+2026-06-11 19:08:16.217 +05:00 [INF] Executing endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-06-11 19:08:16.233 +05:00 [INF] Route matched with {action = "Create", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyAspNetProject.Models.DTO.Response.TeacherShortListDto]] Create(MyAspNetProject.Models.DTO.Request.TeacherCreateCommand) on controller MyAspNetProject.Controllers.TeacherController (MyAspNetProject).
+2026-06-11 19:08:16.243 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-11 19:08:16.309 +05:00 [INF] Executing action method MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) - Validation state: "Valid"
+2026-06-11 19:13:57.393 +05:00 [INF] Executed action MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject) in 341156.307ms
+2026-06-11 19:13:57.400 +05:00 [INF] Executed endpoint 'MyAspNetProject.Controllers.TeacherController.Create (MyAspNetProject)'
+2026-06-11 19:13:57.406 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "pk_subject"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "pk_subject"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: subject
+    ConstraintName: pk_subject
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyAspNetProject.Repositories.TeacherRepository.Create(TeacherEntity data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Repositories/TeacherRepository.cs:line 27
+   at MyAspNetProject.Handlers.TeacherCreateHandler.Handle(TeacherCreateCommand request, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Handlers/TeacherHandlers.cs:line 32
+   at MyAspNetProject.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Behaviors/ValidationBehavior.cs:line 36
+   at MyAspNetProject.Controllers.TeacherController.Create(TeacherCreateCommand data) in /Users/macuser/development/courses/c-sharp/MyAspNetProject/MyAspNetProject/Controllers/TeacherController.cs:line 17
+   at lambda_method4(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-11 19:13:57.455 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5167/Teacher/Create - 500 null text/plain; charset=utf-8 341271.3587ms
